@@ -37,10 +37,10 @@ PyYAML → use JSON config; no `anthropic`/key → skip LLM, keep deterministic 
 # 1. no-key sources, out of the box
 python -m jobleads examples/sample_resume.md -m examples/sample_metadata.yaml
 
-# 2. with a config + company boards + LLM enrichment
-python -m jobleads my_resume.pdf -m me.yaml -c config.yaml --llm
+# 2. pass BOTH a CV and a resume — they're merged into one profile
+python -m jobleads my_cv.pdf my_resume.docx -m me.yaml -c config.yaml --llm
 
-# 3. just see how your resume parsed
+# 3. just see how your documents parsed
 python -m jobleads my_resume.pdf --dry-run
 ```
 
@@ -114,10 +114,12 @@ experience you don't have. Skipped silently if unavailable.
 ## CLI
 
 ```
-python -m jobleads RESUME [-m METADATA] [-c CONFIG] [-o OUTDIR]
+python -m jobleads RESUME [RESUME ...] [-m METADATA] [-c CONFIG] [-o OUTDIR]
                    [--sources a,b,c] [--companies x,y] [--top N]
                    [--min-salary N] [--remote] [--llm] [--dry-run]
 ```
+
+`RESUME` accepts multiple files — pass your CV **and** your resume to merge them.
 
 ## Library
 

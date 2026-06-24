@@ -62,8 +62,9 @@ def run(args: argparse.Namespace) -> int:
         cfg.llm_enabled = True
 
     # ---- 1. profile ----
-    _log(f"Reading resume: {args.resume}")
-    resume_text = profile_mod.extract_text(args.resume)
+    docs = args.resume if isinstance(args.resume, list) else [args.resume]
+    _log("Reading: " + ", ".join(docs))
+    resume_text = "\n\n".join(profile_mod.extract_text(d) for d in docs)
     md = meta_mod.load_metadata(args.metadata) if args.metadata else {}
     if md.get("github") or md.get("github_url"):
         _log("Enriching from GitHub…")
@@ -138,7 +139,8 @@ def build_parser() -> argparse.ArgumentParser:
         prog="jobleads",
         description="Turn a resume/CV + public metadata into ranked job-application leads.",
     )
-    p.add_argument("resume", help="path to resume/CV (.pdf, .docx, .md, .txt)")
+    p.add_argument("resume", nargs="+",
+                   help="one or more resume/CV files (.pdf, .docx, .md, .txt); pass both your CV and resume to merge them")
     p.add_argument("-m", "--metadata", help="public metadata file (.yaml/.json)")
     p.add_argument("-c", "--config", help="config file (.yaml/.json)")
     p.add_argument("-o", "--outdir", default="data/out", help="output directory (default: data/out)")
