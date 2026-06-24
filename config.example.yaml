@@ -1,0 +1,54 @@
+# job-leads configuration (copy to config.yaml and edit). JSON also works.
+# Secrets (API keys) come from ENV VARS, never this file.
+
+# Which sources to query. No-key sources work out of the box:
+sources:
+  - remotive
+  - remoteok
+  - arbeitnow
+  - themuse
+  - jobicy
+  - hackernews
+  # - adzuna        # needs ADZUNA_APP_ID + ADZUNA_APP_KEY env vars
+  # - usajobs       # needs USAJOBS_API_KEY + USAJOBS_EMAIL env vars
+  # - greenhouse    # needs target_companies / options.greenhouse.boards
+  # - lever
+  # - ashby
+
+# Search behaviour
+max_per_source: 50
+top_n: 25
+min_score: 0          # drop leads below this 0-100 score
+
+# Filters (also derivable from metadata / resume)
+remote_pref: any       # any | remote | hybrid | onsite
+# min_salary: 150000
+# locations: ["Colorado", "Remote US"]
+# target_titles: ["Software Engineer", "Solutions Architect"]
+# keywords: ["python", "aws"]
+# exclude_keywords: ["unpaid", "internship"]
+
+# Per-company boards (greenhouse/lever/ashby slugs). Applies to whichever of
+# those sources you enable. Find the slug in the careers-page URL.
+# target_companies: ["stripe", "anthropic", "ramp"]
+
+# Per-source options
+options:
+  themuse:
+    # api_key: optional, raises rate limits
+  greenhouse:
+    boards: []         # e.g. ["stripe", "airbnb"]
+  lever:
+    boards: []         # e.g. ["netflix"]
+  ashby:
+    boards: []         # e.g. ["Ramp"]
+  adzuna:
+    country: us        # gb, au, ca, de, ...
+
+# LLM enrichment (optional; needs ANTHROPIC_API_KEY env var)
+llm_enabled: false
+llm_model: claude-opus-4-8
+llm_top_n: 10
+
+# HTTP
+cache_ttl_minutes: 360

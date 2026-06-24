@@ -1,0 +1,36 @@
+# Public metadata + preferences that augment what the resume reveals.
+# Everything here is optional; the resume parser fills in what it can.
+
+name: Jordan Rivera
+github: jordanrivera                 # public GitHub username (enriches skills)
+linkedin_url: https://linkedin.com/in/jordanrivera
+
+target_titles:
+  - Staff Software Engineer
+  - Senior Backend Engineer
+  - ML Platform Engineer
+
+seniority: senior
+years_experience: 9
+
+remote_pref: remote                  # any | remote | hybrid | onsite
+locations:
+  - Denver, CO
+  - Remote US
+min_salary: 180000
+
+industries:
+  - fintech
+  - saas
+
+keywords:
+  - distributed systems
+  - platform
+
+exclude_keywords:
+  - clearance required
+  - internship
+
+skills:                              # extra skills to assert beyond the resume
+  - grpc
+  - event-driven
