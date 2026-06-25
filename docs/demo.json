@@ -2,6 +2,7 @@
   "candidate": {
     "name": "Jordan Rivera",
     "target_titles": [
+      "Staff Software Engineer | Backend & ML Platforms",
       "Staff Software Engineer",
       "Senior Backend Engineer",
       "ML Platform Engineer"
@@ -32,6 +33,7 @@
       "pandas",
       "python",
       "kafka",
+      "mlops",
       "react",
       "redis",
       "spark",
@@ -40,6 +42,7 @@
       "sql",
       "go",
       "s3",
+      "apache kafka",
       "grpc",
       "event-driven"
     ],
@@ -55,7 +58,7 @@
     {
       "score": 50.8,
       "signals": {
-        "similarity": 1.5,
+        "similarity": 1.6,
         "skills": 18.0,
         "title": 15.0,
         "location": 8.0,
@@ -103,9 +106,9 @@
       }
     },
     {
-      "score": 50.6,
+      "score": 50.5,
       "signals": {
-        "similarity": 1.5,
+        "similarity": 1.4,
         "skills": 15.1,
         "title": 15.0,
         "location": 8.0,
@@ -158,9 +161,9 @@
       }
     },
     {
-      "score": 49.9,
+      "score": 50.1,
       "signals": {
-        "similarity": 1.5,
+        "similarity": 1.7,
         "skills": 17.2,
         "title": 15.0,
         "location": 8.0,
@@ -201,64 +204,9 @@
       }
     },
     {
-      "score": 49.7,
+      "score": 49.3,
       "signals": {
         "similarity": 2.0,
-        "skills": 15.1,
-        "title": 15.0,
-        "location": 8.0,
-        "seniority": 5.2,
-        "recency": 4.4
-      },
-      "matched_skills": [
-        "aws",
-        "data engineering",
-        "grafana",
-        "incident response",
-        "kubernetes",
-        "prometheus",
-        "python",
-        "spark",
-        "terraform"
-      ],
-      "missing_skills": [
-        "acquisition",
-        "c",
-        "databricks",
-        "gcp",
-        "hiring",
-        "java",
-        "leadership",
-        "mlops",
-        "roadmap",
-        "scala",
-        "spring"
-      ],
-      "rationale": "strongest fit on skills, title, location; matches 9 skills (aws, data engineering, grafana, incident response, kubernetes, prometheus); gaps: acquisition, c, databricks, gcp; remote",
-      "flags": [],
-      "job": {
-        "source": "jobicy",
-        "title": "Staff MLOps Engineer (AI/ML Platform)",
-        "company": "Cint",
-        "location": "UK",
-        "remote": true,
-        "url": "https://jobicy.com/jobs/143911-staff-mlops-engineer-ai-ml-platform",
-        "description": "Company Description Cint is a pioneer in research technology (ResTech). Our customers use the Cint platform to post questions and get answers from real people to build business strategies, confidently publish research, accurately measure the impact of digital advertising, and more. The Cint platform is built on a programmatic marketplace, which is the world's largest, with nearly 300 million respondents in over 150 countries who consent to sharing their opinions, motivations, and behaviours. Job Description The Role We're hiring a Staff MLOps Engineer to own the AI/ML platform at Cint. The immediate focus is supporting the Synthetic Data Platform \u2014 models for survey augmentation and respondent profiling \u2014 but the role's longer-term remit is broader: Trust Score (our respondent quality and fraud detection model) and other AI/ML initiatives need the same platform capabilities. You'll start by reviewing the current setup and deciding whether to extend it or rebuild parts of it, then build out the shared AI/ML platform from there. The Team You'll report into our Infrastructure and Data Engineering organisation, working in close partnership with the AI/ML team in Prague. This is deliberately a platform-with-feature-focus role: your day-to-day delivery serves the Synthetic Data team's needs, but your architectural remit covers all of Cint's AI/ML workloads. Qualifications What You'll Do Assess and decide on the current pipeline: Audit the existing AI/ML training and serving setup. Decide what's worth building on and what needs to be rebuilt. Make the call and own the rationale. Build the shared AI/ML platform: Training infrastructure, experiment tracking, model registry, serving, monitoring. Built once, used by Synthetic, Trust Score, and whatever comes next. Oversee the full ML lifecycle: From data ingestion and feature processing to annotation workflows, ensuring the platform facilitates frictionless, rapid model iteration for Data Scientists. Own training infrastructure on Databricks and Unity Catalog: Make training fast, reproducible, and traceable. Lineage matters; reproducibility matters more. Model serving: Build the serving layer \u2014 low-latency APIs, batch scoring jobs, appropriate caching. Integrate with our Java/Spring services. Monitoring and drift: Build the observability our models need \u2014 data drift, model drift, accuracy regression, business metrics. Grafana dashboards, Prometheus metrics, clear alerts. Cost and performance: ML compute costs add up. Set the patterns for cost-effective training and serving, representing ML infrastructure spend and ROI credibly to finance stakeholders. Mentor and multiply: Act as a force multiplier by coaching AI/ML and Infrastructure engineers on engineering best practices. You don\u2019t just \"do\" the work; you set the bar for what \"good\" looks like. Drive AI tooling adoption: Model how AI-native development works for platform teams. Claude Code, agentic workflows, AI-assisted incident response. Databricks / Spark Native: Comfortable in Databricks. Unity Catalog experience is a strong plus. Kubernetes & Cloud: You've deployed ML workloads on Kubernetes. AWS (EKS) is our environment; familiarity is a plus. Be a Polyglot: Python, Scala or Java (for Spark), Kubernetes manifests, Terraform. AWS or GCP. You move between layers without friction. Who You Are Deep ML Platform Expertise: You've led ML platform work at a serious scale. You have strong opinions on feature stores, model registries, serving patterns, and what \"ML observability\" actually means. Mature Engineering: You\u2019re someone with both a wide and deep background of engineering excellence in a number of disciplines. This is a very senior position in our engineering organisation; setting examples in approach and behaviour is a key trait. Systems Architect: You think about the platform as a product with real users (your ML team). You design APIs, write docs, and measure adoption. Technical leader: You lead through standards, RFCs, and credibility \u2014 not meetings. You've mentored MLOps engineers into senior ICs. Pragmatic about buy-vs-build: You know when to adopt a managed service and when to build. You can defend either call to leadership. Commercially literate: You can justify platform investment to VP / C-suite and translate business priorities into a roadmap. Additional Information Working at Cint Prague-First, Europe-Friendly: Our preferred base is Prague, alongside our existing AI/ML team. Remote work from Germany, Spain or the UK is also possible \u2014 these are the markets where we have entities. AI-Native Engineering: We're rolling out Claude Code and modern agentic tooling across engineering. You'll use it daily \u2014 not as a novelty, but as a force multiplier for the complex problems that matter. High Autonomy: We trust our engineers to make sound decisions and own their work end-to-end. Global Impact: Your work powers a marketplace used by millions of people worldwide. Our Values Collaboration is our superpower We uncover rich perspectives across the world Success happens together We deliver across borders. Innovation is in our blood We\u2019re pioneers in our industry Our curiosity is insatiable We bring the best ideas to life. We do what we say We\u2019re accountable for our work and actions Excellence comes as standard We\u2019re open, honest and kind, always. We are caring We learn from each other\u2019s experiences Stop and listen; every opinion matters We embrace diversity, equity and inclusion. More About Cint We\u2019re proud to be recognised in Newsweek\u2019s 2025 Global Top 100 Most Loved Workplaces\u00ae, reflecting our commitment to a culture of trust, respect, and employee growth. In June 2021, Cint acquired Berlin-based GapFish \u2013 the world\u2019s largest ISO certified online panel community in the DACH region \u2013 and in January 2022, completed the acquisition of US-based Lucid \u2013 a programmatic research technology platform that provides access to first-party survey data in over 110 countries. Cint Group AB (publ), listed on Nasdaq Stockholm, this growth has made Cint a strong global platform with teams across its many global offices, including Stockholm, London, New York, New Orleans, Singapore, Tokyo and Sydney. (www.cint.com) Additionally, in a world of AI, we want our candidates to understand our approach to the use of AI during the interview and hiring process, so we'd appreciate you reading our AI usage guide .",
-        "salary": "",
-        "salary_min": null,
-        "salary_max": null,
-        "posted_at": "2026-06-18T22:11:45+00:00",
-        "tags": [
-          "Software Engineering",
-          "Full-Time"
-        ],
-        "fingerprint": "46c66460fdbe9f1d"
-      }
-    },
-    {
-      "score": 49.1,
-      "signals": {
-        "similarity": 1.8,
         "skills": 12.6,
         "title": 15.0,
         "location": 8.0,
@@ -299,50 +247,9 @@
       }
     },
     {
-      "score": 47.8,
-      "signals": {
-        "similarity": 1.2,
-        "skills": 11.9,
-        "title": 15.0,
-        "location": 8.0,
-        "seniority": 7.0,
-        "recency": 4.8
-      },
-      "matched_skills": [
-        "airflow",
-        "machine learning",
-        "spark"
-      ],
-      "missing_skills": [
-        "communication",
-        "hiring",
-        "operations"
-      ],
-      "rationale": "strongest fit on title, skills, location; matches 3 skills (airflow, machine learning, spark); gaps: communication, hiring, operations; remote",
-      "flags": [],
-      "job": {
-        "source": "jobicy",
-        "title": "Senior Machine Learning Systems Engineer, Ads ML Experience Platform",
-        "company": "Reddit",
-        "location": "USA",
-        "remote": true,
-        "url": "https://jobicy.com/jobs/147489-senior-machine-learning-systems-engineer-ads-ml-experience-platform",
-        "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence Team Overview We are building the next generation of ML research tools and agentic AI platforms that power machine learning development across Reddit. Our mission is to accelerate the Ads ML lifecycle \u2013 from experimentation and training to deployment, evaluation, and autonomous operations \u2013 through scalable platform services, intelligent automation, and developer-centric tooling. Our team owns critical platform capabilities including offline ML experimentation systems, production training orchestration frameworks, ML lifecycle automation and, agentic ML frameworks that enable faster model iterations. We are looking for an experienced engineer with deep expertise in large-scale distributed systems, ML platforms, and emerging agentic architectures to help define and build the foundational tooling for the next generation of our machine learning devX tooling. What You\u2019ll Do Design and build large-scale offline ML experimentation platforms that enable reproducible research, model development, evaluation, and promotion workflows. Develop production-grade training orchestration frameworks supporting distributed training, hyperparameter optimization, model evaluation, and automated retraining. Build infrastructure for experiment tracking, metadata management, lineage, artifact versioning, model registries, and reproducibility. Partner with ML engineers and researchers to improve experimentation velocity and operational efficiency. Build automated workflows for model promotion, rollback, compliance validation, and continuous evaluation. Design and build an agentic AI execution platform supporting autonomous and human-in-the-loop workflows, including multi-agent orchestration, memory/context systems, and scalable workflow infrastructure. What You Bring 5+ years in infrastructure/platform engineering or large-scale distributed systems. 2+ years of hands-on experience building and operating production ML infrastructure, developer SDKs, platform APIs, or self-service AI tooling. Experience building workflow orchestration systems, developer platforms, or large-scale automation frameworks. Experience with distributed data processing systems such as Spark, Flink, Ray, or equivalent technologies. Experience with modern orchestration and workflow technologies such as Kubeflow, Argo, Airflow, or similar frameworks. Experience building offline ML experimentation platforms, model registries, experiment tracking systems, or training orchestration frameworks. Experience building and operating agentic AI systems, including multi-agent orchestration, autonomous workflows, and agent communication/runtime frameworks (e.g., MCP, A2A, and orchestration systems) is a strong plus Experience running end-to-end model development and iteration cycles at scale is a plus Pay Transparency: This job posting may span more than one career level. In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/ . To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below. The base salary range for this position is: $216,700\u2014$303,400 USD In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
-        "salary": "",
-        "salary_min": null,
-        "salary_max": null,
-        "posted_at": "2026-06-23T05:09:34+00:00",
-        "tags": [
-          "Software Engineering",
-          "Full-Time"
-        ],
-        "fingerprint": "d02ed23badbd75e0"
-      }
-    },
-    {
       "score": 47.6,
       "signals": {
-        "similarity": 1.1,
+        "similarity": 1.0,
         "skills": 12.9,
         "title": 15.0,
         "location": 8.0,
@@ -392,9 +299,9 @@
       }
     },
     {
-      "score": 46.5,
+      "score": 46.4,
       "signals": {
-        "similarity": 1.2,
+        "similarity": 1.1,
         "skills": 12.1,
         "title": 15.0,
         "location": 8.0,
@@ -498,9 +405,9 @@
       }
     },
     {
-      "score": 45.5,
+      "score": 45.6,
       "signals": {
-        "similarity": 1.1,
+        "similarity": 1.2,
         "skills": 11.9,
         "title": 15.0,
         "location": 8.0,
@@ -539,9 +446,64 @@
       }
     },
     {
-      "score": 44.7,
+      "score": 44.9,
       "signals": {
-        "similarity": 1.0,
+        "similarity": 2.1,
+        "skills": 14.3,
+        "title": 15.0,
+        "location": 1.6,
+        "seniority": 7.0,
+        "recency": 4.9
+      },
+      "matched_skills": [
+        "aws",
+        "go",
+        "incident response",
+        "kubernetes",
+        "machine learning",
+        "mlops",
+        "python",
+        "terraform"
+      ],
+      "missing_skills": [
+        "aerospace",
+        "ansible",
+        "azure",
+        "bash",
+        "communication",
+        "defense",
+        "gcp",
+        "helm",
+        "operations",
+        "robotics"
+      ],
+      "rationale": "strongest fit on title, skills, seniority; matches 8 skills (aws, go, incident response, kubernetes, machine learning, mlops); gaps: aerospace, ansible, azure, bash",
+      "flags": [],
+      "job": {
+        "source": "arbeitnow",
+        "title": "Senior Platform Engineer \u2013 Cloud & ML Platform (m/f/d)",
+        "company": "Quantum- Systems GmbH",
+        "location": "Gilching",
+        "remote": false,
+        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040",
+        "description": "As a Platform Engineer \u2013 Cloud & ML Platform (m/f/d), you will be a key contributor to the cloud-native infrastructure that powers our AI and autonomy development at global scale. You will design, deploy, operate, and continuously improve Kubernetes-based platforms that enable our teams to train, evaluate, deploy, and monitor machine learning workloads reliably across regions, clouds, and compute environments. At Quantum Systems, we build intelligent unmanned systems that operate under real-world constraints. Our AI teams depend on scalable, secure, and high-performance infrastructure to turn data, models, and experiments into field-ready capabilities. In this role, you will help build the cloud and ML platform backbone that makes this possible. You will work closely with AI engineers, data engineers, software teams, security, IT, and product stakeholders to provide robust, automated, and developer-friendly infrastructure for large-scale ML workloads. Your work will directly support our mission to push the boundaries of autonomous systems through cutting-edge software, edge computing, and real-time AI-powered data processing. What is your Day to Day Mission: Design, deploy, operate, and continuously improve Kubernetes-based platforms for machine learning and data-intensive workloads. Build and maintain globally distributed Kubernetes clusters with a strong focus on reliability, scalability, security, and observability. Own the lifecycle management of ML platform components, including Kubeflow , Metaflow , workflow orchestration, experiment tracking, and related MLOps tooling. Enable AI and data teams to run scalable training, inference, evaluation, and data processing pipelines across heterogeneous compute environments. Develop infrastructure-as-code, automation, and GitOps workflows to ensure reproducible, auditable, and efficient platform operations. Manage GPU-enabled workloads, scheduling, storage, networking, secrets, access control, and cost-aware resource utilization. Improve platform resilience through monitoring, alerting, incident response, backup strategies, disaster recovery, and capacity planning. Collaborate with AI, software, DevOps, security, and IT teams to define platform standards, best practices, and deployment patterns. Support hybrid and multi-cloud infrastructure scenarios, including on-premise, private cloud, and public cloud environments. Evaluate and integrate cloud providers and infrastructure technologies, including Azure, AWS, Telekom Cloud, or comparable platforms. Continuously improve developer experience for ML engineers through self-service tooling, documentation, templates, and platform abstractions. Help bring AI capabilities from prototype to production by providing a reliable, scalable, and secure ML infrastructure foundation. What you bring to the team: Strong hands-on expertise with Kubernetes in production environments, including cluster operations, networking, storage, security, scaling, upgrades, and troubleshooting. Proven experience deploying and maintaining globally distributed, large-scale clusters for production or mission-critical workloads. Strong experience with Kubeflow and Metaflow in production or production-like ML platform environments. Solid understanding of MLOps workflows, including training pipelines, model lifecycle management, artifact handling, experiment tracking, reproducibility, and deployment automation. Experience operating GPU-enabled Kubernetes environments and supporting high-performance machine learning workloads. Strong infrastructure-as-code experience using tools such as Terraform, Helm, Kustomize, Argo CD, Flux, Crossplane, Ansible, or comparable technologies. Good understanding of cloud-native observability, including metrics, logs, traces, alerting, dashboards, and SLO-driven operations. Experience with containerization, CI/CD, GitOps, secrets management, identity and access control, and secure platform operations. Familiarity with cloud platforms such as Azure , AWS , Telekom Cloud , GCP, OpenStack, or comparable private/hybrid cloud environments. Strong scripting or programming skills in Python, Go, Bash, or a comparable language. Ability to analyze complex infrastructure issues, drive root-cause analysis, and implement robust long-term solutions. Structured, analytical mindset with a hands-on attitude and a strong sense of ownership. Strong communication skills and the ability to work with globally distributed engineering teams. Communication in English is a matter of course for you. Additional plus Experience building internal developer platforms or ML platform products. Experience with distributed storage systems, object storage, data lake architectures, or high-throughput data pipelines. Experience with service mesh technologies, policy engines, cluster federation, or multi-cluster management. Experience with security-sensitive, regulated, defense, robotics, aerospace, or autonomous systems environments. Knowledge of edge/cloud integration patterns for AI workloads. Experience optimizing cloud costs and GPU utilization at scale. Why Quantum-Systems: We believe in the power of combined efforts: straightforward tech expertise paired with a customer-centric focus. We are industry pioneers who are ambitious, bold, and visionary. We push limits, think outside-the-box and strive for technological excellence to shape the future of aerial data. We promise to be your runway for individual and professional growth. Our benefits: Company pension scheme: We support you so that you can already make provisions for later. Flexible working hours: With trust-based working hours, you are not only responsible for your working hours, but also for your work-life balance. Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance. Stay active: With EGYM Wellpass, you get access to thousands of fitness and sports facilities \u2014 and of course, we subsidize the membership. Bike-Leasing: We support you in staying environmentally mobile and healthy. Corporate Benefits: Your opportunity for attractive offers and discounts from well-known suppliers and brands, e.g. Adidas, Apple, Expedia. Employee events: We not only want to grow together, but also celebrate our successes together. Lunch-Card: Be powerful with delicious energy, daily lunch budget is sponsored. Company Shuttle: Enjoy our convenient shuttle service that picks you up from Pasing in Munich and brings you to our location, with return trips at the end of the workday. About us: Quantum Systems specialises in the development, design, and production of small Unmanned Aerial Systems (sUAS). The company\u2019s range of electric vertical take-off and landing (eVTOL) sUAS are built to maximize range and versatility and to provide operators with a seamless user experience. By integrating cutting-edge software capabilities, like edge computing and real-time AI-powered data processing, Quantum Systems is building next-generation UAS for clients in defence, security, public sectors. Our commitment: We are an open-minded company that not only values diversity, but actively promotes it. Regardless of gender, age, ethnic origin, religion, sexual orientation or disability, we firmly believe that the diversity of our employees is an essential part of our success. At our company, every voice is heard and every perspective is valued. We believe that our differences enrich us and help us to find creative solutions and generate innovative ideas. We pride ourselves on creating an inclusive work environment where all employees can reach their full potential. Find Jobs in Germany on Arbeitnow",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "1782300016",
+        "tags": [
+          "Internet and software",
+          "professional",
+          "Full-time permanent",
+          "mid"
+        ],
+        "fingerprint": "6747c695ea7605fb"
+      }
+    },
+    {
+      "score": 44.8,
+      "signals": {
+        "similarity": 1.2,
         "skills": 10.6,
         "title": 15.0,
         "location": 8.0,
@@ -627,9 +589,9 @@
       }
     },
     {
-      "score": 43.7,
+      "score": 43.8,
       "signals": {
-        "similarity": 1.3,
+        "similarity": 1.4,
         "skills": 10.5,
         "title": 15.0,
         "location": 8.0,
@@ -676,64 +638,9 @@
       }
     },
     {
-      "score": 42.9,
+      "score": 42.5,
       "signals": {
-        "similarity": 1.9,
-        "skills": 12.5,
-        "title": 15.0,
-        "location": 1.6,
-        "seniority": 7.0,
-        "recency": 4.9
-      },
-      "matched_skills": [
-        "aws",
-        "go",
-        "incident response",
-        "kubernetes",
-        "machine learning",
-        "python",
-        "terraform"
-      ],
-      "missing_skills": [
-        "aerospace",
-        "ansible",
-        "azure",
-        "bash",
-        "communication",
-        "defense",
-        "gcp",
-        "helm",
-        "mlops",
-        "operations",
-        "robotics"
-      ],
-      "rationale": "strongest fit on title, skills, seniority; matches 7 skills (aws, go, incident response, kubernetes, machine learning, python); gaps: aerospace, ansible, azure, bash",
-      "flags": [],
-      "job": {
-        "source": "arbeitnow",
-        "title": "Senior Platform Engineer \u2013 Cloud & ML Platform (m/f/d)",
-        "company": "Quantum- Systems GmbH",
-        "location": "Gilching",
-        "remote": false,
-        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040",
-        "description": "As a Platform Engineer \u2013 Cloud & ML Platform (m/f/d), you will be a key contributor to the cloud-native infrastructure that powers our AI and autonomy development at global scale. You will design, deploy, operate, and continuously improve Kubernetes-based platforms that enable our teams to train, evaluate, deploy, and monitor machine learning workloads reliably across regions, clouds, and compute environments. At Quantum Systems, we build intelligent unmanned systems that operate under real-world constraints. Our AI teams depend on scalable, secure, and high-performance infrastructure to turn data, models, and experiments into field-ready capabilities. In this role, you will help build the cloud and ML platform backbone that makes this possible. You will work closely with AI engineers, data engineers, software teams, security, IT, and product stakeholders to provide robust, automated, and developer-friendly infrastructure for large-scale ML workloads. Your work will directly support our mission to push the boundaries of autonomous systems through cutting-edge software, edge computing, and real-time AI-powered data processing. What is your Day to Day Mission: Design, deploy, operate, and continuously improve Kubernetes-based platforms for machine learning and data-intensive workloads. Build and maintain globally distributed Kubernetes clusters with a strong focus on reliability, scalability, security, and observability. Own the lifecycle management of ML platform components, including Kubeflow , Metaflow , workflow orchestration, experiment tracking, and related MLOps tooling. Enable AI and data teams to run scalable training, inference, evaluation, and data processing pipelines across heterogeneous compute environments. Develop infrastructure-as-code, automation, and GitOps workflows to ensure reproducible, auditable, and efficient platform operations. Manage GPU-enabled workloads, scheduling, storage, networking, secrets, access control, and cost-aware resource utilization. Improve platform resilience through monitoring, alerting, incident response, backup strategies, disaster recovery, and capacity planning. Collaborate with AI, software, DevOps, security, and IT teams to define platform standards, best practices, and deployment patterns. Support hybrid and multi-cloud infrastructure scenarios, including on-premise, private cloud, and public cloud environments. Evaluate and integrate cloud providers and infrastructure technologies, including Azure, AWS, Telekom Cloud, or comparable platforms. Continuously improve developer experience for ML engineers through self-service tooling, documentation, templates, and platform abstractions. Help bring AI capabilities from prototype to production by providing a reliable, scalable, and secure ML infrastructure foundation. What you bring to the team: Strong hands-on expertise with Kubernetes in production environments, including cluster operations, networking, storage, security, scaling, upgrades, and troubleshooting. Proven experience deploying and maintaining globally distributed, large-scale clusters for production or mission-critical workloads. Strong experience with Kubeflow and Metaflow in production or production-like ML platform environments. Solid understanding of MLOps workflows, including training pipelines, model lifecycle management, artifact handling, experiment tracking, reproducibility, and deployment automation. Experience operating GPU-enabled Kubernetes environments and supporting high-performance machine learning workloads. Strong infrastructure-as-code experience using tools such as Terraform, Helm, Kustomize, Argo CD, Flux, Crossplane, Ansible, or comparable technologies. Good understanding of cloud-native observability, including metrics, logs, traces, alerting, dashboards, and SLO-driven operations. Experience with containerization, CI/CD, GitOps, secrets management, identity and access control, and secure platform operations. Familiarity with cloud platforms such as Azure , AWS , Telekom Cloud , GCP, OpenStack, or comparable private/hybrid cloud environments. Strong scripting or programming skills in Python, Go, Bash, or a comparable language. Ability to analyze complex infrastructure issues, drive root-cause analysis, and implement robust long-term solutions. Structured, analytical mindset with a hands-on attitude and a strong sense of ownership. Strong communication skills and the ability to work with globally distributed engineering teams. Communication in English is a matter of course for you. Additional plus Experience building internal developer platforms or ML platform products. Experience with distributed storage systems, object storage, data lake architectures, or high-throughput data pipelines. Experience with service mesh technologies, policy engines, cluster federation, or multi-cluster management. Experience with security-sensitive, regulated, defense, robotics, aerospace, or autonomous systems environments. Knowledge of edge/cloud integration patterns for AI workloads. Experience optimizing cloud costs and GPU utilization at scale. Why Quantum-Systems: We believe in the power of combined efforts: straightforward tech expertise paired with a customer-centric focus. We are industry pioneers who are ambitious, bold, and visionary. We push limits, think outside-the-box and strive for technological excellence to shape the future of aerial data. We promise to be your runway for individual and professional growth. Our benefits: Company pension scheme: We support you so that you can already make provisions for later. Flexible working hours: With trust-based working hours, you are not only responsible for your working hours, but also for your work-life balance. Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance. Stay active: With EGYM Wellpass, you get access to thousands of fitness and sports facilities \u2014 and of course, we subsidize the membership. Bike-Leasing: We support you in staying environmentally mobile and healthy. Corporate Benefits: Your opportunity for attractive offers and discounts from well-known suppliers and brands, e.g. Adidas, Apple, Expedia. Employee events: We not only want to grow together, but also celebrate our successes together. Lunch-Card: Be powerful with delicious energy, daily lunch budget is sponsored. Company Shuttle: Enjoy our convenient shuttle service that picks you up from Pasing in Munich and brings you to our location, with return trips at the end of the workday. About us: Quantum Systems specialises in the development, design, and production of small Unmanned Aerial Systems (sUAS). The company\u2019s range of electric vertical take-off and landing (eVTOL) sUAS are built to maximize range and versatility and to provide operators with a seamless user experience. By integrating cutting-edge software capabilities, like edge computing and real-time AI-powered data processing, Quantum Systems is building next-generation UAS for clients in defence, security, public sectors. Our commitment: We are an open-minded company that not only values diversity, but actively promotes it. Regardless of gender, age, ethnic origin, religion, sexual orientation or disability, we firmly believe that the diversity of our employees is an essential part of our success. At our company, every voice is heard and every perspective is valued. We believe that our differences enrich us and help us to find creative solutions and generate innovative ideas. We pride ourselves on creating an inclusive work environment where all employees can reach their full potential. Find Jobs in Germany on Arbeitnow",
-        "salary": "",
-        "salary_min": null,
-        "salary_max": null,
-        "posted_at": "1782300016",
-        "tags": [
-          "Internet and software",
-          "professional",
-          "Full-time permanent",
-          "mid"
-        ],
-        "fingerprint": "6747c695ea7605fb"
-      }
-    },
-    {
-      "score": 42.2,
-      "signals": {
-        "similarity": 1.2,
+        "similarity": 1.5,
         "skills": 7.4,
         "title": 15.0,
         "location": 8.0,
@@ -777,9 +684,9 @@
       }
     },
     {
-      "score": 42.2,
+      "score": 42.4,
       "signals": {
-        "similarity": 1.0,
+        "similarity": 1.2,
         "skills": 8.0,
         "title": 15.0,
         "location": 8.0,
@@ -819,6 +726,57 @@
           "Software Engineering"
         ],
         "fingerprint": "9e8cee42267e4ac2"
+      }
+    },
+    {
+      "score": 42.1,
+      "signals": {
+        "similarity": 2.1,
+        "skills": 16.6,
+        "title": 7.5,
+        "location": 8.0,
+        "seniority": 4.9,
+        "recency": 3.0
+      },
+      "matched_skills": [
+        "aws",
+        "docker",
+        "grafana",
+        "kubernetes",
+        "postgres",
+        "prometheus",
+        "python",
+        "redis",
+        "terraform"
+      ],
+      "missing_skills": [
+        "argocd",
+        "azure",
+        "defense",
+        "helm",
+        "linux",
+        "pytorch",
+        "satellite",
+        "vue"
+      ],
+      "rationale": "strongest fit on skills, location, title; matches 9 skills (aws, docker, grafana, kubernetes, postgres, prometheus); gaps: argocd, azure, defense, helm; remote",
+      "flags": [],
+      "job": {
+        "source": "hackernews",
+        "title": "Software Engineers & Platform Engineers",
+        "company": "Blackshark AI",
+        "location": "Remote",
+        "remote": true,
+        "url": "https://news.ycombinator.com/item?id=48358386",
+        "description": "Blackshark AI | Software Engineers & Platform Engineers | Full-time | Austria or Remote EU | VISA sponsorship available We build geospatial AI infrastructure. Our platform lets analysts train custom object and change detection models on satellite/aerial/drone imagery in minutes, then reconstructs 3D terrain from those detections. We just shipped a planetary-scale simulation platform with Lockheed Martin powered by Unreal Engine. If you want to work on distributed systems that run in a data center one day and an edge laptop the next, we have interesting problems. Our training and inference infrastructure is processing trillions of pixels and we deliver real world impact for our customers across defense, intelligence, and local governments. Tech Stack: Python, Fast API, PyTorch, PostgreSQL, Redis, Vue.js Infrastructure Stack: Kubernetes & Docker, Linux, AWS & Azure, Azure DevOps, Terraform, ELK, Prometheus & Grafana, ArgoCD & Helm Roles: Senior Software Engineer - Data Plane Team: https://jobs.eu.lever.co/blackshark/17fbf310-ea37-435f-a198-... Software Engineer - Data Plane Team: https://jobs.eu.lever.co/blackshark/6110fedd-5cd8-40e5-ac11-... DevSecOps Engineer - Deployment Team: https://jobs.eu.lever.co/blackshark/d425eda5-52ca-4e5c-a03d-... Platform Engineer - Deployment Team: https://jobs.eu.lever.co/blackshark/56a85834-d986-4105-9cc8-... or reach out to HM with questions at: 'eivanov@' + username[:-2] + '.' + username[-2:].lower()",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-01T15:42:14.000Z",
+        "tags": [
+          "hn-whoishiring"
+        ],
+        "fingerprint": "052c3a7636b8643d"
       }
     },
     {
@@ -1019,6 +977,56 @@
           "Full-Time"
         ],
         "fingerprint": "bb421042e6e7c177"
+      }
+    },
+    {
+      "score": 42.0,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 2.8
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "prometheus",
+        "python"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "java",
+        "leadership",
+        "operations",
+        "requirements",
+        "roadmap",
+        "rust",
+        "systems engineering",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, prometheus, python); gaps: c, c++, communication, java; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Alerting | Sweden | Remote",
+        "company": "Grafana Labs",
+        "location": "Sweden",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145111-senior-backend-engineer-alerting-sweden-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. Senior Backend Engineer, Alerting This is a remote opportunity and we would be interested in applications from Sweden. The Opportunity: The Grafana Alerting squad operates at the core of the Grafana open-source project (link) , and our mission is to provide the most in-depth way to let users manage their alerts. The backend-focused team works closely with customers and the Grafana Cloud teams to make Alerting work on-prem and at infinite scale in Cloud. Our domain is quite large, so to get an idea of the kind of work we do, here are some projects we recently worked on: Build distributed systems to scale alert ingestion and delivery of Prometheus-based alerts Unify Alerting setup and delivery to work the same for Grafana and Prometheus-based alerts Build distributed systems to scale alert evaluation of Grafana-managed alerts, reaching over 500 evaluations per second in production. Grafana Alerting is trusted by major organizations worldwide, monitoring essential medical devices and critical infrastructure. We thrive on collective creativity and diverse perspectives, every team member is encouraged to contribute ideas that shape our product into a dependable tool. What You\u2019ll Be Doing: Take an active role in influencing our roadmap and your own career objectives Work with your team to deliver new features, then use the results to iterate and improve. Drive projects from initial ideation all the way to operations once it is in the hands of customers Embrace our open-source culture and contribute to other projects that may not directly fall within your team\u2019s scope Design, build, operate, and maintain critical systems, owning the reliability, performance, and availability Be a part of your team\u2019s on-call rotations and take ownership of the services you\u2019re running Mentor and support other team members, participate in design discussions and collaborate with the team Learn new skills by gaining a deeper understanding of our cloud product and our customers and getting to know the codebase of a large distributed system As we are remote-first and our engineering organization is largely remote, we provide guidance and meet regularly using video calls, so an independent attitude and good communication skills are a must. What Makes You a Great Fit: You are a motivated self starter with a bias towards action You are customer focused We build everything with our users in mind. You have a passion for creating intuitive products that fit customers\u2019 needs Pragmatism: You are able to take on complex challenges and break them down to achieve short feedback loops: to analyze, design, and build modular solutions, deliver MVPs, gather data and feedback and then progress iteratively Collaboration and communication: The smallest unit we have is a team. You\u2019ll be working with your teammates in a fully remote setup. Good communication skills are a must Solid experience with at least one programming language. We use Go, but if you have familiarity with Python, Java, C++, Rust or similar then that translates well Some experience with delivering projects from gathering requirements, brainstorming ideas all the way to shipping a product to the customer\u2019s hands in a self-driven way Some experience with developing software that runs in the Cloud or some experience with systems engineering Experience writing clean, robust, and performant software that is easily maintained by others Compensation & Rewards: In Sweden, the compensation range for this role is SEK 775,444 - SEK 930,533. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-05-30T15:48:36+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "138843a9e8e8d993"
       }
     }
   ]

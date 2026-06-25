@@ -56,12 +56,20 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
 .sbar>i{display:block;height:100%;background:linear-gradient(90deg,#5b8cff,#7ee2a8)}
 .scount{font-size:13px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}
 .summary-block{font-size:14px;line-height:1.6;color:var(--fg)}
+.hrow{display:flex;align-items:center;gap:14px}
+.avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #2a2f3a;flex:none}
+.publist{margin:0;padding-left:18px;font-size:13px} .publist li{margin:3px 0;color:var(--fg)}
 </style></head>
 <body>
 <header>
-  <h1>Job leads — Jordan Rivera</h1>
-  <div class="sub">20 leads · target: Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer ·
-   senior (~9y) · remote: remote</div>
+  <div class="hrow">
+    <img class="avatar" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAFAAUADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD54ooorUgKKKKACiiigAooooAKKKKACiiigAooooAKK2NO8Ia/qu02ulXTKyeYruvloy8YIZsA9R0NdVZfBy/k3/bdUtoMY2eSjS59c5247etdlHAYit8EH+X5mM8RSh8Ujz2ivZrP4UeHbaUvKLy7UrjZNLgA+vyBTn8cc1r2fgvw7YxGOLR7NlLbszJ5pz9XyccdK9Knw/iH8TSOWWZU1smzwKivo6y0uw03f9isba18zG/yYlTdjpnA56n86s4rpjw47a1Pw/4Jm8zXSP4nzRRX0vioLzT7TUIhFeWsFzGG3BJow4B9cHvyfzofDjtpU/D/AIIlma6x/H/gHzfRXv8Ac+D/AA/dwtDJo1iqtjJjiEbdc8MuCPwNZF78K/Dl1s8mK6s9uc+TMTu+u/d09sda5qnD9dfDJM1jmVN7po8Xor0fUfg5cLubTtUiky/EdwhTanP8S5yen8Iz7dK5fUvAniLTJdj6XPOpZgr2y+aGA7/LkgHtkA/rXnVsuxNL44P8/wAjphiaU9pGBRRRXEbhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU+KKSeVIokaSR2CqiDJYnoAO5pgMqW2tbi9nWC1glnmfO2OJCzNgZOAOegruvC/wpu9RQXOtPLYwnBWBAPNcEZyTyE5I4IJ4IIFem6ToWm6FAYdNs4rZT94qMs/JI3MeTjJxk8V7GEyarW96p7q/H7v8AM4a+PhDSOrPNNE+EV/cqsur3S2S7hmGMCRyMnIJztU4xgjd156YrvdE8G6J4fZZLKyXzwoHnyEu+QCCQT90nJztwDmtzFGK+kw2X4fD2cI693q/69DyquKqVPieglFLijFd3Mc4lFLijFHMAlFLijFHMAlFLijFHMAlFLijFHMAlFLijFHMBlax4Z0jX9p1KwinZMYflXAGeNykHHJ4ziuC1r4PzRJJLo9952OVt7gAMRjnDjgknpkAc9eOfUsUYrjxOBoYj+JHXvs/69TelialP4WfN+o6Ze6Rcta39tLbTD+GRcZGSMg9CMg8jg1Vr6R1HS7LV7ZrW/tormE/wyLnBwRkHqDgnkcivOfE3wkZFe50CRpDu/wCPOVhkAk52uSOBxw3OAeSeK+bxeSVad5UveX4/8E9ShmEJ6T0f4HmlFS3NrcWU7QXUEsEyY3RyoVZcjIyDz0NRV4rVtGehe4UUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiuq8HeAL/xPLFcyq1tpe477jjL46qgPU9s4wMHqRitaVGdWXJBXZFSpGC5pPQydA8N6l4lujb6dBv2YMkjHakYJxkn8+BknBwDivZvC/gXS/DCB4k+03hwTcyqCynGDs/ug5PvzyTxW1p2lWWkWq2thaxW0K/wxrjJwBknqTgDk8mrWK+swOWU8P70tZfl6Hh4nGyq6LRDcUYp2KMV6vMcQ3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMBieIvCel+JoNl9BiUY23EWBKoBPAbB45PByOfXmvGvFHg7UvC05+0x+ZaM5SK5T7r8Z5HVTjsfQ4yBmvoDFRXNpb3sDW91BFPC+N0cqBlbByMg8dRXm47LqeJV9pd/8zrw2LnSdt0fM1Fdz43+G91oss1/pUTT6YFMjqDl7cdwe7LznPJABz0yeGr5Gvh50Z8lRWZ7tKrGpHmiwooorE0CiiigAooooAKKKKACiiigAoorq/h/4Nk8UamstzC/9l27fv33bd5xkID3PTOOg7gkZ1pUpVZqEN2RUqRpxcpbFrwB4Ak8RyrqGoK8elo3A6G4I/hHovqfwHOSPaIoY4IkiijWONFCoiDAUDgADsKdFDHBEkUSJHHGoVEQYVQOAAOwp2K+wweEhhocsd+rPncRiJVpXew3FGKdijFdnMc43FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FeTfET4d/YPN1nRof9F5e4tkH+p9XUf3fUfw/T7vreKMVzYrDQxEOSfyfY2oV5UZc0T5eorvfiZ4I/sa6Oq6ZbbdOlx5qp0gkJ9P4UPGOwORx8orgq+Nr0JUZuEz6OlVjUipRCiiisTQKKKKACiiigAoop8UUk8qQwxvJJIwVEQZZieAAB1NMDS8M+H7jxNrEOm27eXvy0kpUsIkHVjj8h0ySBkZr6D0vTLfR9Ot9PtV2w26BF4AJx1JwAMk5JPck1j+A/Ci+FtESKQZvLjEtyxC5VsfcyOoXnueST3xXSYr6nLsJ7CHNL4n/Vj5/G4n2srR2QmKMUuKMV6PMcImKMUuKMUcwCYoxS4oxRzAJijFLijFHMAmKMUuKMUcwCYoxS4oxRzAJijFLijFHMAmKMUuKMUcwCYoxS4oxRzAJijFLijFHMAmKMUuKMUcwCYoxS4oxRzAJijFLijFHMAmKMUuKMUcwEcsMc8TxSoskcilXRxlWB4II7ivAPG3hKTwlq32cO81rMvmQSsuCRnlScYLDvjsQeM4r6DxWX4m8PW/ibR5tNuD5e/DRyhQxicdGGfyPTIJGRmuHH4VYiGnxLY68JiXRnrs9z5voqxf2F1pd5LZXsLwXELbXjbqD/AFHcEcEc1Xr5Npp2Z9GnfVBRRRSAKKKKACvRPhH4UXUr59cuRmGyfZChCkPLjJJzyNoKkcdSCDwa4G0tZr66htLdN808ixxrkDczHAGTx1NfSWgaNDoGjWmmQHclum0tgjex5ZsEnGWJOM8Zr0ssw/tKnPLZfmcGYV/Zw5Vu/wAi9ijFOxRivpLngDcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXAbijFOxRii4DcUYp2KMUXA8v+MHhRZIB4jthiSPZFcqAoDLnCvnqTkhe/BHQLXk9fUV3aQ31rNa3Cb4Z0aORckblYYIyOehr5t1/R5vD+s3emTnc9vJtDcDep5VsAnGVIOM8Zr5/NMPyz9rHZ/me5ltfmj7N7r8jPoooryT0gooooA9I+DGgrd6pc6zMj7bNfLhJUhTI4O4g5wSF4xz98HjivYqw/BGgN4c8M2dhKiLcbTJPtUA+YxyQSCckcLnPIUVu4r6jB0/ZUlHr1PmcXW9rVcunQSilxRium5zCUUuKMUXASilxRii4CUUuKMUXASilxXn3xc8U6x4Xt9MfSLv7M07yCQ+Wj7gAuPvA+prOtWVKDnLZGlGk6s1CO7PQKK+dv8AhbHjP/oM/wDktD/8RR/wtjxn/wBBn/yWh/8AiK4P7Wpdn+H+Z3f2XV7r8f8AI+iaK8++EXirWPFEOqNq959pMDRCP92ibchs/dAz0FehYrvo1lVgpx2Zw1qTpTcJboSilxXlPxX8b+IPDXiG2tNKv/s0D2iysnkxvli7jOWUnoBU18RGjHnkVQoyrS5InqtFfO3/AAtjxn/0Gf8AyWh/+Io/4Wx4z/6DP/ktD/8AEVxf2tS7P8P8zs/sur3X4/5H0TRXzt/wtjxn/wBBn/yWh/8AiKP+FseM/wDoM/8AktD/APEUf2tS7P8AD/MP7Lq91+P+R9E0V88J8W/GKnJ1RH9mtov6LWjZ/G3xLAR58On3K990RU/mCB+lUs1ove4nllZdj3aivNNF+OWlXTLHqthPYk8eZGfNQe54BH4A16Fpup2Wr2q3Wn3UNzA3R42BH0PofauuliadX4Hc5KtCpS+NWLNFLijFbXMRKKXFGKLgJRS4oxRcBKKXFGKLgJXmXxp0FZbK01yJHMkLC3m2qSPLOSpJzhQGyOnJcc8CvTsVS1vSo9b0i802XYFuYmjDMgcISOGx3IOCPcVhiKftabgbYer7KopnzDRU13azWN3NaXCbJoJGikXIO1lOCMjjqKhr5Zqx9SncK2/BOmf2x4s0uzKxOjTrI6SjKsifOwIwc5VSMe9Ylem/A2w8zVdTv/Mx5ECwbNv3t7Zzn28v9fatsPDnqxiYYmp7OlKR7BijFOxRivpbnyw3FGKdijFFwG4oxTsUYouA3FGKdijFFwG4oxTsUYouA3FeT/Hz/j10b/rpN/JK9axXk3x9/wCPTRf+uk38krkxz/cS/rqdmA/jx/roeOUUUV84fTHsPwC/499a/wB+H+T16zivJ/gD/wAe2tf78P8AJ69axX0eBf7iP9dT5nH/AMeXy/IbivC/jr/yNtn/ANeCf+jJK92xXhXx2/5G2z/68E/9GSVGYv8AcmmW/wAf5HnFFFFfPn0QUV6H4F+FkHjDQ/7Tk1SS1bzmi2LEGHGOc5HrXQn4BWvbXpv/AAHH/wAVXVDB1ZRUktGck8dRhJxk9V6njdFeoar8CNUt4mfTdUt7wjny5UMTH2ByR+eK831DTrvSrySzvreS3uIjh43GCP8APrWVWhUp/GrGtLEU6vwO5XrW8N+KNT8K363mnTleR5kTcpKPRh/XqKyaKzjJxd1uaSipK0tj6k8L+I7TxXo8OpWh2h/lkjJyYnHVT/nkEGtbFeG/BDXHs/EUuku58m+jJVc9JEGQf++d36V7pivpcLX9rTUnufMYuh7Go4rYbijFOxRiui5zDcUYp2KMUXAbijFOxRii4DcUYp2KMUXA8B+LGmf2d4zuXVYkjvI0uUWMYxkbWJGOpZWPvnPWuOr2L45WHmaVpmoeZjyJ2g2bfvb1znPt5f6+1eO185jIctWSPpsFU56MX8gr3f4NWEtr4NEzshW7uZJkCnkKMJz75Q/hivCK+k/AVhHp/g3R4Ymdla2SYljzuk+c/hljj2rbL1+8b8jnzSVqSXdm7ijFOxRivY5jwBuKMU7FGKOYBuKMU7FGKOYBuKMU7FGKOYBuKMU7FGKOYBuK8m+PwxaaL/10m/klet4ryX4//wDHpov/AF0m/klcuMf7mX9dTswH8eP9dDxqiiivAPpz2P4ADNtrf+/D/J69axXk37P4/wBG1v8A34f5PXreK9/BP9zH+up8xmH+8S+X5DcV4T8d/wDkbrP/ALB6f+jJK94xXhHx4/5G6z/7B6f+jJKjHv8AdGmWfx/keb0UUV4Z9Ge/fBEf8UUf+vuT+S13+K4H4ID/AIoo/wDX3J/Ja9AxX0WGf7qPofK4v+NL1G4rzL45aBDcaJBrSIBc2sgid+7Rtng/RsY+pr0/FcH8abyO28ESwuRvuZ440HuDuP6LSxVnSlcMHJqtG3c+fKKKK+ePqjovh5K0PjfRmU4JuVT8G4P86+m8V82/C2xa/wDHWlqoJWJ2mY+gVSf54H419KYr2Mu0pv1PAzV/vF6DcUYp2KMV6PMeWNxRinYoxRzANxRinYoxRzANxRinYoxRzAc18RrCXUPBOrQxMissImJc8bY2Dn8cKce9fOVfVWo2Eep6fdWExdYrmF4XKHDBWBBxnvzXyrXk5iveUj3MqleEo+f9fkFfVGkaf/ZWk2Wn+Z5v2WCODzMbd+1QM45xnFfK9fWtLAbyZGbN2gvX9BMUYpaK9HmPGExRiloo5gExRiloo5gExRiloo5gExRiloo5gExXkn7QP/Hpov8A10m/kleuV5J+0F/x6aJ/10m/klc+Lf7pnZgP94j/AF0PGKKKK8Q+nPZf2fv+PbW/9+D+T165ivJP2ff+PbW/9+D+T165Xt4R/ukfMZh/vEvl+QmK8H+PP/I32f8A2D0/9GSV7zXg3x6/5G+z/wCwen/oySoxr/dGmWfx/kebUUUV459GfQHwP/5Ek/8AX3J/Ja9BxXyhp/iXW9Jt/s9hq19aQ7i3lwzsi5PfANWD428TsMHxDq3/AIFP/jXo0sdGEFG2x49bLZ1Kjmpbn01q2s6foVo13qV3Fawr/FI2M+wHUn2FfPHxF8cyeNdVVolaLT7bK28bdTnq7e5wPoBXMXV7dX8vm3dzNcSH+OVy7fmahrHEYuVVcq0R0YXARovmbuwoor0P4d/Cq88RzRajq0T22lAhgrfK9z7D0X3/AC9Rzwpym7ROurVjSjzTZ1HwN8KvaWdx4huYyr3Q8m3BHPlg/M34kAf8B969WxTYYI7eFIYY1jijUIiKMBQOAAKfXuUoKnFRR8vXrOrNzYmKMUtFacxiJijFLRRzAJijFLRRzAJijFLRRzAJivlfV7D+ytWvdP8AM837LPJBv27d+1iucc4zivqmvmHxf/yNmt/9f9x/6MauDH6pM9bKW+aSMivrevkivrDTb6PVNOtb+FXWK6hSZA4AYKygjOO/NZ4J2uXm60g/X9CeinYoxXdzHijaKdijFHMA2inYoxRzANop2KMUcwDaKdijFHMA2vI/2g/+PTRP+uk38kr17FePftCygR6FF3Jnb/0XWGJf7pnZl/8AvEfn+R41RRRXkH1B7P8As+f8e2uf78H8nr12vJf2e0Istaf1lhH5Bv8AGvXMV6+Gf7pHy+Yf7xL+ug2vBfj3/wAjfZ/9g9P/AEZJXvmK8D+Pn/I4Wf8A2D0/9GSVOLf7s0yz+OvRnmtFFFeUfSBRXqXw3+Fmi+MPDp1K/udQim894tsEiBcAD1QnPPrWrr3wBgW1eTQtSnM6jIiu9pD+25QMfka2WHm48yOKWPoxm4Sep4xTk2713lgmRuKjnHtUt9Y3Om3ctneQvBcQsUkjcYKmoKxOxO+x7h8L/DvgHUIxdWAe+1CIBnjvwN8XuEHy49+ceteqV8i6Zqd5o19Df2E7wXMLbkde3+I9q+lPAHja38baOLgBYr2HCXMAP3W7MP8AZPb8R2r08LWi1y2szwMxw04v2l7r8jpqKdijFdfMeWNop2KMUcwDaKdijFHMA2inYoxRzANop2KMUcwDa+X/ABh/yNut/wDX/cf+jGr6ixXyrr19Fqmuajfwq6xXV1LMgcAMFZyRnHfmuPGPRHrZSvekyhX094EuoL3wbostu+9Fs44icEfMi7GHPoykfhXzDX0D8F7/AO2+CIoPL2fYriWDduzvyRJnpx/rMY56e9YYaVpWOnNY3pKXZndYoxS4oxXdc+fuJijFLijFFwuJijFLijFFwuJijFLis7xFrMXh3RbrVZonljtlDsiEBiMgHGfrQ5W1HFOTsjQxRisXw94y0HxRCr6ZqMMkhGTAx2yr9VPP49K28UlJPVDlFxdpKzExXz/8ddWS+8WxWMbZWxt1RvZ2O4/ptr1Txv8AEbSPB9nKvnxXWpYIitEbJ3di+Puj68ntXzVf31xqd7Pe3UhknuHMkjnuxOTXLiqqtyo9bK8PLm9rJadCCiiiuE9098+AlkYfCl3csMefeNj3VVUfzzXpmK5/wBojaB4P0uwkXbKsIklHcO53EH6E4/CuhxXrUvdgkfI4mop1ZSXcTFeBfH7jxhZ/9g9P/Rkle/YrwL4/f8jjZ/8AYOT/ANGSVliX7h1ZZ/HXozzOiiivOPpD6F+BY/4oc/8AX3J/Ja9DxXnvwLH/ABQ5/wCvuT+S16HivVov3EfJ4z+PP1PMfjN4EXWdMbX7GL/TrNMzKo5miHX8V6/TPtXglfZBUEEEZB6g180/FLwYfCPiJzbxkadeZltyOif3k/An8iK5cTT+2j08rxV17GXyONrc8G+Kbnwhr0GpQbmjB2TxA/62M9R9e49wKw6K5U2ndHryipJxlsz7A0++t9UsoL60lEtvOgkjcdwasYrxP4H+N/s1wfDF9LiKYl7NmP3X6lPx6j3z617bivVp1VONz5TE0HRqODExRilxRiruc9xMUYpcUYouFxMUYpcUYouFxMUYpcUYouFyC8uoNPtJ7y5fy4LeNpZHwTtVRknA5PA7V8lV9M/Ea/8A7M8EaxP5fmbrcwbd2MeYRHnp235x3xXzNXHipXaR7uUx92Uv6/rUK9Z+Aeq7bzVdJZpj5kaXMa5/drtO1zjPBO5O3IXnoK8mrp/hrq0uj+NtKkj3stxMLWRFcqGWT5efUAkNj1UdOtc9OVpJndi6ftKMon0vijFOxRiu/mPkxuKMU7FGKOYBuKMU7FGKOYBuK5f4n/8AIg61/wBcP/ZhXVYrlvieP+KB1r/rh/7MKmb91m1D+LH1R8tgkHI4NWzq2omPyzf3ezpt85sflmqlFeafXtJ7hRRRQMK7X4UeDn8VeJYpJo86fYkTTkjhiD8qfiR+QNZng7wLq/jS9ENjCUt1P766cHy4x9e59h/LmvpTwv4YsPCWkRaZp6YjT5ndvvSuerN7/wD6q2o0+Z3ex5uPxipRcIv3n+Bq4oxTsUYru5j5sbivAP2gP+Rxsv8AsHJ/6Nkr6BxXz/8AtA/8jjZf9g5P/RstY137h6OV/wAf5M8yooorhPpT6H+BP/IjH/r7l/kteiYrzz4ED/ihj/1+S/yWvRcV6NN+6j5LGfx5+o3Fc7488JReMfDs+nsFW4X95bSH+CQdPwPQ+xrpMUYqnZqzMYTcJKUd0fG1zbzWdxLbXEbRTROUdGGCrA4INR16/wDHXwV9nnTxRZR/u5iI7wKPuv0V/wAeh9wPWvIK86ceV2PrMPWVampofDNJbzJNC7RyRsHR1OCpByCK+n/h14xj8Z+Ho7piovYMRXSDs+PvAejdfzHavl2un+HvjGXwZ4hivCWazl/dXUY/iQnqB6jqPxHero1OR+RhjsN7anputj6kxRimwTRXUEc8EiyRSqHR1OQykZBFSYrv5j5gbijFOxRijmENxRinYoxRzANxRinYoxRzAeYfHfVfs2gWOmq0yveXBkbacIyRjlW55+Z0IGMfLnsK8Orv/jXq0t94zexO9YtPhSNVLkqzMA5YDsSGUH12D6DgK4asryZ9RgKfJQj56/eFFFFZnYfVPhDXv+En8NWGrFPLe4j/AHi4wA6kq2Bk/LuU45zjFbGK8a+AviFIbi/0Cebb5+Lm2Q7QCwGJAD1LEbDjnhGPHf2euuM7o+TxdH2VVx6DcUYp1FVc5huKMU6ii4DcVT1jSLXXdMuNNvVZre4TY4VsHHsavUUXGm07o8b1X9niBnLaVrkka9o7qIN/48pH8qw3/Z88SBv3epaQy+rPID/6Aa+gKKydOJ3RzKutL3PCLX9nnV3Yfa9asIl7mJHkP67a63QvgR4b0x1l1CW51SRedsh8uP8A75Xn8zXpVFNU4roTPMK81Zy+4gtLO2sLdLa0git4IxhI4lCqo9gKlxTqK0ucdxuKMU6ii4huK4/xh8LtG8banFqOo3OoRSxQiALbyIq7QzNn5lPOWNdlRSdnozSnUlTfNB2Z5h/wz74W/wCf/Wv+/wBF/wDG6P8Ahn3wt/z/AOtf9/ov/jden0VPJHsb/Xq/8zMPwl4TsfBulf2Zp8tzLD5jS7p2Utk4z0AGOPStrFOoqk7aI5pTcnzS3G4oxTqKdySpqem22r6fcafeRiS3uIzHIp7g/wBfevO/+GffC3/P/rX/AH+i/wDjden0VLSe5tTxFSmrQdjzD/hn3wt/z/61/wB/ov8A43R/wz74W/5/9a/7/Rf/ABuvT6KXJHsa/Xq/8zMjwz4dg8LaRFpVtdXdzBCT5ZuWVmQHnaCFHHX861cU6iqTsc0pOTuxuKMU6inckbijFOoouA3FVtTvotK0271CdXaK1hedwgBYqqknGcc4FW68w+O3iFLPQrfQ4psT3sgklQbT+5TnnuMvtIIHOxuexUpWVzbD0va1FBdTxTU7+XVdSu9QnVFlupnncICFDMxJxnPGTVaiiuQ+vSsrIKKKKQF3RtWutC1W11OzfbPbSCReSA2OqnBB2kZBGeQSK+rNG1W213SrXU7N90FzGJF5BK56qcEjcDkEZ4IIr5Gr2D4F+MVjeTwveSOTIxmsuCwBwS6Zz8owNwGAM78nJAq4SseZmmH54e0W6/I9lxRinYoxWvMfOjcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwDcUYp2KMUcwEU00VtDJPPIkUUal3kdgqooGSST0AHevlnxp4ll8WeI7vVHLiJ22W8bZ/dxDhRjJwcckA43EnvXrvxt8YrpWkDw9ayOt7fqGlIBGy3yQfmBHLFduOfl3ZxkZ8GrOcr6HvZVh+WLqy67BRRRWZ64UUUUAFT2V5Pp15BeWr+XcW8iyxPgHaynIODweR3qCigGr6M+qfA3iuDxl4eg1KIbZh+6uUCFQkwALAZJ+XkEcngjPORW/ivl34f+NJ/BWvR3mZpLGX5Lu3jI/erzg4PG5Scjp3GQCa+nbK8g1GzgvbV/Mt7iNZYnwRuVhkHB5HB71Vz5fHYV0J6fC9v8iXFGKdRRc4RuKMU6ii4DcUYp1FFwG4oxTqKLgNxRinUUXAbijFOoouA3FGKdRRcBuKMU6ii4DcUYp1FFwG4oxTqKLgNxRinUUXAbijFOoouA3FGKdRRcBuKMU6ii4DcVQ1/W7Pw3o9zq1+XFtbKGbYu5mJIAAHqSQOeOeSBzWjXzd8U/iB/wmWqrBYSzDSLXiJG4E0nOZduMjg4APIHPBYii514PDOvO3RbnLa9rl54k1e51W/ZDcXLBm2LtVQAAAB6AADnnjkk81n0UVJ9UkkrIKKKKBhRRRQAUUUUAFek/CP4jy+Hr+LQ9UuUGj3DEJJMxAtHOTkHsrHgg4AJ3ZHzZ82ooMq1GNWDhI+zMUYrw34UfFf+zPJ8P+IJ/wDQuEtbuQ/8e/ojn+56H+Hofl+77nipbsfK4nDzoT5ZCYoxS4oxS5jnExRilxRijmATFGKXFGKOYBMUYpcUYo5gExRilxRijmATFGKXFGKOYBMUYpcUYo5gExRilxRijmATFGKXFGKOYBMUYpcUYo5gExRilxRijmATFGKXFGKOYBMUYpcV5L8V/iv/AGZ53h/w/P8A6byl1dxn/j39UQ/3/U/w9B833Wnc2oUJ1p8kDP8AjP8AEaXzpfC+j3KCILtv5omO4tkgw57AD72Cc52nGGB8cooqj6vD0I0YKEQooooNgooooAKKKKACiiigAooooAK9O+HHxhuvD/2XR9bP2jSU/drPgmW2HG3/AHkXnjGQDwSAFrzGihq5lWowrR5Zo+y4JormGOeCVJYZVDpIjBldSMggjqCO9SYr5b8DfEbV/AszraBLmymYNNaSk7ScjLKR91sDGeR0yDgY+i/C3jDR/GNk11pF15vl7RNE6lZIWIzhgfxGRkEg4JxWMk0fNYvAzoO+67mzijFOoqeY4RuKMU6ijmAbijFOoo5gG4oxTqKOYBuKMU6ijmAbijFOoo5gG4oxTqKOYBuKMU6ijmAbijFOoo5gG4oxTqKOYBuKMVQ13xBpnhqwOoavdpaWwYJvYElmPQAAEk9TgDoCegNfPXxC+K2o+NPMsLdPsWjiTcsQ/wBZMBjaZTnB5Gdo4BP8RANVFNnZhcHOu9NF3Op+JHxol8640fwvMghCmObUVJLFs8+SQeABkb+c5yuMBj43RRWyVj6ahh4UY8sEFFFFBsFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFWtM1O80a/g1DT7h7a6gbfHInUH+oIyCDwQSDxVWigGk1ZnuHgn48wSxi08WL5MowEvYIiUYBeTIoyQxI6qMHd0UDJ9csr211K2S6srmC6t5M7JYXDo2Dg4I4PII/CvjOtTQPE+s+F7k3Oj6hPZu33whyj8EDchyrY3HGQcZyKzlTvseTicqhP3qTs/wAD6+xRivIfDP7QdlOiQ+I9Pe2mLBftFmN0WCTlmQncoAx0LE88DgV6fo3iHSPEMHnaTqNreqFV2EMgLRhhkbl6qTg8EA8H0rCSa3PErYarR+NF/FGKdijFTzGA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKdijFHMA3FGKr6jqmn6RAs+o31rZQs2wSXEqxqWwTjLEDOAePavM/Enx/0ayjlh0G0n1G4HCTSqYoOVzuwfnODgFSFzzz0zUU3sbUcPUqv3Fc9RnmitYZJ55UihiUu8jsFVFAySSeAAO9eYeNPjnpekpJaeHAmp3qsAZnU/ZkwSG5BBc8cbfl+YHccYPjvijxxr3jCcvqt88kIbclsnywx8nGFHUgMRuOWx1JrBraNPue1h8pjH3qrv5dDR13xBqnia/OoavePd3JUJvYABVHQBQAAOpwB1JPUms6iitT11FRVkFFFFAwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqeyvrrTblLqyuZ7W4jzslhco65GDgjkcEj8agooBq+jO80f42eMtK2rJewajEkYjWO8hDYxjDFl2szcdSxzk5yea7zTf2i9Kl8z+09DvbXGPL+zSrPu65zu2Y7eucnpjnweiodOL6HHUwFCpvG3pofVWnfFTwVqk7QweILVGVd5NwGgXGQPvSBQTz0zn8q6HTtU0/V4Gn02+tb2FW2GS3lWRQ2AcZUkZwRx718aUVm6C6M4p5NB/DJr8f8j7WxRivjfTdc1XRvM/szU72x83HmfZp2j34zjO0jOMn8zV3/hOPFX/AEM2t/8AgdL/APFVP1d9zF5NK+kj67xRivkT/hOPFX/Qza3/AOB0v/xVVdR8R61q8CwalrGo3sKtvEdxcvIobBGcMSM4J596PYPuCyafWR9fXt7aabbPdXtzBa28eN8s0gRFycDJPA5IH41zupfE7wZpXl/aPENk/mZ2/ZmNxjGOvlhtvXvjPOOhr5SoqlQXVm0Mmgvik3+H+Z7/AKx+0NoVruTStLvb91kK7pWWCN0GfmU/M3PGAVHB5xjFcNrPx38W6hPmwe10uFWYqkMKyMyk8BmcEEgdwFzk8dMec0VoqUV0Oynl1CH2b+upa1HVdQ1edZ9Rvrq9mVdgkuJWkYLknGWJOMk8e9VaKKs7UktEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z" alt="headshot">
+    <div>
+      <h1>Job leads — Jordan Rivera</h1>
+      <div class="sub">20 leads · target: Staff Software Engineer | Backend &amp; ML Platforms, Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer ·
+       senior (~9y) · remote: remote</div>
+    </div>
+  </div>
   <div class="tabs">
     <button class="tab active" data-tab="leads" onclick="tab('leads')">Leads <span class="badge">20</span></button>
     <button class="tab" data-tab="meta" onclick="tab('meta')">Profile &amp; Metadata</button>
@@ -125,24 +133,8 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:50%"></div></div>
           </div>
         </article>
-        <article class="card" data-score="50" data-source="jobicy" data-remote="1">
-          <div class="rank">4</div>
-          <div class="body">
-            <h2><a href="https://jobicy.com/jobs/143911-staff-mlops-engineer-ai-ml-platform" target="_blank" rel="noopener">Staff MLOps Engineer (AI/ML Platform)</a></h2>
-            <div class="company">Cint</div>
-            <div class="meta">UK  ·  src: jobicy  ·  2026-06-18</div>
-            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">data engineering</span><span class="chip ok">grafana</span><span class="chip ok">incident response</span><span class="chip ok">kubernetes</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip ok">spark</span><span class="chip ok">terraform</span><span class="chip gap">acquisition</span><span class="chip gap">c</span><span class="chip gap">databricks</span><span class="chip gap">gcp</span><span class="chip gap">hiring</span><span class="chip gap">java</span></div>
-            
-            <div class="sigs"><span class="sig">skills 15</span> <span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 4</span> <span class="sig">similarity 2</span></div>
-            
-          </div>
-          <div class="scorebox">
-            <div class="scorenum">50</div>
-            <div class="scorebar"><div class="fill" style="width:50%"></div></div>
-          </div>
-        </article>
         <article class="card" data-score="49" data-source="jobicy" data-remote="1">
-          <div class="rank">5</div>
+          <div class="rank">4</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability" target="_blank" rel="noopener">Senior Backend Software Engineer (Observability)</a></h2>
             <div class="company">Nebius</div>
@@ -158,23 +150,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="48" data-source="jobicy" data-remote="1">
-          <div class="rank">6</div>
-          <div class="body">
-            <h2><a href="https://jobicy.com/jobs/147489-senior-machine-learning-systems-engineer-ads-ml-experience-platform" target="_blank" rel="noopener">Senior Machine Learning Systems Engineer, Ads ML Experience Platform</a></h2>
-            <div class="company">Reddit</div>
-            <div class="meta">USA  ·  src: jobicy  ·  2026-06-23</div>
-            <div class="chips"><span class="chip ok">airflow</span><span class="chip ok">machine learning</span><span class="chip ok">spark</span><span class="chip gap">communication</span><span class="chip gap">hiring</span><span class="chip gap">operations</span></div>
-            
-            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 1</span></div>
-            
-          </div>
-          <div class="scorebox">
-            <div class="scorenum">48</div>
-            <div class="scorebar"><div class="fill" style="width:48%"></div></div>
-          </div>
-        </article>
-        <article class="card" data-score="48" data-source="jobicy" data-remote="1">
-          <div class="rank">7</div>
+          <div class="rank">5</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145982-senior-backend-engineer-elixir" target="_blank" rel="noopener">Senior Backend Engineer (Elixir)</a></h2>
             <div class="company">Remote</div>
@@ -190,7 +166,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="46" data-source="jobicy" data-remote="1">
-          <div class="rank">8</div>
+          <div class="rank">6</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145611-senior-backend-engineer-5" target="_blank" rel="noopener">Senior Backend Engineer</a></h2>
             <div class="company">Remote</div>
@@ -206,7 +182,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="46" data-source="jobicy" data-remote="1">
-          <div class="rank">9</div>
+          <div class="rank">7</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/146310-staff-software-engineer-2" target="_blank" rel="noopener">Staff Software Engineer</a></h2>
             <div class="company">Function Health</div>
@@ -222,7 +198,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="46" data-source="jobicy" data-remote="1">
-          <div class="rank">10</div>
+          <div class="rank">8</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/144040-staff-software-engineer-app-platform" target="_blank" rel="noopener">Staff Software Engineer, App Platform</a></h2>
             <div class="company">Fieldguide</div>
@@ -237,8 +213,24 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:46%"></div></div>
           </div>
         </article>
+        <article class="card" data-score="45" data-source="arbeitnow" data-remote="0">
+          <div class="rank">9</div>
+          <div class="body">
+            <h2><a href="https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040" target="_blank" rel="noopener">Senior Platform Engineer – Cloud &amp; ML Platform (m/f/d)</a></h2>
+            <div class="company">Quantum- Systems GmbH</div>
+            <div class="meta">Gilching  ·  src: arbeitnow  ·  1782300016</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">go</span><span class="chip ok">incident response</span><span class="chip ok">kubernetes</span><span class="chip ok">machine learning</span><span class="chip ok">mlops</span><span class="chip ok">python</span><span class="chip ok">terraform</span><span class="chip gap">aerospace</span><span class="chip gap">ansible</span><span class="chip gap">azure</span><span class="chip gap">bash</span><span class="chip gap">communication</span><span class="chip gap">defense</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 14</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 2</span> <span class="sig">location 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">45</div>
+            <div class="scorebar"><div class="fill" style="width:45%"></div></div>
+          </div>
+        </article>
         <article class="card" data-score="45" data-source="jobicy" data-remote="1">
-          <div class="rank">11</div>
+          <div class="rank">10</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/144510-staff-software-engineer-agentic-data-plane-poland" target="_blank" rel="noopener">Staff Software Engineer, Agentic Data Plane (Poland)</a></h2>
             <div class="company">Redpanda Data</div>
@@ -254,7 +246,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="44" data-source="remotive" data-remote="1">
-          <div class="rank">12</div>
+          <div class="rank">11</div>
           <div class="body">
             <h2><a href="https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266" target="_blank" rel="noopener">Senior Independent AI Engineer / Architect</a></h2>
             <div class="company">A.Team</div>
@@ -270,7 +262,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="44" data-source="jobicy" data-remote="1">
-          <div class="rank">13</div>
+          <div class="rank">12</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/146089-staff-software-engineer-platform-syseng-canada-remote" target="_blank" rel="noopener">Staff Software Engineer – Platform, SysEng | Canada | Remote</a></h2>
             <div class="company">Grafana Labs</div>
@@ -285,24 +277,8 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:44%"></div></div>
           </div>
         </article>
-        <article class="card" data-score="43" data-source="arbeitnow" data-remote="0">
-          <div class="rank">14</div>
-          <div class="body">
-            <h2><a href="https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040" target="_blank" rel="noopener">Senior Platform Engineer – Cloud &amp; ML Platform (m/f/d)</a></h2>
-            <div class="company">Quantum- Systems GmbH</div>
-            <div class="meta">Gilching  ·  src: arbeitnow  ·  1782300016</div>
-            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">go</span><span class="chip ok">incident response</span><span class="chip ok">kubernetes</span><span class="chip ok">machine learning</span><span class="chip ok">python</span><span class="chip ok">terraform</span><span class="chip gap">aerospace</span><span class="chip gap">ansible</span><span class="chip gap">azure</span><span class="chip gap">bash</span><span class="chip gap">communication</span><span class="chip gap">defense</span></div>
-            
-            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 2</span> <span class="sig">location 2</span></div>
-            
-          </div>
-          <div class="scorebox">
-            <div class="scorenum">43</div>
-            <div class="scorebar"><div class="fill" style="width:43%"></div></div>
-          </div>
-        </article>
-        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
-          <div class="rank">15</div>
+        <article class="card" data-score="43" data-source="jobicy" data-remote="1">
+          <div class="rank">13</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/146081-senior-software-engineer-backend-platform-team" target="_blank" rel="noopener">Senior Software Engineer, Backend – Platform Team</a></h2>
             <div class="company">Cresta</div>
@@ -313,12 +289,12 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             
           </div>
           <div class="scorebox">
-            <div class="scorenum">42</div>
-            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+            <div class="scorenum">43</div>
+            <div class="scorebar"><div class="fill" style="width:43%"></div></div>
           </div>
         </article>
         <article class="card" data-score="42" data-source="themuse" data-remote="1">
-          <div class="rank">16</div>
+          <div class="rank">14</div>
           <div class="body">
             <h2><a href="https://www.themuse.com/jobs/glossgenius/staff-software-engineer-backend-7d1ec3" target="_blank" rel="noopener">Staff Software Engineer, Backend</a></h2>
             <div class="company">GlossGenius</div>
@@ -333,8 +309,24 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:42%"></div></div>
           </div>
         </article>
+        <article class="card" data-score="42" data-source="hackernews" data-remote="1">
+          <div class="rank">15</div>
+          <div class="body">
+            <h2><a href="https://news.ycombinator.com/item?id=48358386" target="_blank" rel="noopener">Software Engineers &amp; Platform Engineers</a></h2>
+            <div class="company">Blackshark AI</div>
+            <div class="meta">Remote  ·  src: hackernews  ·  2026-06-01</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">docker</span><span class="chip ok">grafana</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip ok">redis</span><span class="chip ok">terraform</span><span class="chip gap">argocd</span><span class="chip gap">azure</span><span class="chip gap">defense</span><span class="chip gap">helm</span><span class="chip gap">linux</span><span class="chip gap">pytorch</span></div>
+            
+            <div class="sigs"><span class="sig">skills 17</span> <span class="sig">location 8</span> <span class="sig">title 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 3</span> <span class="sig">similarity 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
         <article class="card" data-score="42" data-source="jobicy" data-remote="1">
-          <div class="rank">17</div>
+          <div class="rank">16</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145115-senior-backend-engineer-alerting-germany-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Germany | Remote</a></h2>
             <div class="company">Grafana Labs</div>
@@ -350,7 +342,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="42" data-source="jobicy" data-remote="1">
-          <div class="rank">18</div>
+          <div class="rank">17</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145112-senior-backend-engineer-alerting-uk-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | UK | Remote</a></h2>
             <div class="company">Grafana Labs</div>
@@ -366,7 +358,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="42" data-source="jobicy" data-remote="1">
-          <div class="rank">19</div>
+          <div class="rank">18</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145114-senior-backend-engineer-alerting-ireland-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Ireland | Remote</a></h2>
             <div class="company">Grafana Labs</div>
@@ -382,7 +374,7 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
           </div>
         </article>
         <article class="card" data-score="42" data-source="jobicy" data-remote="1">
-          <div class="rank">20</div>
+          <div class="rank">19</div>
           <div class="body">
             <h2><a href="https://jobicy.com/jobs/145113-senior-backend-engineer-alerting-spain-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Spain | Remote</a></h2>
             <div class="company">Grafana Labs</div>
@@ -397,17 +389,35 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:42%"></div></div>
           </div>
         </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">20</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145111-senior-backend-engineer-alerting-sweden-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Sweden | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">Sweden  ·  src: jobicy  ·  2026-05-30</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 8</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
     </div>
   </section>
   <section id="panel-meta" class="panel">
     <div class="metacard">
-      <div class="meta-grid"><div class="mk">Name</div><div class="mv">Jordan Rivera</div><div class="mk">Contact</div><div class="mv">jordan.rivera@example.com · (720) 555-0148</div><div class="mk">Links</div><div class="mv"><a href="https://linkedin.com/in/jordanrivera" target="_blank" rel="noopener">linkedin.com/in/jordanrivera</a> <a href="https://github.com/jordanrivera" target="_blank" rel="noopener">github.com/jordanrivera</a></div><div class="mk">Target titles</div><div class="mv">Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer</div><div class="mk">Held titles</div><div class="mv">Senior Software Engineer, Acme Data Corp (2021 - present), Software Engineer, Brightline Fintech (2017 - 2021), Junior Developer, WebWorks (2015 - 2017), AWS Certified Solutions Architect - Associate</div><div class="mk">Seniority</div><div class="mv">senior (~9 yrs)</div><div class="mk">Remote preference</div><div class="mv">remote</div><div class="mk">Locations</div><div class="mv">Denver, CO, Remote US</div><div class="mk">Min salary</div><div class="mv">$180,000</div><div class="mk">Industries</div><div class="mv">fintech, saas</div><div class="mk">Keywords</div><div class="mv">distributed systems, platform</div><div class="mk">Exclude keywords</div><div class="mv">clearance required, internship</div></div>
-      
-      <h3>Skills (33)</h3>
-      <div class="chips"><span class="chip ok">incident response</span><span class="chip ok">data engineering</span><span class="chip ok">machine learning</span><span class="chip ok">github actions</span><span class="chip ok">scikit-learn</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">prometheus</span><span class="chip ok">terraform</span><span class="chip ok">dynamodb</span><span class="chip ok">airflow</span><span class="chip ok">express</span><span class="chip ok">fastapi</span><span class="chip ok">fintech</span><span class="chip ok">grafana</span><span class="chip ok">jenkins</span><span class="chip ok">node.js</span><span class="chip ok">docker</span><span class="chip ok">hadoop</span><span class="chip ok">lambda</span><span class="chip ok">pandas</span><span class="chip ok">python</span><span class="chip ok">kafka</span><span class="chip ok">react</span><span class="chip ok">redis</span><span class="chip ok">spark</span><span class="chip ok">saas</span><span class="chip ok">aws</span><span class="chip ok">sql</span><span class="chip ok">go</span><span class="chip ok">s3</span><span class="chip ok">grpc</span><span class="chip ok">event-driven</span></div>
+      <div class="meta-grid"><div class="mk">Name</div><div class="mv">Jordan Rivera</div><div class="mk">Contact</div><div class="mv">jordan.rivera@example.com · (720) 555-0148</div><div class="mk">Links</div><div class="mv"><a href="https://linkedin.com/in/jordanrivera" target="_blank" rel="noopener">linkedin.com/in/jordanrivera</a> <a href="https://github.com/jordanrivera" target="_blank" rel="noopener">github.com/jordanrivera</a> <a href="https://jordanrivera.dev" target="_blank" rel="noopener">https://jordanrivera.dev</a> <a href="https://linkedin.com/in/jordanrivera" target="_blank" rel="noopener">https://linkedin.com/in/jordanrivera</a> <a href="https://scholar.google.com/citations?user=EXAMPLE" target="_blank" rel="noopener">https://scholar.google.com/citations?user=EXAMPLE</a></div><div class="mk">Target titles</div><div class="mv">Staff Software Engineer | Backend &amp; ML Platforms, Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer</div><div class="mk">Held titles</div><div class="mv">Senior Software Engineer, Software Engineer, Senior engineer building distributed backend and ML platform systems., Staff Software Engineer | Backend &amp; ML Platforms, Senior Software Engineer, Acme Data Corp (2021 - present), Software Engineer, Brightline Fintech (2017 - 2021), Junior Developer, WebWorks (2015 - 2017), AWS Certified Solutions Architect - Associate</div><div class="mk">Seniority</div><div class="mv">senior (~9 yrs)</div><div class="mk">Remote preference</div><div class="mv">remote</div><div class="mk">Locations</div><div class="mv">Denver, CO, Remote US</div><div class="mk">Min salary</div><div class="mv">$180,000</div><div class="mk">Industries</div><div class="mv">Computer Software, fintech, saas</div><div class="mk">Keywords</div><div class="mv">distributed systems, platform, platform engineering, staff level, remote-first</div><div class="mk">Exclude keywords</div><div class="mv">clearance required, internship</div></div>
+      <h3>Summary</h3><div class="summary-block">Senior engineer building distributed backend and ML platform systems.</div>
+      <h3>Skills (35)</h3>
+      <div class="chips"><span class="chip ok">incident response</span><span class="chip ok">data engineering</span><span class="chip ok">machine learning</span><span class="chip ok">github actions</span><span class="chip ok">scikit-learn</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">prometheus</span><span class="chip ok">terraform</span><span class="chip ok">dynamodb</span><span class="chip ok">airflow</span><span class="chip ok">express</span><span class="chip ok">fastapi</span><span class="chip ok">fintech</span><span class="chip ok">grafana</span><span class="chip ok">jenkins</span><span class="chip ok">node.js</span><span class="chip ok">docker</span><span class="chip ok">hadoop</span><span class="chip ok">lambda</span><span class="chip ok">pandas</span><span class="chip ok">python</span><span class="chip ok">kafka</span><span class="chip ok">mlops</span><span class="chip ok">react</span><span class="chip ok">redis</span><span class="chip ok">spark</span><span class="chip ok">saas</span><span class="chip ok">aws</span><span class="chip ok">sql</span><span class="chip ok">go</span><span class="chip ok">s3</span><span class="chip ok">apache kafka</span><span class="chip ok">grpc</span><span class="chip ok">event-driven</span></div>
+      <h3>Publications (1)</h3><ul class="publist"><li>Scaling real-time feature stores for ML inference</li></ul>
       <h3>Lead sources</h3>
-      <div class="sub" style="margin:-4px 0 11px">20 leads · fit top 51 · median 46 · low 42</div>
-      <div class="sources-bd"><span class="sname">jobicy</span><span class="sbar"><i style="width:100%"></i></span><span class="scount">16</span><span class="sname">hackernews</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">remotive</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">arbeitnow</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">themuse</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span></div>
+      <div class="sub" style="margin:-4px 0 11px">20 leads · fit top 51 · median 45 · low 42</div>
+      <div class="sources-bd"><span class="sname">jobicy</span><span class="sbar"><i style="width:100%"></i></span><span class="scount">15</span><span class="sname">hackernews</span><span class="sbar"><i style="width:13%"></i></span><span class="scount">2</span><span class="sname">arbeitnow</span><span class="sbar"><i style="width:7%"></i></span><span class="scount">1</span><span class="sname">remotive</span><span class="sbar"><i style="width:7%"></i></span><span class="scount">1</span><span class="sname">themuse</span><span class="sbar"><i style="width:7%"></i></span><span class="scount">1</span></div>
+      <h3>Ingested inputs</h3><ul class="publist"><li>headshot   headshot.png (embedded)</li><li>linkedin   LinkedInExport (2 positions, 7 skills)</li><li>document   resume.md (1572 chars)</li><li>metadata   tags.json (2 keys)</li></ul>
     </div>
   </section>
 </main>

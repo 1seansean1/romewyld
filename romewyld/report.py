@@ -205,6 +205,15 @@ def write_html(profile: CandidateProfile, leads: list[Lead], path: str) -> None:
         f"top {max(scores):.0f} · median {sorted(scores)[len(scores)//2]:.0f} · low {min(scores):.0f}"
         if scores else "n/a"
     )
+    pub_block = ""
+    if profile.publications:
+        items = "".join(f"<li>{esc(p)}</li>" for p in profile.publications[:40])
+        pub_block = f'<h3>Publications ({len(profile.publications)})</h3><ul class="publist">{items}</ul>'
+    ingest_block = ""
+    if profile.sources_ingested:
+        items = "".join(f"<li>{esc(s)}</li>" for s in profile.sources_ingested)
+        ingest_block = f'<h3>Ingested inputs</h3><ul class="publist">{items}</ul>'
+    avatar = f'<img class="avatar" src="{profile.headshot}" alt="headshot">' if profile.headshot else ""
 
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -264,12 +273,20 @@ h2 a{{color:var(--fg);text-decoration:none}} h2 a:hover{{color:var(--accent)}}
 .sbar>i{{display:block;height:100%;background:linear-gradient(90deg,#5b8cff,#7ee2a8)}}
 .scount{{font-size:13px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}}
 .summary-block{{font-size:14px;line-height:1.6;color:var(--fg)}}
+.hrow{{display:flex;align-items:center;gap:14px}}
+.avatar{{width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #2a2f3a;flex:none}}
+.publist{{margin:0;padding-left:18px;font-size:13px}} .publist li{{margin:3px 0;color:var(--fg)}}
 </style></head>
 <body>
 <header>
-  <h1>Job leads — {esc(profile.name or 'candidate')}</h1>
-  <div class="sub">{len(leads)} leads · target: {esc(', '.join(profile.target_titles) or 'n/a')} ·
-   {esc(profile.seniority or 'n/a')} (~{profile.years_experience:.0f}y) · remote: {esc(profile.remote_pref)}</div>
+  <div class="hrow">
+    {avatar}
+    <div>
+      <h1>Job leads — {esc(profile.name or 'candidate')}</h1>
+      <div class="sub">{len(leads)} leads · target: {esc(', '.join(profile.target_titles) or 'n/a')} ·
+       {esc(profile.seniority or 'n/a')} (~{profile.years_experience:.0f}y) · remote: {esc(profile.remote_pref)}</div>
+    </div>
+  </div>
   <div class="tabs">
     <button class="tab active" data-tab="leads" onclick="tab('leads')">Leads <span class="badge">{len(leads)}</span></button>
     <button class="tab" data-tab="meta" onclick="tab('meta')">Profile &amp; Metadata</button>
@@ -293,9 +310,11 @@ h2 a{{color:var(--fg);text-decoration:none}} h2 a:hover{{color:var(--accent)}}
       {summary_block}
       <h3>Skills ({len(profile.skills)})</h3>
       <div class="chips">{all_skill_chips}</div>
+      {pub_block}
       <h3>Lead sources</h3>
       <div class="sub" style="margin:-4px 0 11px">{len(leads)} leads · fit {score_line}</div>
       <div class="sources-bd">{src_rows}</div>
+      {ingest_block}
     </div>
   </section>
 </main>

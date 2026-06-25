@@ -36,3 +36,16 @@ exclude_keywords:
 skills:                              # extra skills to assert beyond the resume
   - grpc
   - event-driven
+
+# --- extra professional material (all optional) ---
+# headshot: path/to/headshot.jpg     # or just drop an image named headshot.* in the folder
+tags:                                # become search keywords
+  - distributed systems
+  - platform engineering
+terms:
+  - staff level
+links:                               # stored as profile links
+  - https://jordanrivera.dev
+scholar_url: https://scholar.google.com/citations?user=EXAMPLE   # optional, low signal
+publications:                        # e.g. pulled from Scholar
+  - "Scaling real-time feature stores for ML inference"

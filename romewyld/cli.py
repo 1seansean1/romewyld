@@ -8,6 +8,7 @@ from pathlib import Path
 
 from . import profile as profile_mod
 from . import metadata as meta_mod
+from . import ingest as ingest_mod
 from . import match as match_mod
 from . import report as report_mod
 from . import llm as llm_mod
@@ -61,15 +62,26 @@ def run(args: argparse.Namespace) -> int:
     if args.llm:
         cfg.llm_enabled = True
 
-    # ---- 1. profile ----
-    docs = args.resume if isinstance(args.resume, list) else [args.resume]
-    _log("Reading: " + ", ".join(docs))
-    resume_text = "\n\n".join(profile_mod.extract_text(d) for d in docs)
+    # ---- 1. ingest + profile ----
+    inputs = args.resume if isinstance(args.resume, list) else [args.resume]
     md = meta_mod.load_metadata(args.metadata) if args.metadata else {}
+    _log("Ingesting: " + ", ".join(inputs))
+    ing = ingest_mod.ingest_paths(
+        inputs, cfg, headshot_hint=args.headshot or md.get("headshot"),
+        ocr=not args.no_ocr,
+    )
+    for n in ing.notes:
+        _log(f"  {n}")
+    resume_text = "\n\n".join(tp for tp in ing.text_parts if tp)
+    # user-supplied metadata (-m) wins over auto-ingested structured data
+    md = ingest_mod.merge_meta(ing.metadata, md)
     if md.get("github") or md.get("github_url"):
         _log("Enriching from GitHub…")
         md = meta_mod.enrich_from_github(md, user_agent=cfg.user_agent)
     prof = profile_mod.build_profile(resume_text, md)
+    if ing.headshot and not prof.headshot:
+        prof.headshot = ing.headshot
+    prof.sources_ingested = ing.notes
     # merge config-level filters into profile
     if cfg.remote_pref and prof.remote_pref == "any":
         prof.remote_pref = cfg.remote_pref
@@ -139,9 +151,13 @@ def build_parser() -> argparse.ArgumentParser:
         prog="romewyld",
         description="Turn a resume/CV + public metadata into ranked job-application leads.",
     )
-    p.add_argument("resume", nargs="+",
-                   help="one or more resume/CV files (.pdf, .docx, .md, .txt); pass both your CV and resume to merge them")
+    p.add_argument("resume", nargs="+", metavar="INPUT",
+                   help="any mix of files/folders: CV, resume, LinkedIn export (.zip/folder), "
+                        "images (OCR'd or used as headshot), .json/.yaml metadata, .csv. "
+                        "A folder is scanned recursively.")
     p.add_argument("-m", "--metadata", help="public metadata file (.yaml/.json)")
+    p.add_argument("--headshot", help="path to a headshot image to embed in the dashboard")
+    p.add_argument("--no-ocr", action="store_true", help="don't OCR images via Claude vision")
     p.add_argument("-c", "--config", help="config file (.yaml/.json)")
     p.add_argument("-o", "--outdir", default="data/out", help="output directory (default: data/out)")
     p.add_argument("--stem", default="leads", help="output filename stem (default: leads)")

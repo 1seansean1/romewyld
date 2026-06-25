@@ -51,9 +51,33 @@ dashboard (search box, source filter, remote-only toggle, score bars).
 
 ## Inputs
 
-**Resume/CV** — `.pdf`, `.docx`, `.md`, or `.txt`. Parsed for contacts, skills
-(against an extensible lexicon), held titles, years of experience, seniority band,
-and clearance.
+Pass **any mix of files and folders** as positional arguments — romewyld classifies
+each one and folds them all into a single candidate profile. Point it at a whole
+folder of material and it scans recursively:
+
+| Material | How it's used |
+|---|---|
+| `.pdf` `.docx` `.md` `.txt` `.rtf` | CV / resume text extraction |
+| LinkedIn export (`.zip` or the unzipped folder) | parses Profile / Positions / Skills / Education CSVs |
+| images `.png` `.jpg` `.webp` … | OCR'd to text via Claude vision; a headshot is embedded in the dashboard instead |
+| `.json` / `.yaml` | merged as structured metadata (tags, terms, links, target titles …) |
+| `.csv` | folded in as text |
+
+A headshot is detected by filename (`headshot`, `photo`, `portrait`, `avatar`, …)
+or set explicitly with `--headshot path.jpg`. Image OCR uses Claude vision when
+`ANTHROPIC_API_KEY` is set; pass `--no-ocr` to skip it. Tags and terms (from a
+`.json`/`.yaml` or metadata file) become search keywords; Google Scholar / portfolio
+/ LinkedIn URLs are stored as links and publications.
+
+```bash
+# throw a whole folder of material at it
+python -m romewyld ./my_materials/ -m me.yaml
+# or list inputs explicitly
+python -m romewyld cv.pdf linkedin_export.zip headshot.jpg tags.json -m me.yaml
+```
+
+Everything parsed shows up in the dashboard's **Profile & Metadata** tab, including
+an "Ingested inputs" log of exactly what was folded in.
 
 **Metadata** (optional `.yaml`/`.json`) — overrides and augments what the resume
 can't say. See [examples/sample_metadata.yaml](examples/sample_metadata.yaml):

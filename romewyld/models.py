@@ -30,6 +30,9 @@ class CandidateProfile:
     education: list[str] = field(default_factory=list)
     keywords: list[str] = field(default_factory=list)         # extra must-have terms
     exclude_keywords: list[str] = field(default_factory=list)
+    publications: list[str] = field(default_factory=list)     # titles (e.g. from Scholar)
+    headshot: str = ""                                        # data URI for display
+    sources_ingested: list[str] = field(default_factory=list) # human log of inputs folded in
     raw_text: str = ""                                        # full resume text (for TF-IDF)
 
     def search_document(self) -> str:
@@ -42,6 +45,7 @@ class CandidateProfile:
             " ".join(self.industries),
             " ".join(self.certifications),
             " ".join(self.keywords * 2),
+            " ".join(self.publications),
             self.raw_text,
         ]
         return "\n".join(p for p in parts if p)

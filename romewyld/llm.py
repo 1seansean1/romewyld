@@ -41,6 +41,51 @@ _SCHEMA = {
 }
 
 
+def ocr_image(path, *, model: str = "claude-opus-4-8") -> str:
+    """Transcribe text from an image via Claude vision. Returns '' if unavailable."""
+    ok, _ = available()
+    if not ok:
+        return ""
+    import base64
+    import mimetypes
+    from pathlib import Path
+
+    p = Path(path)
+    media = mimetypes.guess_type(str(p))[0] or "image/png"
+    raw = p.read_bytes()
+    if media not in ("image/png", "image/jpeg", "image/gif", "image/webp"):
+        try:  # convert tiff/bmp/etc. to PNG for the API
+            import io
+            from PIL import Image
+            buf = io.BytesIO()
+            Image.open(p).convert("RGB").save(buf, format="PNG")
+            raw, media = buf.getvalue(), "image/png"
+        except Exception:
+            return ""
+    data = base64.standard_b64encode(raw).decode()
+
+    import anthropic
+    client = anthropic.Anthropic()
+    try:
+        resp = client.messages.create(
+            model=model,
+            max_tokens=2048,
+            messages=[{"role": "user", "content": [
+                {"type": "image", "source": {"type": "base64", "media_type": media, "data": data}},
+                {"type": "text", "text":
+                    "This image is a professional document (resume, CV, LinkedIn profile, "
+                    "certificate, or similar). Transcribe ALL readable text verbatim, no "
+                    "commentary. If it has no document text (e.g. just a headshot photo), "
+                    "output exactly: NO_TEXT"},
+            ]}],
+        )
+    except Exception:
+        return ""
+    out = "".join(getattr(b, "text", "") for b in resp.content
+                  if getattr(b, "type", "") == "text").strip()
+    return "" if out.strip() == "NO_TEXT" else out
+
+
 def enrich(profile: CandidateProfile, leads: list[Lead], *, model: str, top_n: int) -> int:
     ok, _ = available()
     if not ok:

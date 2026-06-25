@@ -147,11 +147,15 @@ def build_profile(resume_text: str, metadata: dict | None = None) -> CandidatePr
 
     prof = CandidateProfile(
         name=metadata.get("name") or guess_name(text),
-        emails=contacts["emails"],
-        phones=contacts["phones"],
-        urls=list(dict.fromkeys(contacts["urls"] + _meta_list(metadata, "urls"))),
+        emails=list(dict.fromkeys(contacts["emails"] + _meta_list(metadata, "emails"))),
+        phones=list(dict.fromkeys(contacts["phones"] + _meta_list(metadata, "phones"))),
+        urls=list(dict.fromkeys(
+            contacts["urls"] + _meta_list(metadata, "urls") + _meta_list(metadata, "links")
+            + [u for k in ("linkedin_url", "scholar_url", "portfolio_url", "github_url", "website")
+               if (u := metadata.get(k))]
+        )),
         skills=skills,
-        recent_titles=recent_titles,
+        recent_titles=list(dict.fromkeys(_meta_list(metadata, "recent_titles") + recent_titles)),
         years_experience=float(metadata.get("years_experience") or years),
         clearance=metadata.get("clearance") or (clearance_m.group(0) if clearance_m else ""),
         raw_text=text,
@@ -166,9 +170,15 @@ def build_profile(resume_text: str, metadata: dict | None = None) -> CandidatePr
     prof.industries = _meta_list(metadata, "industries")
     prof.certifications = _meta_list(metadata, "certifications")
     prof.work_authorization = metadata.get("work_authorization", "")
-    prof.keywords = _meta_list(metadata, "keywords")
+    prof.keywords = list(dict.fromkeys(
+        _meta_list(metadata, "keywords") + _meta_list(metadata, "tags") + _meta_list(metadata, "terms")
+    ))
     prof.exclude_keywords = _meta_list(metadata, "exclude_keywords")
     prof.summary = metadata.get("summary", "")
+    prof.publications = _meta_list(metadata, "publications")
+    prof.education = list(dict.fromkeys(_meta_list(metadata, "education")))
+    if metadata.get("headshot") and str(metadata["headshot"]).startswith("data:"):
+        prof.headshot = metadata["headshot"]
 
     # merge any explicit skills from metadata
     extra_skills = [N.canonical_skill(s) for s in _meta_list(metadata, "skills")]
