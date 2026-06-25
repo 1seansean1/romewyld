@@ -37,21 +37,45 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
 .fit-strong{color:#7ee2a8}.fit-moderate{color:#9fc2ff}.fit-stretch{color:#f0cf86}.fit-weak{color:#f0a886}
 .llm p{margin:4px 0} details{margin-top:6px} summary{cursor:pointer;color:var(--accent);font-size:12px}
 .llm li{font-size:13px;margin:3px 0}
+.tabs{margin-top:14px;display:flex;gap:6px}
+.tab{background:transparent;border:1px solid #2a2f3a;color:var(--mut);padding:7px 14px;border-radius:8px;font-size:13px;cursor:pointer;font-family:inherit}
+.tab:hover{color:var(--fg)}
+.tab.active{background:var(--card);color:var(--fg);border-color:var(--accent)}
+.badge{background:#2a2f3a;border-radius:10px;padding:1px 7px;font-size:11px;margin-left:5px}
+.panel{display:none} .panel.active{display:block}
+.metacard{background:var(--card);border:1px solid #232733;border-radius:14px;padding:20px 24px;max-width:760px}
+.meta-grid{display:grid;grid-template-columns:160px 1fr;gap:9px 18px;font-size:14px}
+.mk{color:var(--mut)}
+.mv{color:var(--fg);word-break:break-word}
+.mv a{color:var(--accent);text-decoration:none;margin-right:10px} .mv a:hover{text-decoration:underline}
+.metacard h3{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin:24px 0 11px}
+.metacard .chips{margin:0}
+.sources-bd{display:grid;grid-template-columns:120px 1fr 38px;gap:7px 12px;align-items:center;max-width:460px}
+.sname{font-size:13px}
+.sbar{height:8px;background:var(--bar);border-radius:5px;overflow:hidden}
+.sbar>i{display:block;height:100%;background:linear-gradient(90deg,#5b8cff,#7ee2a8)}
+.scount{font-size:13px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}
+.summary-block{font-size:14px;line-height:1.6;color:var(--fg)}
 </style></head>
 <body>
 <header>
   <h1>Job leads — Jordan Rivera</h1>
   <div class="sub">20 leads · target: Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer ·
-   senior (~9y) · remote: remote
-   · skills: incident response, data engineering, machine learning, github actions, scikit-learn, kubernetes, postgres, prometheus, terraform, dynamodb, airflow, express, fastapi, fintech</div>
-  <div class="controls">
-    <input id="q" type="search" placeholder="filter title / company / skill…" oninput="flt()">
-    <select id="src" onchange="flt()"><option value="">all sources</option><option value="arbeitnow">arbeitnow</option><option value="hackernews">hackernews</option><option value="jobicy">jobicy</option><option value="remotive">remotive</option><option value="themuse">themuse</option></select>
-    <label class="sub"><input id="rem" type="checkbox" onchange="flt()"> remote only</label>
-    <span class="sub" id="cnt"></span>
+   senior (~9y) · remote: remote</div>
+  <div class="tabs">
+    <button class="tab active" data-tab="leads" onclick="tab('leads')">Leads <span class="badge">20</span></button>
+    <button class="tab" data-tab="meta" onclick="tab('meta')">Profile &amp; Metadata</button>
   </div>
 </header>
-<main id="list">
+<main>
+  <section id="panel-leads" class="panel active">
+    <div class="controls">
+      <input id="q" type="search" placeholder="filter title / company / skill…" oninput="flt()">
+      <select id="src" onchange="flt()"><option value="">all sources</option><option value="arbeitnow">arbeitnow</option><option value="hackernews">hackernews</option><option value="jobicy">jobicy</option><option value="remotive">remotive</option><option value="themuse">themuse</option></select>
+      <label class="sub"><input id="rem" type="checkbox" onchange="flt()"> remote only</label>
+      <span class="sub" id="cnt"></span>
+    </div>
+    <div id="list">
 
         <article class="card" data-score="51" data-source="jobicy" data-remote="1">
           <div class="rank">1</div>
@@ -373,6 +397,19 @@ h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
             <div class="scorebar"><div class="fill" style="width:42%"></div></div>
           </div>
         </article>
+    </div>
+  </section>
+  <section id="panel-meta" class="panel">
+    <div class="metacard">
+      <div class="meta-grid"><div class="mk">Name</div><div class="mv">Jordan Rivera</div><div class="mk">Contact</div><div class="mv">jordan.rivera@example.com · (720) 555-0148</div><div class="mk">Links</div><div class="mv"><a href="https://linkedin.com/in/jordanrivera" target="_blank" rel="noopener">linkedin.com/in/jordanrivera</a> <a href="https://github.com/jordanrivera" target="_blank" rel="noopener">github.com/jordanrivera</a></div><div class="mk">Target titles</div><div class="mv">Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer</div><div class="mk">Held titles</div><div class="mv">Senior Software Engineer, Acme Data Corp (2021 - present), Software Engineer, Brightline Fintech (2017 - 2021), Junior Developer, WebWorks (2015 - 2017), AWS Certified Solutions Architect - Associate</div><div class="mk">Seniority</div><div class="mv">senior (~9 yrs)</div><div class="mk">Remote preference</div><div class="mv">remote</div><div class="mk">Locations</div><div class="mv">Denver, CO, Remote US</div><div class="mk">Min salary</div><div class="mv">$180,000</div><div class="mk">Industries</div><div class="mv">fintech, saas</div><div class="mk">Keywords</div><div class="mv">distributed systems, platform</div><div class="mk">Exclude keywords</div><div class="mv">clearance required, internship</div></div>
+      
+      <h3>Skills (33)</h3>
+      <div class="chips"><span class="chip ok">incident response</span><span class="chip ok">data engineering</span><span class="chip ok">machine learning</span><span class="chip ok">github actions</span><span class="chip ok">scikit-learn</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">prometheus</span><span class="chip ok">terraform</span><span class="chip ok">dynamodb</span><span class="chip ok">airflow</span><span class="chip ok">express</span><span class="chip ok">fastapi</span><span class="chip ok">fintech</span><span class="chip ok">grafana</span><span class="chip ok">jenkins</span><span class="chip ok">node.js</span><span class="chip ok">docker</span><span class="chip ok">hadoop</span><span class="chip ok">lambda</span><span class="chip ok">pandas</span><span class="chip ok">python</span><span class="chip ok">kafka</span><span class="chip ok">react</span><span class="chip ok">redis</span><span class="chip ok">spark</span><span class="chip ok">saas</span><span class="chip ok">aws</span><span class="chip ok">sql</span><span class="chip ok">go</span><span class="chip ok">s3</span><span class="chip ok">grpc</span><span class="chip ok">event-driven</span></div>
+      <h3>Lead sources</h3>
+      <div class="sub" style="margin:-4px 0 11px">20 leads · fit top 51 · median 46 · low 42</div>
+      <div class="sources-bd"><span class="sname">jobicy</span><span class="sbar"><i style="width:100%"></i></span><span class="scount">16</span><span class="sname">hackernews</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">remotive</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">arbeitnow</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span><span class="sname">themuse</span><span class="sbar"><i style="width:6%"></i></span><span class="scount">1</span></div>
+    </div>
+  </section>
 </main>
 <script>
 function flt(){
@@ -386,6 +423,10 @@ function flt(){
     c.style.display=ok?'flex':'none'; if(ok)n++;
   });
   document.getElementById('cnt').textContent=n+' shown';
+}
+function tab(name){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
 }
 flt();
 </script>

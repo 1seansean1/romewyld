@@ -43,3 +43,16 @@ def test_html_has_cards_and_filter(tmp_path):
     assert "Backend Engineer" in html
     assert "function flt()" in html
     assert "Jordan" in html
+
+
+def test_html_has_metadata_tab(tmp_path):
+    prof, leads = _leads()
+    paths = report.write_all(prof, leads, tmp_path, stem="t")
+    html = Path(paths["html"]).read_text(encoding="utf-8")
+    # tab scaffolding
+    assert 'data-tab="meta"' in html and 'id="panel-meta"' in html
+    assert "function tab(" in html
+    # profile fields + skills rendered in the metadata panel
+    assert "Target titles" in html and "Lead sources" in html
+    assert "python" in html  # candidate skill chip
+    assert "senior" in html  # seniority value

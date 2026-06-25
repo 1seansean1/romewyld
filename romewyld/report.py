@@ -143,6 +143,69 @@ def write_html(profile: CandidateProfile, leads: list[Lead], path: str) -> None:
 
     sources = sorted({l.job.source for l in leads})
     source_opts = "".join(f'<option value="{esc(s)}">{esc(s)}</option>' for s in sources)
+
+    # ----- Profile / Metadata tab -----
+    from collections import Counter
+
+    def row(label, value):
+        if not value:
+            return ""
+        if isinstance(value, (list, tuple)):
+            value = ", ".join(str(x) for x in value)
+        return f'<div class="mk">{esc(label)}</div><div class="mv">{esc(value)}</div>'
+
+    def row_html(label, inner_html):
+        if not inner_html:
+            return ""
+        return f'<div class="mk">{esc(label)}</div><div class="mv">{inner_html}</div>'
+
+    def _href(u: str) -> str:
+        return u if u.startswith("http") else "https://" + u
+
+    contact = " · ".join(filter(None, [", ".join(profile.emails), ", ".join(profile.phones)]))
+    url_links = " ".join(
+        f'<a href="{esc(_href(u))}" target="_blank" rel="noopener">{esc(u)}</a>' for u in profile.urls
+    )
+    sen = ""
+    if profile.seniority or profile.years_experience:
+        sen = f"{profile.seniority or '?'} (~{profile.years_experience:.0f} yrs)"
+
+    meta_rows = "".join([
+        row("Name", profile.name),
+        row_html("Contact", esc(contact)) if contact else "",
+        row_html("Links", url_links),
+        row("Target titles", profile.target_titles),
+        row("Held titles", profile.recent_titles),
+        row("Seniority", sen),
+        row("Remote preference", profile.remote_pref),
+        row("Locations", profile.locations),
+        row("Min salary", f"${profile.min_salary:,}" if profile.min_salary else ""),
+        row("Clearance", profile.clearance),
+        row("Work authorization", profile.work_authorization),
+        row("Industries", profile.industries),
+        row("Certifications", profile.certifications),
+        row("Keywords", profile.keywords),
+        row("Exclude keywords", profile.exclude_keywords),
+    ])
+    all_skill_chips = "".join(f'<span class="chip ok">{esc(s)}</span>' for s in profile.skills)
+    summary_block = (
+        f'<h3>Summary</h3><div class="summary-block">{esc(profile.summary)}</div>'
+        if profile.summary else ""
+    )
+    src_counts = Counter(l.job.source for l in leads)
+    src_max = max(src_counts.values()) if src_counts else 1
+    src_rows = "".join(
+        f'<span class="sname">{esc(s)}</span>'
+        f'<span class="sbar"><i style="width:{(c / src_max * 100):.0f}%"></i></span>'
+        f'<span class="scount">{c}</span>'
+        for s, c in src_counts.most_common()
+    )
+    scores = [l.score for l in leads]
+    score_line = (
+        f"top {max(scores):.0f} · median {sorted(scores)[len(scores)//2]:.0f} · low {min(scores):.0f}"
+        if scores else "n/a"
+    )
+
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -182,22 +245,59 @@ h2 a{{color:var(--fg);text-decoration:none}} h2 a:hover{{color:var(--accent)}}
 .fit-strong{{color:#7ee2a8}}.fit-moderate{{color:#9fc2ff}}.fit-stretch{{color:#f0cf86}}.fit-weak{{color:#f0a886}}
 .llm p{{margin:4px 0}} details{{margin-top:6px}} summary{{cursor:pointer;color:var(--accent);font-size:12px}}
 .llm li{{font-size:13px;margin:3px 0}}
+.tabs{{margin-top:14px;display:flex;gap:6px}}
+.tab{{background:transparent;border:1px solid #2a2f3a;color:var(--mut);padding:7px 14px;border-radius:8px;font-size:13px;cursor:pointer;font-family:inherit}}
+.tab:hover{{color:var(--fg)}}
+.tab.active{{background:var(--card);color:var(--fg);border-color:var(--accent)}}
+.badge{{background:#2a2f3a;border-radius:10px;padding:1px 7px;font-size:11px;margin-left:5px}}
+.panel{{display:none}} .panel.active{{display:block}}
+.metacard{{background:var(--card);border:1px solid #232733;border-radius:14px;padding:20px 24px;max-width:760px}}
+.meta-grid{{display:grid;grid-template-columns:160px 1fr;gap:9px 18px;font-size:14px}}
+.mk{{color:var(--mut)}}
+.mv{{color:var(--fg);word-break:break-word}}
+.mv a{{color:var(--accent);text-decoration:none;margin-right:10px}} .mv a:hover{{text-decoration:underline}}
+.metacard h3{{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin:24px 0 11px}}
+.metacard .chips{{margin:0}}
+.sources-bd{{display:grid;grid-template-columns:120px 1fr 38px;gap:7px 12px;align-items:center;max-width:460px}}
+.sname{{font-size:13px}}
+.sbar{{height:8px;background:var(--bar);border-radius:5px;overflow:hidden}}
+.sbar>i{{display:block;height:100%;background:linear-gradient(90deg,#5b8cff,#7ee2a8)}}
+.scount{{font-size:13px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}}
+.summary-block{{font-size:14px;line-height:1.6;color:var(--fg)}}
 </style></head>
 <body>
 <header>
   <h1>Job leads — {esc(profile.name or 'candidate')}</h1>
   <div class="sub">{len(leads)} leads · target: {esc(', '.join(profile.target_titles) or 'n/a')} ·
-   {esc(profile.seniority or 'n/a')} (~{profile.years_experience:.0f}y) · remote: {esc(profile.remote_pref)}
-   {('· skills: ' + esc(', '.join(profile.skills[:14]))) if profile.skills else ''}</div>
-  <div class="controls">
-    <input id="q" type="search" placeholder="filter title / company / skill…" oninput="flt()">
-    <select id="src" onchange="flt()"><option value="">all sources</option>{source_opts}</select>
-    <label class="sub"><input id="rem" type="checkbox" onchange="flt()"> remote only</label>
-    <span class="sub" id="cnt"></span>
+   {esc(profile.seniority or 'n/a')} (~{profile.years_experience:.0f}y) · remote: {esc(profile.remote_pref)}</div>
+  <div class="tabs">
+    <button class="tab active" data-tab="leads" onclick="tab('leads')">Leads <span class="badge">{len(leads)}</span></button>
+    <button class="tab" data-tab="meta" onclick="tab('meta')">Profile &amp; Metadata</button>
   </div>
 </header>
-<main id="list">
+<main>
+  <section id="panel-leads" class="panel active">
+    <div class="controls">
+      <input id="q" type="search" placeholder="filter title / company / skill…" oninput="flt()">
+      <select id="src" onchange="flt()"><option value="">all sources</option>{source_opts}</select>
+      <label class="sub"><input id="rem" type="checkbox" onchange="flt()"> remote only</label>
+      <span class="sub" id="cnt"></span>
+    </div>
+    <div id="list">
 {''.join(cards)}
+    </div>
+  </section>
+  <section id="panel-meta" class="panel">
+    <div class="metacard">
+      <div class="meta-grid">{meta_rows}</div>
+      {summary_block}
+      <h3>Skills ({len(profile.skills)})</h3>
+      <div class="chips">{all_skill_chips}</div>
+      <h3>Lead sources</h3>
+      <div class="sub" style="margin:-4px 0 11px">{len(leads)} leads · fit {score_line}</div>
+      <div class="sources-bd">{src_rows}</div>
+    </div>
+  </section>
 </main>
 <script>
 function flt(){{
@@ -211,6 +311,10 @@ function flt(){{
     c.style.display=ok?'flex':'none'; if(ok)n++;
   }});
   document.getElementById('cnt').textContent=n+' shown';
+}}
+function tab(name){{
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+name));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
 }}
 flt();
 </script>
