@@ -2,7 +2,9 @@
 # Everything here is optional; the resume parser fills in what it can.
 
 name: Jordan Rivera
-github: jordanrivera                 # public GitHub username (enriches skills)
+# github: your-handle                # YOUR public GitHub username — enriches skills
+#                                    # from your repos' languages/topics. Left commented
+#                                    # so the sample doesn't hit a real stranger's account.
 linkedin_url: https://linkedin.com/in/jordanrivera
 
 target_titles:
