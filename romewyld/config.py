@@ -40,7 +40,7 @@ class Config:
     llm_top_n: int = 10
     # http
     cache_ttl_minutes: int = 360
-    user_agent: str = "job-leads/1.0 (+https://github.com/1seansean1)"
+    user_agent: str = "romewyld/1.0 (+https://github.com/1seansean1)"
 
     def opt(self, source: str, key: str, default: Any = None) -> Any:
         return self.options.get(source, {}).get(key, default)

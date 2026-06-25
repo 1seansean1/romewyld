@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from jobleads import normalize as N
-from jobleads.profile import build_profile, estimate_years, guess_name, extract_text
+from romewyld import normalize as N
+from romewyld.profile import build_profile, estimate_years, guess_name, extract_text
 
 RESUME = (Path(__file__).resolve().parent.parent / "examples" / "sample_resume.md").read_text(encoding="utf-8")
 

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job leads — Jordan Rivera</title>
+<style>
+:root{--bg:#0f1115;--card:#181b22;--mut:#8b93a7;--fg:#e7eaf0;--ok:#1f6f43;--okc:#7ee2a8;
+--gap:#4a3b1f;--gapc:#f0cf86;--accent:#5b8cff;--bar:#2a2f3a}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:24px 28px;border-bottom:1px solid #232733;position:sticky;top:0;background:var(--bg);z-index:5}
+h1{margin:0 0 4px;font-size:20px}
+.sub{color:var(--mut);font-size:13px}
+.controls{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.controls input,.controls select{background:var(--card);border:1px solid #2a2f3a;color:var(--fg);
+padding:7px 10px;border-radius:8px;font-size:13px}
+main{max-width:980px;margin:0 auto;padding:18px}
+.card{display:flex;gap:14px;background:var(--card);border:1px solid #232733;border-radius:14px;
+padding:16px 18px;margin-bottom:12px}
+.rank{color:var(--mut);font-size:13px;min-width:22px}
+.body{flex:1;min-width:0}
+h2{margin:0 0 2px;font-size:16px}
+h2 a{color:var(--fg);text-decoration:none} h2 a:hover{color:var(--accent)}
+.company{color:var(--fg);font-weight:600;font-size:13px}
+.meta{color:var(--mut);font-size:12px;margin:3px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+.chip{font-size:11px;padding:2px 8px;border-radius:20px}
+.chip.ok{background:var(--ok);color:var(--okc)}
+.chip.gap{background:var(--gap);color:var(--gapc)}
+.flags{margin:6px 0} .flag{font-size:11px;color:#f0a886;border:1px solid #5a2f1f;padding:2px 8px;border-radius:6px;margin-right:6px}
+.sigs{margin-top:6px} .sig{font-size:10px;color:var(--mut);margin-right:8px;font-variant-numeric:tabular-nums}
+.scorebox{width:64px;text-align:center}
+.scorenum{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.scorebar{height:6px;background:var(--bar);border-radius:4px;margin-top:6px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,#5b8cff,#7ee2a8)}
+.llm{margin-top:10px;padding:10px 12px;background:#11141a;border-radius:10px;border:1px solid #232733}
+.fit{font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.fit-strong{color:#7ee2a8}.fit-moderate{color:#9fc2ff}.fit-stretch{color:#f0cf86}.fit-weak{color:#f0a886}
+.llm p{margin:4px 0} details{margin-top:6px} summary{cursor:pointer;color:var(--accent);font-size:12px}
+.llm li{font-size:13px;margin:3px 0}
+</style></head>
+<body>
+<header>
+  <h1>Job leads — Jordan Rivera</h1>
+  <div class="sub">20 leads · target: Staff Software Engineer, Senior Backend Engineer, ML Platform Engineer ·
+   senior (~9y) · remote: remote
+   · skills: incident response, data engineering, machine learning, github actions, scikit-learn, kubernetes, postgres, prometheus, terraform, dynamodb, airflow, express, fastapi, fintech</div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="filter title / company / skill…" oninput="flt()">
+    <select id="src" onchange="flt()"><option value="">all sources</option><option value="arbeitnow">arbeitnow</option><option value="hackernews">hackernews</option><option value="jobicy">jobicy</option><option value="remotive">remotive</option><option value="themuse">themuse</option></select>
+    <label class="sub"><input id="rem" type="checkbox" onchange="flt()"> remote only</label>
+    <span class="sub" id="cnt"></span>
+  </div>
+</header>
+<main id="list">
+
+        <article class="card" data-score="51" data-source="jobicy" data-remote="1">
+          <div class="rank">1</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145328-senior-staff-software-engineer-data-platform" target="_blank" rel="noopener">Senior Staff Software Engineer – Data Platform</a></h2>
+            <div class="company">Marqeta</div>
+            <div class="meta">USA  ·  src: jobicy  ·  2026-06-02</div>
+            <div class="chips"><span class="chip ok">airflow</span><span class="chip ok">aws</span><span class="chip ok">data engineering</span><span class="chip ok">fintech</span><span class="chip ok">go</span><span class="chip ok">kafka</span><span class="chip ok">python</span><span class="chip ok">s3</span><span class="chip ok">spark</span><span class="chip gap">hiring</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">rest</span><span class="chip gap">risk management</span><span class="chip gap">soc</span></div>
+            
+            <div class="sigs"><span class="sig">skills 18</span> <span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 3</span> <span class="sig">similarity 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">51</div>
+            <div class="scorebar"><div class="fill" style="width:51%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="51" data-source="jobicy" data-remote="1">
+          <div class="rank">2</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/146549-senior-backend-engineer-typescript-nodejs-aws" target="_blank" rel="noopener">Senior Backend Engineer – Typescript (.Nodejs) / AWS</a></h2>
+            <div class="company">Varicent</div>
+            <div class="meta">Mexico  ·  src: jobicy  ·  2026-06-15</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">dynamodb</span><span class="chip ok">go</span><span class="chip ok">kafka</span><span class="chip ok">lambda</span><span class="chip ok">node.js</span><span class="chip ok">s3</span><span class="chip ok">saas</span><span class="chip ok">spark</span><span class="chip gap">azure</span><span class="chip gap">c</span><span class="chip gap">c#</span><span class="chip gap">communication</span><span class="chip gap">ec2</span><span class="chip gap">embeddings</span></div>
+            
+            <div class="sigs"><span class="sig">skills 15</span> <span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">51</div>
+            <div class="scorebar"><div class="fill" style="width:51%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="50" data-source="hackernews" data-remote="1">
+          <div class="rank">3</div>
+          <div class="body">
+            <h2><a href="https://news.ycombinator.com/item?id=48358924" target="_blank" rel="noopener">Staff Software Engineer (Web)</a></h2>
+            <div class="company">Join (join.build)</div>
+            <div class="meta">Remote  ·  src: hackernews  ·  2026-06-01</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">go</span><span class="chip ok">postgres</span><span class="chip ok">react</span><span class="chip ok">saas</span><span class="chip ok">terraform</span><span class="chip gap">hiring</span><span class="chip gap">typescript</span><span class="chip gap">vite</span></div>
+            
+            <div class="sigs"><span class="sig">skills 17</span> <span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 3</span> <span class="sig">similarity 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">50</div>
+            <div class="scorebar"><div class="fill" style="width:50%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="50" data-source="jobicy" data-remote="1">
+          <div class="rank">4</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/143911-staff-mlops-engineer-ai-ml-platform" target="_blank" rel="noopener">Staff MLOps Engineer (AI/ML Platform)</a></h2>
+            <div class="company">Cint</div>
+            <div class="meta">UK  ·  src: jobicy  ·  2026-06-18</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">data engineering</span><span class="chip ok">grafana</span><span class="chip ok">incident response</span><span class="chip ok">kubernetes</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip ok">spark</span><span class="chip ok">terraform</span><span class="chip gap">acquisition</span><span class="chip gap">c</span><span class="chip gap">databricks</span><span class="chip gap">gcp</span><span class="chip gap">hiring</span><span class="chip gap">java</span></div>
+            
+            <div class="sigs"><span class="sig">skills 15</span> <span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 4</span> <span class="sig">similarity 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">50</div>
+            <div class="scorebar"><div class="fill" style="width:50%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="49" data-source="jobicy" data-remote="1">
+          <div class="rank">5</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability" target="_blank" rel="noopener">Senior Backend Software Engineer (Observability)</a></h2>
+            <div class="company">Nebius</div>
+            <div class="meta">Czechia,  Europe,  Germany,  Netherlands,  UK  ·  src: jobicy  ·  2026-06-22</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">kubernetes</span><span class="chip ok">prometheus</span><span class="chip gap">clickhouse</span><span class="chip gap">communication</span><span class="chip gap">r</span><span class="chip gap">telemetry</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 13</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">49</div>
+            <div class="scorebar"><div class="fill" style="width:49%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="48" data-source="jobicy" data-remote="1">
+          <div class="rank">6</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/147489-senior-machine-learning-systems-engineer-ads-ml-experience-platform" target="_blank" rel="noopener">Senior Machine Learning Systems Engineer, Ads ML Experience Platform</a></h2>
+            <div class="company">Reddit</div>
+            <div class="meta">USA  ·  src: jobicy  ·  2026-06-23</div>
+            <div class="chips"><span class="chip ok">airflow</span><span class="chip ok">machine learning</span><span class="chip ok">spark</span><span class="chip gap">communication</span><span class="chip gap">hiring</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">48</div>
+            <div class="scorebar"><div class="fill" style="width:48%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="48" data-source="jobicy" data-remote="1">
+          <div class="rank">7</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145982-senior-backend-engineer-elixir" target="_blank" rel="noopener">Senior Backend Engineer (Elixir)</a></h2>
+            <div class="company">Remote</div>
+            <div class="meta">APAC  ·  src: jobicy  ·  2026-06-10</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">docker</span><span class="chip ok">go</span><span class="chip ok">jenkins</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">react</span><span class="chip gap">angular</span><span class="chip gap">cross-functional</span><span class="chip gap">elixir</span><span class="chip gap">hiring</span><span class="chip gap">next.js</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 13</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">48</div>
+            <div class="scorebar"><div class="fill" style="width:48%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="46" data-source="jobicy" data-remote="1">
+          <div class="rank">8</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145611-senior-backend-engineer-5" target="_blank" rel="noopener">Senior Backend Engineer</a></h2>
+            <div class="company">Remote</div>
+            <div class="meta">APAC  ·  src: jobicy  ·  2026-06-05</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">docker</span><span class="chip ok">go</span><span class="chip ok">jenkins</span><span class="chip ok">kubernetes</span><span class="chip ok">postgres</span><span class="chip ok">react</span><span class="chip gap">angular</span><span class="chip gap">cross-functional</span><span class="chip gap">elixir</span><span class="chip gap">haskell</span><span class="chip gap">hiring</span><span class="chip gap">next.js</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">46</div>
+            <div class="scorebar"><div class="fill" style="width:46%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="46" data-source="jobicy" data-remote="1">
+          <div class="rank">9</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/146310-staff-software-engineer-2" target="_blank" rel="noopener">Staff Software Engineer</a></h2>
+            <div class="company">Function Health</div>
+            <div class="meta">Canada,  USA  ·  src: jobicy  ·  2026-06-12</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">data engineering</span><span class="chip ok">docker</span><span class="chip ok">machine learning</span><span class="chip ok">postgres</span><span class="chip ok">python</span><span class="chip ok">react</span><span class="chip gap">agile</span><span class="chip gap">communication</span><span class="chip gap">cross-functional</span><span class="chip gap">gcp</span><span class="chip gap">healthcare</span><span class="chip gap">helm</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 13</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">46</div>
+            <div class="scorebar"><div class="fill" style="width:46%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="46" data-source="jobicy" data-remote="1">
+          <div class="rank">10</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/144040-staff-software-engineer-app-platform" target="_blank" rel="noopener">Staff Software Engineer, App Platform</a></h2>
+            <div class="company">Fieldguide</div>
+            <div class="meta">USA  ·  src: jobicy  ·  2026-06-18</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">kubernetes</span><span class="chip ok">saas</span><span class="chip gap">communication</span><span class="chip gap">cybersecurity</span><span class="chip gap">llm</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">46</div>
+            <div class="scorebar"><div class="fill" style="width:46%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="45" data-source="jobicy" data-remote="1">
+          <div class="rank">11</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/144510-staff-software-engineer-agentic-data-plane-poland" target="_blank" rel="noopener">Staff Software Engineer, Agentic Data Plane (Poland)</a></h2>
+            <div class="company">Redpanda Data</div>
+            <div class="meta">Poland  ·  src: jobicy  ·  2026-06-23</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">go</span><span class="chip ok">kubernetes</span><span class="chip ok">saas</span><span class="chip gap">azure</span><span class="chip gap">communication</span><span class="chip gap">gcp</span><span class="chip gap">operations</span><span class="chip gap">requirements</span><span class="chip gap">serverless</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 11</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 5</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">45</div>
+            <div class="scorebar"><div class="fill" style="width:45%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="44" data-source="remotive" data-remote="1">
+          <div class="rank">12</div>
+          <div class="body">
+            <h2><a href="https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266" target="_blank" rel="noopener">Senior Independent AI Engineer / Architect</a></h2>
+            <div class="company">A.Team</div>
+            <div class="meta">Americas, Europe, Israel  ·  $120 - $170 /hour  ·  src: remotive  ·  2026-06-16</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">machine learning</span><span class="chip gap">llm</span></div>
+            
+            <div class="sigs"><span class="sig">skills 14</span> <span class="sig">title 10</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">44</div>
+            <div class="scorebar"><div class="fill" style="width:44%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="44" data-source="jobicy" data-remote="1">
+          <div class="rank">13</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/146089-staff-software-engineer-platform-syseng-canada-remote" target="_blank" rel="noopener">Staff Software Engineer – Platform, SysEng | Canada | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">Canada  ·  src: jobicy  ·  2026-06-10</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">kubernetes</span><span class="chip ok">python</span><span class="chip ok">terraform</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">cross-functional</span><span class="chip gap">hiring</span><span class="chip gap">leadership</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 10</span> <span class="sig">location 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">44</div>
+            <div class="scorebar"><div class="fill" style="width:44%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="43" data-source="arbeitnow" data-remote="0">
+          <div class="rank">14</div>
+          <div class="body">
+            <h2><a href="https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040" target="_blank" rel="noopener">Senior Platform Engineer – Cloud &amp; ML Platform (m/f/d)</a></h2>
+            <div class="company">Quantum- Systems GmbH</div>
+            <div class="meta">Gilching  ·  src: arbeitnow  ·  1782300016</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">go</span><span class="chip ok">incident response</span><span class="chip ok">kubernetes</span><span class="chip ok">machine learning</span><span class="chip ok">python</span><span class="chip ok">terraform</span><span class="chip gap">aerospace</span><span class="chip gap">ansible</span><span class="chip gap">azure</span><span class="chip gap">bash</span><span class="chip gap">communication</span><span class="chip gap">defense</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 12</span> <span class="sig">seniority 7</span> <span class="sig">recency 5</span> <span class="sig">similarity 2</span> <span class="sig">location 2</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">43</div>
+            <div class="scorebar"><div class="fill" style="width:43%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">15</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/146081-senior-software-engineer-backend-platform-team" target="_blank" rel="noopener">Senior Software Engineer, Backend – Platform Team</a></h2>
+            <div class="company">Cresta</div>
+            <div class="meta">Canada  ·  src: jobicy  ·  2026-06-10</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">docker</span><span class="chip ok">kubernetes</span><span class="chip gap">azure</span><span class="chip gap">communication</span><span class="chip gap">gcp</span><span class="chip gap">hiring</span><span class="chip gap">leadership</span><span class="chip gap">llm</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">skills 7</span> <span class="sig">seniority 7</span> <span class="sig">recency 4</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="themuse" data-remote="1">
+          <div class="rank">16</div>
+          <div class="body">
+            <h2><a href="https://www.themuse.com/jobs/glossgenius/staff-software-engineer-backend-7d1ec3" target="_blank" rel="noopener">Staff Software Engineer, Backend</a></h2>
+            <div class="company">GlossGenius</div>
+            <div class="meta">Flexible / Remote, New York, NY  ·  src: themuse  ·  2026-06-24</div>
+            <div class="chips"><span class="chip ok">aws</span><span class="chip ok">kubernetes</span><span class="chip ok">machine learning</span><span class="chip gap">hiring</span><span class="chip gap">kotlin</span><span class="chip gap">leadership</span><span class="chip gap">requirements</span><span class="chip gap">space</span><span class="chip gap">team building</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">location 8</span> <span class="sig">skills 8</span> <span class="sig">seniority 5</span> <span class="sig">recency 5</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">17</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145115-senior-backend-engineer-alerting-germany-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Germany | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">Germany  ·  src: jobicy  ·  2026-05-30</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 8</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">18</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145112-senior-backend-engineer-alerting-uk-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | UK | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">UK  ·  src: jobicy  ·  2026-05-30</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 8</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">19</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145114-senior-backend-engineer-alerting-ireland-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Ireland | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">Ireland  ·  src: jobicy  ·  2026-05-30</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 8</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+        <article class="card" data-score="42" data-source="jobicy" data-remote="1">
+          <div class="rank">20</div>
+          <div class="body">
+            <h2><a href="https://jobicy.com/jobs/145113-senior-backend-engineer-alerting-spain-remote" target="_blank" rel="noopener">Senior Backend Engineer – Alerting | Spain | Remote</a></h2>
+            <div class="company">Grafana Labs</div>
+            <div class="meta">Spain  ·  src: jobicy  ·  2026-05-30</div>
+            <div class="chips"><span class="chip ok">go</span><span class="chip ok">grafana</span><span class="chip ok">prometheus</span><span class="chip ok">python</span><span class="chip gap">c</span><span class="chip gap">c++</span><span class="chip gap">communication</span><span class="chip gap">java</span><span class="chip gap">leadership</span><span class="chip gap">operations</span></div>
+            
+            <div class="sigs"><span class="sig">title 15</span> <span class="sig">skills 8</span> <span class="sig">location 8</span> <span class="sig">seniority 7</span> <span class="sig">recency 3</span> <span class="sig">similarity 1</span></div>
+            
+          </div>
+          <div class="scorebox">
+            <div class="scorenum">42</div>
+            <div class="scorebar"><div class="fill" style="width:42%"></div></div>
+          </div>
+        </article>
+</main>
+<script>
+function flt(){
+  const q=document.getElementById('q').value.toLowerCase();
+  const s=document.getElementById('src').value;
+  const r=document.getElementById('rem').checked;
+  let n=0;
+  document.querySelectorAll('.card').forEach(c=>{
+    const t=c.innerText.toLowerCase();
+    const ok=(!q||t.includes(q))&&(!s||c.dataset.source===s)&&(!r||c.dataset.remote==='1');
+    c.style.display=ok?'flex':'none'; if(ok)n++;
+  });
+  document.getElementById('cnt').textContent=n+' shown';
+}
+flt();
+</script>
+</body></html>

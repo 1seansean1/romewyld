@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-from jobleads.models import CandidateProfile, JobPosting
-from jobleads import match, report
+from romewyld.models import CandidateProfile, JobPosting
+from romewyld import match, report
 
 
 def _leads():

@@ -1,9 +1,11 @@
-# job-leads
+# romewyld
 
 Give it a **resume/CV** + some **public metadata**, get back **ranked job-application
 leads** — scored, explained, deduped, and rendered to JSON / CSV / Markdown / a
 filterable HTML dashboard. Optional Anthropic enrichment writes a per-lead fit
 assessment, tailored resume tweaks, and a cover-letter hook.
+
+**Live demo dashboard:** https://1seansean1.github.io/romewyld/
 
 ```
 resume.(pdf|docx|md|txt) ─┐
@@ -35,13 +37,13 @@ PyYAML → use JSON config; no `anthropic`/key → skip LLM, keep deterministic 
 
 ```bash
 # 1. no-key sources, out of the box
-python -m jobleads examples/sample_resume.md -m examples/sample_metadata.yaml
+python -m romewyld examples/sample_resume.md -m examples/sample_metadata.yaml
 
 # 2. pass BOTH a CV and a resume — they're merged into one profile
-python -m jobleads my_cv.pdf my_resume.docx -m me.yaml -c config.yaml --llm
+python -m romewyld my_cv.pdf my_resume.docx -m me.yaml -c config.yaml --llm
 
 # 3. just see how your documents parsed
-python -m jobleads my_resume.pdf --dry-run
+python -m romewyld my_resume.pdf --dry-run
 ```
 
 Outputs land in `data/out/leads.{json,csv,md,html}`. Open `leads.html` for the
@@ -114,7 +116,7 @@ experience you don't have. Skipped silently if unavailable.
 ## CLI
 
 ```
-python -m jobleads RESUME [RESUME ...] [-m METADATA] [-c CONFIG] [-o OUTDIR]
+python -m romewyld RESUME [RESUME ...] [-m METADATA] [-c CONFIG] [-o OUTDIR]
                    [--sources a,b,c] [--companies x,y] [--top N]
                    [--min-salary N] [--remote] [--llm] [--dry-run]
 ```
@@ -124,7 +126,7 @@ python -m jobleads RESUME [RESUME ...] [-m METADATA] [-c CONFIG] [-o OUTDIR]
 ## Library
 
 ```python
-from jobleads import build_profile, extract_text, rank, get_source, load_config
+from romewyld import build_profile, extract_text, rank, get_source, load_config
 
 prof = build_profile(extract_text("resume.pdf"), {"target_titles": ["SRE"]})
 cfg = load_config(None)
@@ -143,7 +145,7 @@ python -m pytest -q     # 23 tests, fully offline (sources use canned payloads)
 ## Layout
 
 ```
-jobleads/
+romewyld/
   profile.py    resume → CandidateProfile
   metadata.py   metadata load + GitHub enrichment
   match.py      scoring/ranking engine

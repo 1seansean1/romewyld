@@ -1,4 +1,4 @@
-# job-leads configuration (copy to config.yaml and edit). JSON also works.
+# romewyld configuration (copy to config.yaml and edit). JSON also works.
 # Secrets (API keys) come from ENV VARS, never this file.
 
 # Which sources to query. No-key sources work out of the box:

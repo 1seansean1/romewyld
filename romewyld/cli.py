@@ -136,7 +136,7 @@ def run(args: argparse.Namespace) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
-        prog="jobleads",
+        prog="romewyld",
         description="Turn a resume/CV + public metadata into ranked job-application leads.",
     )
     p.add_argument("resume", nargs="+",

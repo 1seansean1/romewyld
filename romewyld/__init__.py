@@ -1,4 +1,4 @@
-"""job-leads — resume/CV + public metadata -> ranked job-application leads."""
+"""romewyld — resume/CV + public metadata -> ranked job-application leads."""
 from __future__ import annotations
 
 from .models import CandidateProfile, JobPosting, Lead

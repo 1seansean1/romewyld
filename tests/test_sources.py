@@ -1,8 +1,8 @@
 """Offline source tests: monkeypatch the HTTP layer with canned API payloads."""
-import jobleads.http as http
-from jobleads.config import Config
-from jobleads.models import CandidateProfile
-from jobleads import sources
+import romewyld.http as http
+from romewyld.config import Config
+from romewyld.models import CandidateProfile
+from romewyld import sources
 
 
 def _profile():
@@ -24,7 +24,7 @@ def test_remotive_parsing(monkeypatch):
         "tags": ["python", "aws"], "salary": "$150k",
     }]}
     monkeypatch.setattr(http, "get_json", lambda *a, **k: payload)
-    monkeypatch.setattr("jobleads.sources.remotive.http.get_json", lambda *a, **k: payload)
+    monkeypatch.setattr("romewyld.sources.remotive.http.get_json", lambda *a, **k: payload)
     jobs = sources.get_source("remotive").search(_profile(), Config())
     assert jobs and jobs[0].title == "Backend Engineer"
     assert "Python and AWS" in jobs[0].description  # html stripped
@@ -37,7 +37,7 @@ def test_remoteok_skips_legal_notice(monkeypatch):
         {"position": "Senior Python Engineer", "company": "Beta", "url": "https://x/2",
          "description": "<b>Python</b> AWS", "tags": ["python"], "date": "2026-05-01"},
     ]
-    monkeypatch.setattr("jobleads.sources.remoteok.http.get_json", lambda *a, **k: payload)
+    monkeypatch.setattr("romewyld.sources.remoteok.http.get_json", lambda *a, **k: payload)
     jobs = sources.get_source("remoteok").search(_profile(), Config())
     assert len(jobs) == 1
     assert jobs[0].title == "Senior Python Engineer"
@@ -59,7 +59,7 @@ def test_greenhouse_parsing(monkeypatch):
         "content": "&lt;p&gt;Python AWS Kubernetes&lt;/p&gt;",
         "updated_at": "2026-06-10", "departments": [{"name": "Eng"}],
     }]}
-    monkeypatch.setattr("jobleads.sources.greenhouse.http.get_json", lambda *a, **k: payload)
+    monkeypatch.setattr("romewyld.sources.greenhouse.http.get_json", lambda *a, **k: payload)
     cfg = Config(target_companies=["acme"])
     jobs = sources.get_source("greenhouse").search(_profile(), cfg)
     assert jobs and jobs[0].company == "acme"
@@ -77,7 +77,7 @@ def test_lever_parsing(monkeypatch):
         "hostedUrl": "https://jobs.lever.co/x/1", "descriptionPlain": "Python AWS",
         "createdAt": 1717200000000,
     }]
-    monkeypatch.setattr("jobleads.sources.lever.http.get_json", lambda *a, **k: payload)
+    monkeypatch.setattr("romewyld.sources.lever.http.get_json", lambda *a, **k: payload)
     cfg = Config(target_companies=["acme"])
     jobs = sources.get_source("lever").search(_profile(), cfg)
     assert jobs and jobs[0].title == "Backend Engineer" and jobs[0].remote

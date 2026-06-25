@@ -27,7 +27,7 @@ def get_json(
     retries: int = 2,
     method: str = "GET",
     data: Any = None,
-    user_agent: str = "job-leads/1.0",
+    user_agent: str = "romewyld/1.0",
 ) -> Any:
     """Fetch JSON with caching. Returns parsed JSON or raises on hard failure."""
     headers = dict(headers or {})
@@ -75,7 +75,7 @@ def get_text(
     *,
     headers: dict[str, str] | None = None,
     timeout: int = 25,
-    user_agent: str = "job-leads/1.0",
+    user_agent: str = "romewyld/1.0",
 ) -> str:
     headers = dict(headers or {})
     headers.setdefault("User-Agent", user_agent)

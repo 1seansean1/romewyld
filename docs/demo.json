@@ -1,0 +1,1025 @@
+{
+  "candidate": {
+    "name": "Jordan Rivera",
+    "target_titles": [
+      "Staff Software Engineer",
+      "Senior Backend Engineer",
+      "ML Platform Engineer"
+    ],
+    "seniority": "senior",
+    "years_experience": 9.0,
+    "skills": [
+      "incident response",
+      "data engineering",
+      "machine learning",
+      "github actions",
+      "scikit-learn",
+      "kubernetes",
+      "postgres",
+      "prometheus",
+      "terraform",
+      "dynamodb",
+      "airflow",
+      "express",
+      "fastapi",
+      "fintech",
+      "grafana",
+      "jenkins",
+      "node.js",
+      "docker",
+      "hadoop",
+      "lambda",
+      "pandas",
+      "python",
+      "kafka",
+      "react",
+      "redis",
+      "spark",
+      "saas",
+      "aws",
+      "sql",
+      "go",
+      "s3",
+      "grpc",
+      "event-driven"
+    ],
+    "remote_pref": "remote",
+    "locations": [
+      "Denver, CO",
+      "Remote US"
+    ],
+    "clearance": ""
+  },
+  "count": 20,
+  "leads": [
+    {
+      "score": 50.8,
+      "signals": {
+        "similarity": 1.5,
+        "skills": 18.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 3.0
+      },
+      "matched_skills": [
+        "airflow",
+        "aws",
+        "data engineering",
+        "fintech",
+        "go",
+        "kafka",
+        "python",
+        "s3",
+        "spark"
+      ],
+      "missing_skills": [
+        "hiring",
+        "java",
+        "leadership",
+        "rest",
+        "risk management",
+        "soc"
+      ],
+      "rationale": "strongest fit on skills, title, location; matches 9 skills (airflow, aws, data engineering, fintech, go, kafka); gaps: hiring, java, leadership, rest; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Staff Software Engineer \u2013 Data Platform",
+        "company": "Marqeta",
+        "location": "USA",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145328-senior-staff-software-engineer-data-platform",
+        "description": "This is a software engineering role on a software engineering team. The team builds and operates the data platform: the infrastructure, abstractions, and SDKs that the rest of Marqeta's data and ML organization runs on. We are not writing pipelines\u2013we are building the platform pipelines run on. If you've spent your career building infrastructure that other engineers depend on; and you know the difference between \u201csoftware engineering\u201d and \"data engineering\", read on. We work Flexible First . This role can be performed remotely anywhere within the United States or from our Oakland office. We\u2019d love for you to join us! Learn more about our Product and Engineering team . At Marqeta, participation in a rotational on-call pager duty is a required part of the software engineering role. The specifics of the rotation may vary by team, depending on team size and structure, and will be discussed further during the interview process. What you'd own The lakehouse and the streaming ingestion that feeds it. Iceberg/Delta on S3, Spark/Glue processing, Kafka and CDC pipelines, the abstractions that let other teams land data, build pipelines, and publish datasets without inventing the patterns themselves. You\u2019d help set the multi-year technical direction, design the golden paths, and ship the work \u2014 directly, with your hands on the code that matters. How the team works You\u2019d report to the Director of Data Engineering and partner with a peer Manager whose scope is people leadership and operational delivery. You own technical direction, application architecture, and the engineering bar. You\u2019ll work alongside other senior staff engineers across the broader data platform org, and partner with security, compliance, and the consumer teams who depend on what we ship. What \"hands-on\" actually means here Worth being specific, because \u201chands-on\u201d means different things to different people: Yes: writing production code on the platform's hardest problems, owning the design and build of new abstractions end-to-end, leading design reviews, setting the engineering bar through the work itself. Sometimes: prototyping, deep diving on a tricky migration, pairing with engineers on tough problems. What the work looks like Modernization. Building out the lakehouse \u2014 the patterns Marqeta will run on for years. New abstractions, new tooling, the paved road internal teams want to use. Live system work. Evolving and hardening the platform that's already in production. Reliability, performance, developer experience \u2014 improved without disrupting the teams who depend on it. Engineering excellence. Testing confidence, release velocity. On call, blameless postmortems. What you bring We care more about demonstrated work than years on paper, but the experience this role asks for typically takes around a decade to accumulate. A career building data platforms, not just pipelines. You can name the abstractions you've designed, the teams that adopted them, and the problems they solved. If most of your last several years has been writing transformations rather than building the system transformations run on, this isn't the right shape. Production depth in modern lakehouse work. Iceberg or Delta in production. Strong fluency in the surrounding stack: AWS data services (S3, Glue, EMR), Spark, Airflow, Kafka, IAM boundaries for multi-tenant data access. You don't need depth in all of it \u2014 you need real depth in the lakehouse and credible engagement with the rest. Mastery of Python in a production data-platform context, with credible depth in Go or Java. Idioms, ecosystem, performance characteristics, the parts that bite at scale. The ability to adopt the best tool for the job. A track record of evolving live infrastructure. Improving reliability, performance, and DX on systems that real teams depend on, sequenced so the work doesn't disrupt them. Ownership of major platform transitions. Build vs. buy, migration design, risk management, all the way through to delivery. You've led at least one of these end-to-end and can talk through what went right, what didn't, and what you'd do differently. Influence as a working skill. You build alignment across platform, security, and consumer teams. You write design docs and RFCs people actually read. You can hold a strong technical position and update on evidence. A history of growing other engineers \u2014 including peers at your level. The team gets stronger because you're on it. Helpful, not required: payments or fintech context (PCI-DSS, SOX, SOC 2). CDC tooling experience (Debezium, Kafka Connect). Data governance tooling (DataHub, Amundsen, Collibra). Public technical writing or open-source contributions to data infrastructure. Typical Process Application Submission Recruiter Video Call Coding Interview & Hiring Manager Interview Virtual \"Onsite\" consisting of four 45-60 min video calls Offer! Compensation and Benefits Marqeta is a Flex First company which allows you to choose your best working environment, whether that be from home or at a company office. To support Flex First, we calibrate pay to a competitive value according to working location. Compensation is aligned according to three tiers within the United States: National: A baseline tier that applies to most of the geographic territory of the United States. Premium: Slightly elevated from the National tier, and oriented toward a narrower set of higher cost-of-living areas, such as Los Angeles CA and Seattle WA Premium Plus: A tier for the most expensive working areas, like the San Francisco Bay area and New York City. Visit this page or consult with a Recruiter to determine which tier would be applicable to you. When determining salaries, we consider several factors including, but not limited to, skills, prior experience, and work location. The new-hire base salary range for this position is: National: 200,500 - 250,600 Premium: 210,200 - 262,800 Premium Plus: 220,000 - 275,000 We also believe in recognizing the contributions of our people. That's why we award annual bonuses to eligible employees, rewarding both individual performance and the success of the entire company. Along with monetary compensation, Marqeta offers Multiple health insurance options Flexible time off \u2013 take what you need Retirement savings program with company contribution and after tax contributions Equity in a publicly-traded company and an Employee Stock Purchase Program Family-forming benefits, fertility support, and up to 20 weeks of Parental Leave Free therapy sessions, financial and professional coaching, and legal advice Monthly stipend to support our remote work model Annual \u201cdevelopment dollars\u201d to support our people growth and development Through Flex First, the freedom to live and work wherever you and your family thrive",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-02T11:11:45+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "26f00023a391a23d"
+      }
+    },
+    {
+      "score": 50.6,
+      "signals": {
+        "similarity": 1.5,
+        "skills": 15.1,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 4.0
+      },
+      "matched_skills": [
+        "aws",
+        "dynamodb",
+        "go",
+        "kafka",
+        "lambda",
+        "node.js",
+        "s3",
+        "saas",
+        "spark"
+      ],
+      "missing_skills": [
+        "azure",
+        "c",
+        "c#",
+        "communication",
+        "ec2",
+        "embeddings",
+        "go-to-market",
+        "rag",
+        "requirements",
+        "space",
+        "typescript"
+      ],
+      "rationale": "strongest fit on skills, title, location; matches 9 skills (aws, dynamodb, go, kafka, lambda, node.js); gaps: azure, c, c#, communication; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Typescript (.Nodejs) / AWS",
+        "company": "Varicent",
+        "location": "Mexico",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/146549-senior-backend-engineer-typescript-nodejs-aws",
+        "description": "At Varicent, we\u2019re not just transforming the Sales Performance Management (SPM) market\u2014we\u2019re redefining how organizations achieve revenue success. Our cutting-edge SaaS solutions empower revenue leaders globally to design smarter go-to-market strategies, maximize seller performance, and unlock untapped potential. Varicent stands at the forefront of innovation, celebrated as a market leader in the 2025 Forrester Wave Report for SPM , 2023 Ventana Research Revenue Performance Management (RPM) Value Index , Gartner Peer Insights , 2024 Gartner SPM Market Guide , and G2. Our solutions are trusted by a diverse range of global industry leaders like T-Mobile, ServiceNow, Wawanesa Bank, Shaw Industries, Moody's, Stryker and hundreds more. Here\u2019s why you\u2019ll thrive at Varicent: Innovate with Purpose: Build impactful solutions for customers worldwide. Join Excellence: Work in a diverse, collaborative, and innovative team. Shape the Future: Lead in redefining revenue optimization. Grow Together: Unlock your potential in a supportive environment. Join us at Varicent\u2014where your talent and ambition meet limitless opportunities for success! At Varicent, we\u2019re driven by the belief that great people power great companies. As our Senior Software Developer, GenAI , you\u2019ll contribute to building and scaling production-grade AI systems that directly impact how our customers use and experience our products. You\u2019ll contribute to the delivery of GenAI-powered features, collaborate closely with technical leads, and play a key role in maintaining technical quality, reliability, and scalability across a core product area. This role is ideal for a strong individual contributor who enjoys hands-on development, learning new technologies, and turning ideas into high-quality production systems. Overview \u2022 Build and improve AI-enabled product features from prototype to production. You\u2019ll work within an end-to-end engineering team that owns build quality, release readiness, and ongoing improvements. What You\u2019ll Do: \u2022 Build and maintain product features and supporting backend components, including services, integrations, and internal workflows. \u2022 Write production-ready code and lightweight prototypes to validate ideas quickly. \u2022 Create automated tests and proactively fix issues to keep releases stable, as engineers own quality without a dedicated QA function. \u2022 Support proof-of-concepts and experiments by setting up test cases, reviewing results, and improving areas where quality is weak. \u2022 Document systems and workflows so others can run, maintain, and extend what you build. GenAI Competencies You\u2019ll Practice: \u2022 Translate business problems into clear AI tasks and implement end-to-end solutions with guidance from technical leads. \u2022 Prepare and maintain data and test cases used to measure output quality. \u2022 Apply common AI application patterns such as prompting, using internal knowledge sources, and calling external tools or APIs. \u2022 Measure quality using repeatable evaluation methods, including automated checks and structured human review when required. \u2022 Contribute to production readiness through versioning, monitoring, basic performance and cost awareness, and usage tracking. \u2022 Follow privacy, security, and compliance requirements in collaboration with Legal and Security teams. How We Work: \u2022 We balance exploration with delivery \u2014 test ideas quickly, then productionize what works. \u2022 \u201cDone\u201d means quality goals are met, followed by continuous improvement in accuracy, cost, and performance. \u2022 The team owns systems end-to-end, including build, release, and operational reliability. What You Bring: 5+ years of backend or full-stack engineering experience with a strong backend focus. 4+ years working with Typescript / Node.js / C#. Advanced experience with AWS (EC2, EKS, Lambda, S3, DynamoDB, RDS, Step Functions, etc.). Proven experience working with large datasets , distributed computing, and batch or stream processing using Spark, Dask, EMR, Glue, Kafka, etc. Solid understanding of system design, distributed systems, scalability patterns, and cloud architecture. in ambiguous problem spaces. \u2022 Strong interest in learning and applying GenAI technologies in practical, production environments. Nice to Have: \u2022 Hands-on experience with GenAI/LLMs, including prompt engineering, retrieval/RAG, embeddings, tool or function calling, fine-tuning, or evaluation pipelines. \u2022 Familiarity with LLMOps practices such as experiment tracking, version control for prompts or models, and cost or latency optimization. \u2022 Experience with tools such as LangChain/LangGraph, OpenAI, Anthropic, Azure OpenAI, and vector databases like Pinecone, FAISS, or Milvus. \u2022 Contributions to open source, technical blogs, or conference talks. Education: \u2022 Bachelor\u2019s degree in Computer Science, Engineering, or a related field, or equivalent practical experience. Note: This role requires employees to work within Eastern Standard Time (EST) business hours. While we are open to candidates from outside the EST time zone, please be prepared to adjust your working hours to align with this time zone. Flexibility will be essential to ensure seamless collaboration with the team and stakeholders. This position is fully remote, offering you the flexibility to work from anywhere. We embrace a results-driven work culture, focusing on performance and collaboration over location. As part of our team, you\u2019ll have the opportunity to build a work-life balance that suits you, while staying connected with a diverse, global team through virtual tools and regular online communication. Whether you're working from home, a co-working space, or another location of your choice, we\u2019re committed to supporting you with the resources and autonomy needed to succeed in a remote environment. Benefits Market Leading Compensation Package. Wellness Programs to Support Health and Wellbeing. Working with the latest tools and technologies in a fast-paced environment. Remote Work Flexibility. Comprehensive Employee Insurance Coverage: Medical, Dental, Vision, Life Insurance. Annual Time Off: Time off is provided in accordance with applicable legislative requirements. Global Connected Culture: Hubs in Romania, UK, US, Canada. Dynamic Work Culture: Thrive in our innovative and multicultural environment. Grow with Us: Continuous development opportunities. Varicent is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. If you require accommodation at any time during the recruitment process please email accomodations@varicent.com Varicent is also committed to compliance with all fair employment practices regarding citizenship and immigration status. By applying for a position at Varicent and/or by using this portal, you declare and confirm that you have read and agree to our Job Applicant Privacy Notice and that the information provided by you as part of your application is true and complete and includes no misrepresentation or material omission of fact",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-15T08:06:42+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "50052bd9744ae981"
+      }
+    },
+    {
+      "score": 49.9,
+      "signals": {
+        "similarity": 1.5,
+        "skills": 17.2,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 3.0
+      },
+      "matched_skills": [
+        "aws",
+        "go",
+        "postgres",
+        "react",
+        "saas",
+        "terraform"
+      ],
+      "missing_skills": [
+        "hiring",
+        "typescript",
+        "vite"
+      ],
+      "rationale": "strongest fit on skills, title, location; matches 6 skills (aws, go, postgres, react, saas, terraform); gaps: hiring, typescript, vite; remote",
+      "flags": [],
+      "job": {
+        "source": "hackernews",
+        "title": "Staff Software Engineer (Web)",
+        "company": "Join (join.build)",
+        "location": "Remote",
+        "remote": true,
+        "url": "https://news.ycombinator.com/item?id=48358924",
+        "description": "Join (join.build) | Staff Software Engineer (Web) | REMOTE (US & Canada) | Full-Time | $175K\u2013$205K + equity | React/Go/Postgres Join is SaaS for the construction industry \u2014 we bring contractors, owners, and design teams onto one platform to coordinate high-value projects. You'll work across our flagship collaboration app: shaping frontend architecture and UI quality, influencing engineering-wide standards, and shipping with urgency while weighing long-term tradeoffs. We're hiring across profiles \u2014 frontend-heavy, fullstack, and backend-heavy \u2014 and want someone T-shaped across React/Go/Postgres with deep expertise in at least one. Stack: React/TypeScript (Vite, RTL, Cypress), Go, Postgres, AWS, Terraform. You: senior/staff-level experience; strong in at least one of React, Go, or Postgres; a clear communicator who mentors and reviews well. Apply: email jon@join.build with your resume, whether you lean frontend or backend, and \u2014 if you can \u2014 a PR review you've given that had a positive impact. Mention HN.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-01T16:19:34.000Z",
+        "tags": [
+          "hn-whoishiring"
+        ],
+        "fingerprint": "5ae09bd6979b47ab"
+      }
+    },
+    {
+      "score": 49.7,
+      "signals": {
+        "similarity": 2.0,
+        "skills": 15.1,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 4.4
+      },
+      "matched_skills": [
+        "aws",
+        "data engineering",
+        "grafana",
+        "incident response",
+        "kubernetes",
+        "prometheus",
+        "python",
+        "spark",
+        "terraform"
+      ],
+      "missing_skills": [
+        "acquisition",
+        "c",
+        "databricks",
+        "gcp",
+        "hiring",
+        "java",
+        "leadership",
+        "mlops",
+        "roadmap",
+        "scala",
+        "spring"
+      ],
+      "rationale": "strongest fit on skills, title, location; matches 9 skills (aws, data engineering, grafana, incident response, kubernetes, prometheus); gaps: acquisition, c, databricks, gcp; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Staff MLOps Engineer (AI/ML Platform)",
+        "company": "Cint",
+        "location": "UK",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/143911-staff-mlops-engineer-ai-ml-platform",
+        "description": "Company Description Cint is a pioneer in research technology (ResTech). Our customers use the Cint platform to post questions and get answers from real people to build business strategies, confidently publish research, accurately measure the impact of digital advertising, and more. The Cint platform is built on a programmatic marketplace, which is the world's largest, with nearly 300 million respondents in over 150 countries who consent to sharing their opinions, motivations, and behaviours. Job Description The Role We're hiring a Staff MLOps Engineer to own the AI/ML platform at Cint. The immediate focus is supporting the Synthetic Data Platform \u2014 models for survey augmentation and respondent profiling \u2014 but the role's longer-term remit is broader: Trust Score (our respondent quality and fraud detection model) and other AI/ML initiatives need the same platform capabilities. You'll start by reviewing the current setup and deciding whether to extend it or rebuild parts of it, then build out the shared AI/ML platform from there. The Team You'll report into our Infrastructure and Data Engineering organisation, working in close partnership with the AI/ML team in Prague. This is deliberately a platform-with-feature-focus role: your day-to-day delivery serves the Synthetic Data team's needs, but your architectural remit covers all of Cint's AI/ML workloads. Qualifications What You'll Do Assess and decide on the current pipeline: Audit the existing AI/ML training and serving setup. Decide what's worth building on and what needs to be rebuilt. Make the call and own the rationale. Build the shared AI/ML platform: Training infrastructure, experiment tracking, model registry, serving, monitoring. Built once, used by Synthetic, Trust Score, and whatever comes next. Oversee the full ML lifecycle: From data ingestion and feature processing to annotation workflows, ensuring the platform facilitates frictionless, rapid model iteration for Data Scientists. Own training infrastructure on Databricks and Unity Catalog: Make training fast, reproducible, and traceable. Lineage matters; reproducibility matters more. Model serving: Build the serving layer \u2014 low-latency APIs, batch scoring jobs, appropriate caching. Integrate with our Java/Spring services. Monitoring and drift: Build the observability our models need \u2014 data drift, model drift, accuracy regression, business metrics. Grafana dashboards, Prometheus metrics, clear alerts. Cost and performance: ML compute costs add up. Set the patterns for cost-effective training and serving, representing ML infrastructure spend and ROI credibly to finance stakeholders. Mentor and multiply: Act as a force multiplier by coaching AI/ML and Infrastructure engineers on engineering best practices. You don\u2019t just \"do\" the work; you set the bar for what \"good\" looks like. Drive AI tooling adoption: Model how AI-native development works for platform teams. Claude Code, agentic workflows, AI-assisted incident response. Databricks / Spark Native: Comfortable in Databricks. Unity Catalog experience is a strong plus. Kubernetes & Cloud: You've deployed ML workloads on Kubernetes. AWS (EKS) is our environment; familiarity is a plus. Be a Polyglot: Python, Scala or Java (for Spark), Kubernetes manifests, Terraform. AWS or GCP. You move between layers without friction. Who You Are Deep ML Platform Expertise: You've led ML platform work at a serious scale. You have strong opinions on feature stores, model registries, serving patterns, and what \"ML observability\" actually means. Mature Engineering: You\u2019re someone with both a wide and deep background of engineering excellence in a number of disciplines. This is a very senior position in our engineering organisation; setting examples in approach and behaviour is a key trait. Systems Architect: You think about the platform as a product with real users (your ML team). You design APIs, write docs, and measure adoption. Technical leader: You lead through standards, RFCs, and credibility \u2014 not meetings. You've mentored MLOps engineers into senior ICs. Pragmatic about buy-vs-build: You know when to adopt a managed service and when to build. You can defend either call to leadership. Commercially literate: You can justify platform investment to VP / C-suite and translate business priorities into a roadmap. Additional Information Working at Cint Prague-First, Europe-Friendly: Our preferred base is Prague, alongside our existing AI/ML team. Remote work from Germany, Spain or the UK is also possible \u2014 these are the markets where we have entities. AI-Native Engineering: We're rolling out Claude Code and modern agentic tooling across engineering. You'll use it daily \u2014 not as a novelty, but as a force multiplier for the complex problems that matter. High Autonomy: We trust our engineers to make sound decisions and own their work end-to-end. Global Impact: Your work powers a marketplace used by millions of people worldwide. Our Values Collaboration is our superpower We uncover rich perspectives across the world Success happens together We deliver across borders. Innovation is in our blood We\u2019re pioneers in our industry Our curiosity is insatiable We bring the best ideas to life. We do what we say We\u2019re accountable for our work and actions Excellence comes as standard We\u2019re open, honest and kind, always. We are caring We learn from each other\u2019s experiences Stop and listen; every opinion matters We embrace diversity, equity and inclusion. More About Cint We\u2019re proud to be recognised in Newsweek\u2019s 2025 Global Top 100 Most Loved Workplaces\u00ae, reflecting our commitment to a culture of trust, respect, and employee growth. In June 2021, Cint acquired Berlin-based GapFish \u2013 the world\u2019s largest ISO certified online panel community in the DACH region \u2013 and in January 2022, completed the acquisition of US-based Lucid \u2013 a programmatic research technology platform that provides access to first-party survey data in over 110 countries. Cint Group AB (publ), listed on Nasdaq Stockholm, this growth has made Cint a strong global platform with teams across its many global offices, including Stockholm, London, New York, New Orleans, Singapore, Tokyo and Sydney. (www.cint.com) Additionally, in a world of AI, we want our candidates to understand our approach to the use of AI during the interview and hiring process, so we'd appreciate you reading our AI usage guide .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-18T22:11:45+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "46c66460fdbe9f1d"
+      }
+    },
+    {
+      "score": 49.1,
+      "signals": {
+        "similarity": 1.8,
+        "skills": 12.6,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 4.7
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "kubernetes",
+        "prometheus"
+      ],
+      "missing_skills": [
+        "clickhouse",
+        "communication",
+        "r",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, kubernetes, prometheus); gaps: clickhouse, communication, r, telemetry; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Software Engineer (Observability)",
+        "company": "Nebius",
+        "location": "Czechia,  Europe,  Germany,  Netherlands,  UK",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability",
+        "description": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure. Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI. Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&D. The role We are looking for a Senior Backend Software Engineer to join our Observability Platform team in Amsterdam or remotely. Building a reliable and profitable cloud platform is impossible without world-class observability. It spans every layer of the stack \u2014 from developer tooling and CI/CD pipelines to Kubernetes, managed services, databases, networking, and customer workloads. Our mission is to provide a unified ecosystem for logs, metrics, traces, alerting, and troubleshooting that enables engineers to understand and operate systems at scale. You will build and scale the core services behind this platform, working on high-volume telemetry ingestion, distributed storage, query engines, alerting pipelines, and new ways to help engineers make sense of operational data, including AI-assisted troubleshooting. We expect you to have: 5+ years of professional software engineering experience Strong knowledge of Golang or willingness to quickly switch to it Experience building distributed backend systems Solid understanding of software reliability, scalability, and performance Ability to troubleshoot complex production issues Teamwork-oriented approach and strong communication skills It would be an added bonus if you had: Experience building or contributing to observability platforms, telemetry systems, or related open-source projects such as Prometheus, Grafana, Loki, Jaeger, OpenTelemetry, VictoriaMetrics, Mimir, Tempo, or similar technologies Experience using ClickHouse in production Benefits & Perks: Competitive compensation Career growth and learning opportunities Flexibility and ownership Collaborative and innovative culture Opportunity to work on impactful AI projects International environment and talented teams What's it like to work at Nebius: Fast moving - Bold thinking - Constant growth - Meaningful impact - Trust and real ownership - Opportunity to shape the future of AI Equal Opportunity Statement: Nebius is an equal opportunity employer. We are committed to fostering an inclusive and diverse workplace and to providing equal employment opportunities in all aspects of employment. We do not discriminate on the basis of race, color, religion, sex (including pregnancy), national origin, ancestry, age, disability, genetic information, marital status, veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by applicable law. Applicants must be authorized to work in the country in which they apply and will be required to provide proof of employment eligibility as a condition of hire. If you need accommodations during the application process, please let us know.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-22T13:21:45+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "f0be32a688ee86e5"
+      }
+    },
+    {
+      "score": 47.8,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 11.9,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 4.8
+      },
+      "matched_skills": [
+        "airflow",
+        "machine learning",
+        "spark"
+      ],
+      "missing_skills": [
+        "communication",
+        "hiring",
+        "operations"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 3 skills (airflow, machine learning, spark); gaps: communication, hiring, operations; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Machine Learning Systems Engineer, Ads ML Experience Platform",
+        "company": "Reddit",
+        "location": "USA",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/147489-senior-machine-learning-systems-engineer-ads-ml-experience-platform",
+        "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence Team Overview We are building the next generation of ML research tools and agentic AI platforms that power machine learning development across Reddit. Our mission is to accelerate the Ads ML lifecycle \u2013 from experimentation and training to deployment, evaluation, and autonomous operations \u2013 through scalable platform services, intelligent automation, and developer-centric tooling. Our team owns critical platform capabilities including offline ML experimentation systems, production training orchestration frameworks, ML lifecycle automation and, agentic ML frameworks that enable faster model iterations. We are looking for an experienced engineer with deep expertise in large-scale distributed systems, ML platforms, and emerging agentic architectures to help define and build the foundational tooling for the next generation of our machine learning devX tooling. What You\u2019ll Do Design and build large-scale offline ML experimentation platforms that enable reproducible research, model development, evaluation, and promotion workflows. Develop production-grade training orchestration frameworks supporting distributed training, hyperparameter optimization, model evaluation, and automated retraining. Build infrastructure for experiment tracking, metadata management, lineage, artifact versioning, model registries, and reproducibility. Partner with ML engineers and researchers to improve experimentation velocity and operational efficiency. Build automated workflows for model promotion, rollback, compliance validation, and continuous evaluation. Design and build an agentic AI execution platform supporting autonomous and human-in-the-loop workflows, including multi-agent orchestration, memory/context systems, and scalable workflow infrastructure. What You Bring 5+ years in infrastructure/platform engineering or large-scale distributed systems. 2+ years of hands-on experience building and operating production ML infrastructure, developer SDKs, platform APIs, or self-service AI tooling. Experience building workflow orchestration systems, developer platforms, or large-scale automation frameworks. Experience with distributed data processing systems such as Spark, Flink, Ray, or equivalent technologies. Experience with modern orchestration and workflow technologies such as Kubeflow, Argo, Airflow, or similar frameworks. Experience building offline ML experimentation platforms, model registries, experiment tracking systems, or training orchestration frameworks. Experience building and operating agentic AI systems, including multi-agent orchestration, autonomous workflows, and agent communication/runtime frameworks (e.g., MCP, A2A, and orchestration systems) is a strong plus Experience running end-to-end model development and iteration cycles at scale is a plus Pay Transparency: This job posting may span more than one career level. In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit https://www.redditinc.com/careers/ . To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below. The base salary range for this position is: $216,700\u2014$303,400 USD In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews. During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our Candidate Privacy Policy for Potential Employees and Contractors . Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-23T05:09:34+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "d02ed23badbd75e0"
+      }
+    },
+    {
+      "score": 47.6,
+      "signals": {
+        "similarity": 1.1,
+        "skills": 12.9,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 3.6
+      },
+      "matched_skills": [
+        "aws",
+        "docker",
+        "go",
+        "jenkins",
+        "kubernetes",
+        "postgres",
+        "react"
+      ],
+      "missing_skills": [
+        "angular",
+        "cross-functional",
+        "elixir",
+        "hiring",
+        "next.js",
+        "operations",
+        "r",
+        "requirements",
+        "strategy",
+        "vue"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 7 skills (aws, docker, go, jenkins, kubernetes, postgres); gaps: angular, cross-functional, elixir, hiring; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer (Elixir)",
+        "company": "Remote",
+        "location": "APAC",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145982-senior-backend-engineer-elixir",
+        "description": "About Remote Remote is solving modern organizations\u2019 biggest challenge \u2013 navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You can find Remoters working from 6 different continents (Antarctica left to go!) and all of our positions are fully remote. With Innovation as one of the core values, we have built Automation and AI capabilities into the requirements for every role. We encourage every member of the Remote team to bring their talents, experiences and culture to the table to help us build the best-in-class HR platform. If you are energetic, curious, motivated and ambitious, be part of our world. Apply now and define the future of work! The position You'll be joining a team of engineers across Frontend, Backend, SRE and QA. We're organised into cross-functional development teams assigned to specific verticals. This role is open for several teams, and we will define the exact team that you will be joining during the interview process based on the business needs and your preferences. Regardless of the specific team, you will be working on building tools, APIs and integrations for one of our products. Our backend is built with Elixir and Phoenix, with a Postgres database. We use React and Nextjs for our front-end. Gitlab is used as a version control tool, issue tracker and a CI/CD solution. Our applications are hosted on AWS. We fully rely on our CI for deployments and deploy multiple times per day. You can also check out this Keynote to learn how we evolved Remote's architecture and organisation to support a fast pace. We explore domain boundaries and dependency management alongside worker separation. You will also hear about ownership driven observability. What this job can offer you Complex and meaningful challenges \u2014 solving them will enable people and businesses to live and operate in any country of the world. Opportunity to have a significant impact on the business \u2014 we are still very early in our journey as a company, and each change you make today is amplified by the company's growth. A lot of freedom to organize your work and life \u2014 you are not bound to daily standups, recurring meetings or other ceremonies. Competitive salary, stock options, flexible paid time off, and a set of perks and benefits. A supportive and kind work environment where we would like you to challenge the dogmas and pursue innovation! Strong team of experienced engineers who will support and facilitate your professional growth. What you bring Must have (professional experience): Strong engineering fundamentals and a track record of shipping production systems that are secure, reliable, and scalable. Practical experience designing or adopting agentic/automation workflows (or comparable systems) and improving them through iteration. Ability to think in systems: define specs clearly, break down plans, instrument verification, and close the loop on quality. Postgres (or similar). CI/CD (GitLab, Github, Jenkins or similar). Demonstrates strong automation and AI capabilities and AI fluency. Nice to have Kubernetes Docker AWS Nextjs React/Vue/Angular Key Responsibilities Lead the development of major team-scoped projects, participate in cross-team initiatives for Remote's HR and Payroll products. Actively participate in product work in the team: provide feedback, suggest solutions to the problems. Use technical insights and expertise to suggest product improvements. Maintain good understanding of the team\u2019s domain, both from product and engineering sides. Provide feedback on code reviews. Contribute to the shared codebase. Debug and solve technical and business issues. Participate in non-team activities, such as support rotations, hiring process, RFC discussions, etc. Mentor and provide guidance to other engineers. Investigate, propose and participate in implementation of improvements to our platform. Implement interfaces with performance, accessibility, and API design in mind. Redesign how engineering work ships with autonomous agents as the default execution layer Propose and operationalize agentic workflows end-to-end (spec \u2192 plan \u2192 execute \u2192 verify) to deliver outcomes faster. Build reusable agentic workflows and primitives in the codebase so teams can apply them repeatedly across domains. Use verification loops (tests, checks, evals, guardrails) to ensure results are correct, secure, reliable, and scalable. Practicals Reporting line: Engineering Team Leader Team: Engineering Location : Anywhere in the World Start date : As soon as possible Application process Interview with our recruiter Interview with an Engineering Leader (async) Code exercise and review Interview with members of the engineering team Bar Raiser Interview Executive Interview with VP of Engineering Offer and Prior employment verification check Remote's Total Rewards philosophy is to ensure fair, unbiased compensation and fair equity pay along with competitive benefits in all locations in which we operate. We do not agree to or encourage cheap-labor practices and therefore we ensure to pay above in-location rates. We hope to inspire other companies to support global talent-hiring and bring local wealth to developing countries. At first glance our salary bands seem quite wide - here is some context. At Remote we have international operations and a globally distributed workforce. We use geo ranges to consider geographic pay differentials as part of our global compensation strategy to remain competitive in various markets while we hiring globally. Our salary ranges are determined by role, level and location, and our job titles may span more than one career level. The actual base pay for the successful candidate in this role is dependent upon many factors such as location, transferable or job-related skills, work experience, relevant training, business needs, and market demands. The base salary range may be subject to change. At Remote, we foster internal mobility as a key element of our culture of employee growth and development, supported by a compensation philosophy that guarantees pay equity and fairness. Therefore, all compensation changes associated with an internal move will be reviewed by the Total Rewards & People Enablement team on a case by case basis. The annual salary range for this full-time position is $53,300\u2014$119,850 USD Benefits Our full benefits & perks are explained in our handbook at remote.com/r/benefits . As a global company, each country works differently, but some benefits/perks are for all Remoters: work from anywhere flexible paid time off flexible working hours (we are async ) 16 weeks paid parental leave mental health support services stock options learning budget home office budget & IT equipment budget for local in-person social events or co-working spaces How you\u2019ll plan your day (and life) We work async at Remote which means you can plan your schedule around your life (and not around meetings). Read more at remote.com/async . You will be empowered to take ownership and be proactive. When in doubt you will default to action instead of waiting. Your life-work balance is important and you will be encouraged to put yourself and your family first, and fit work around your needs. If that sounds like something you want, apply now! How to apply Please fill out the form below and upload your CV with a PDF format. We kindly ask you to submit your application and CV in English, as this is the standardised language we use here at Remote. If you don\u2019t have an up to date CV but you are still interested in talking to us, please feel free to add a copy of your LinkedIn profile instead. Not only do we encourage folks from all ethnic groups, genders, sexuality, age, abilities, disability status and any other under-represented group to apply, but we prioritize a sense of belonging. We have 4 ERGs (Women, Disability, Queer, Minorities in Tech) who meet regularly with the People team. During your interviews and beyond, we ask & encourage anybody who needs an accommodation to request one from their recruiter. We will ask you to voluntarily tell us your pronouns at interview stage, and you will have the option to answer our anonymous demographic questionnaire when you apply below. As an equal employment opportunity employer it\u2019s important to us that our workforce reflects people of all backgrounds, identities, and experiences and this data will help us to stay accountable. We thank you for providing this data, if you chose to. At Remote, we embrace AI as a valuable tool while prioritizing human creativity and authenticity. We look forward to meeting candidates who balance innovation with genuine expertise and experience. To learn more about Remote's AI guidelines check see here . Please note we accept applications on an ongoing basis.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-10T17:07:15+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "912785a6bdb9128c"
+      }
+    },
+    {
+      "score": 46.5,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 12.1,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 3.2
+      },
+      "matched_skills": [
+        "aws",
+        "docker",
+        "go",
+        "jenkins",
+        "kubernetes",
+        "postgres",
+        "react"
+      ],
+      "missing_skills": [
+        "angular",
+        "cross-functional",
+        "elixir",
+        "haskell",
+        "hiring",
+        "next.js",
+        "operations",
+        "r",
+        "requirements",
+        "scala",
+        "strategy",
+        "vue"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 7 skills (aws, docker, go, jenkins, kubernetes, postgres); gaps: angular, cross-functional, elixir, haskell; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer",
+        "company": "Remote",
+        "location": "APAC",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145611-senior-backend-engineer-5",
+        "description": "About Remote Remote is solving modern organizations\u2019 biggest challenge \u2013 navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You can find Remoters working from 6 different continents (Antarctica left to go!) and all of our positions are fully remote. With Innovation as one of the core values, we have built Automation and AI capabilities into the requirements for every role. We encourage every member of the Remote team to bring their talents, experiences and culture to the table to help us build the best-in-class HR platform. If you are energetic, curious, motivated and ambitious, be part of our world. Apply now and define the future of work! The position You'll be joining a team of engineers across Frontend, Backend, SRE and QA. We're organised into cross-functional development teams assigned to specific verticals. This role is open for several teams, and we will define the exact team that you will be joining during the interview process based on the business needs and your preferences. Regardless of the specific team, you will be working on building tools, APIs and integrations for one of our products. Our backend is built with Elixir and Phoenix, with a Postgres database. We use React and Next.js for our front-end. GitLab is used as a version control tool and a CI/CD solution. Our applications are hosted on AWS. We fully rely on our CI for deployments and deploy multiple times per day. You can check out our Engineering Rulebook to learn more. You can also check out this Keynote to learn how we evolved Remote's architecture and organisation to support a fast pace. We explore domain boundaries and dependency management alongside worker separation. You will also hear about ownership driven observability. What this job can offer you Complex and meaningful challenges \u2014 solving them will enable people and businesses to live and operate in any country of the world. Opportunity to have a significant impact on the business \u2014 we are still very early in our journey as a company, and each change you make today is amplified by the company's growth. A lot of freedom to organize your work and life \u2014 you are not bound to daily standups, recurring meetings or other ceremonies. Competitive salary, stock options, unlimited PTO and a set of perks and benefits. A supportive and kind work environment where we would like you to challenge the dogmas and pursue innovation! Strong team of experienced engineers who will support and facilitate your professional growth. What you bring Must have (professional experience): Strong engineering fundamentals and a track record of shipping production systems that are secure, reliable, and scalable. Practical experience designing or adopting agentic/automation workflows (or comparable systems) and improving them through iteration. Ability to think in systems: define specs clearly, break down plans, instrument verification, and close the loop on quality. Postgres (or similar). CI/CD (GitLab, GitHub, Jenkins or similar). Demonstrates strong automation and AI capabilities and AI fluency. Nice to have Experience with Functional Programming languages such as Elixir, Erlang, Scala, Clojure, Haskell, etc. Kubernetes Docker AWS Nextjs React/Vue/Angular Key Responsibilities Lead the development of major team-scoped projects, participate in cross-team initiatives for Remote's HR and Payroll products. Actively participate in product work in the team: provide feedback, suggest solutions to the problems. Use technical insights and expertise to suggest product improvements. Maintain good understanding of the team\u2019s domain, both from product and engineering sides. Provide feedback on code reviews. Contribute to the shared codebase. Debug and solve technical and business issues. Participate in non-team activities, such as support rotations, hiring process, RFC discussions, etc. Mentor and provide guidance to other engineers. Investigate, propose and participate in implementation of improvements to our platform. Implement interfaces with performance, accessibility, and API design in mind. Redesign how engineering work ships with autonomous agents as the default execution layer. Propose and operationalize agentic workflows end-to-end (spec \u2192 plan \u2192 execute \u2192 verify) to deliver outcomes faster. Build reusable agentic workflows and primitives in the codebase so teams can apply them repeatedly across domains. Use verification loops (tests, checks, evals, guardrails) to ensure results are correct, secure, reliable, and scalable. Practicals Team: Engineering Location : Anywhere in the World Start date : As soon as possible Application process Interview with our Recruiter Interview with an Engineering Leader (async) Code exercise and review Interview with members of the engineering team Bar Raiser interview Executive interview Offer + Prior employment verification check Remote's Total Rewards philosophy is to ensure fair, unbiased compensation and fair equity pay along with competitive benefits in all locations in which we operate. We do not agree to or encourage cheap-labor practices and therefore we ensure to pay above in-location rates. We hope to inspire other companies to support global talent-hiring and bring local wealth to developing countries. At first glance our salary bands seem quite wide - here is some context. At Remote we have international operations and a globally distributed workforce. We use geo ranges to consider geographic pay differentials as part of our global compensation strategy to remain competitive in various markets while we hiring globally. Our salary ranges are determined by role, level and location, and our job titles may span more than one career level. The actual base pay for the successful candidate in this role is dependent upon many factors such as location, transferable or job-related skills, work experience, relevant training, business needs, and market demands. The base salary range may be subject to change. At Remote, we foster internal mobility as a key element of our culture of employee growth and development, supported by a compensation philosophy that guarantees pay equity and fairness. Therefore, all compensation changes associated with an internal move will be reviewed by the Total Rewards & People Enablement team on a case by case basis. The annual salary range for this full-time position is $53,300\u2014$119,850 USD Benefits Our full benefits & perks are explained in our handbook at remote.com/r/benefits . As a global company, each country works differently, but some benefits/perks are for all Remoters: work from anywhere flexible paid time off flexible working hours (we are async ) 16 weeks paid parental leave mental health support services stock options learning budget home office budget & IT equipment budget for local in-person social events or co-working spaces How you\u2019ll plan your day (and life) We work async at Remote which means you can plan your schedule around your life (and not around meetings). Read more at remote.com/async . You will be empowered to take ownership and be proactive. When in doubt you will default to action instead of waiting. Your life-work balance is important and you will be encouraged to put yourself and your family first, and fit work around your needs. If that sounds like something you want, apply now! How to apply Please fill out the form below and upload your CV with a PDF format. We kindly ask you to submit your application and CV in English, as this is the standardised language we use here at Remote. If you don\u2019t have an up to date CV but you are still interested in talking to us, please feel free to add a copy of your LinkedIn profile instead. Not only do we encourage folks from all ethnic groups, genders, sexuality, age, abilities, disability status and any other under-represented group to apply, but we prioritize a sense of belonging. We have 4 ERGs (Women, Disability, Queer, Minorities in Tech) who meet regularly with the People team. During your interviews and beyond, we ask & encourage anybody who needs an accommodation to request one from their recruiter. We will ask you to voluntarily tell us your pronouns at interview stage, and you will have the option to answer our anonymous demographic questionnaire when you apply below. As an equal employment opportunity employer it\u2019s important to us that our workforce reflects people of all backgrounds, identities, and experiences and this data will help us to stay accountable. We thank you for providing this data, if you chose to. At Remote, we embrace AI as a valuable tool while prioritizing human creativity and authenticity. We look forward to meeting candidates who balance innovation with genuine expertise and experience. To learn more about Remote's AI guidelines check see here . Please note we accept applications on an ongoing basis.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-05T08:39:37+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "8a3ecaa6bf146a59"
+      }
+    },
+    {
+      "score": 46.2,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 12.9,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 3.8
+      },
+      "matched_skills": [
+        "aws",
+        "data engineering",
+        "docker",
+        "machine learning",
+        "postgres",
+        "python",
+        "react"
+      ],
+      "missing_skills": [
+        "agile",
+        "communication",
+        "cross-functional",
+        "gcp",
+        "healthcare",
+        "helm",
+        "hiring",
+        "leadership",
+        "react native",
+        "swift"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 7 skills (aws, data engineering, docker, machine learning, postgres, python); gaps: agile, communication, cross-functional, gcp; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Staff Software Engineer",
+        "company": "Function Health",
+        "location": "Canada,  USA",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/146310-staff-software-engineer-2",
+        "description": "Company Overview: Function Health is the AI operating system for health, designed to empower people to live 100 healthy years. We are redefining how individuals understand, measure, and improve their health by moving beyond reactive care and enabling proactive, data-driven insight into human biology. Function has been recognized as one of Fast Company\u2019s Most Innovative Companies of 2024 , and is venture-backed by Andreessen Horowitz (a16z) . Hundreds of thousands of members have joined Function to take control of their health. Through advanced diagnostics, deep biomarker testing, longitudinal data, and AI-enabled insights, Function equips members with actionable intelligence to take control of both the quality and length of their lives. Function recently announced a $298M Series B and is entering its next chapter of growth. As we scale, the quality and durability of our People systems, data, and insights will directly shape our ability to attract, retain, and support exceptional talent. We are growing our team and seeking out world-class talent that deeply believes in our mission to positively impact global health, has a relentless bias toward action, and a growth mindset. Function fosters a collaborative and dynamic environment where every day we build the future. Role: We are seeking a highly skilled and innovative Staff Software Engineer to join our dynamic team at Function. In this role, you will be instrumental in designing, developing, and implementing software solutions that enable our members to access their health data in real time. You will play a critical role in leading our engineering efforts, ensuring scalability, performance, and security in all our systems. The ideal candidate is a seasoned engineer who is meticulous, self-motivated and thrives in a fast-paced environment. As a key member of our tech team, your expertise will be vital in shaping the future of our systems as we scale. This role is perfect for someone energetic, talented, and deeply committed to our mission of revolutionizing health technology. Key Responsibilities: As a Staff Software Engineer at Function, you will be entrusted with a pivotal role in our engineering department, with key responsibilities including: Design and Development Leadership: Lead the design and development of sophisticated software solutions, ensuring that they are scalable, robust, and maintainable. Your role will involve actively coding while managing the team, exemplifying the balance between strategic oversight and hands-on contribution. Your expertise will guide the creation of systems that stand the test of time and scale. Cross-Functional Collaboration: Engage in meaningful collaboration with cross-functional teams, providing technical leadership and ensuring clarity in all engineering decisions. Your ability to bridge technical and non-technical domains will be critical for our collective success. Strategic Project Management: Drive high-impact projects from conception to delivery, aligning closely with Function\u2019s strategic objectives. Your leadership will ensure that projects not only meet but exceed our goals. Technical Problem Solving: Tackle and resolve complex technical challenges, setting a benchmark for engineering excellence across the team. Your problem-solving skills will contribute to the continuous improvement of our platform. Innovation and Technology Advancement: Stay at the forefront of emerging technologies and trends, and apply this knowledge innovatively to our platform. Your curiosity and drive to innovate will help shape the future of healthcare technology at Function. Qualifications/Skills: To excel in this role, candidates must bring a unique combination of skills and experiences: Proven Experience: At least 12 years of proven experience in software engineering, with a significant portion in a leadership capacity within a startup environment. This should include active coding responsibilities alongside team management, demonstrating your capability to lead complex software development initiatives. Passion for Healthcare Innovation: A deep-seated passion for leveraging technology to enhance healthcare and empower individuals in managing their health. Your commitment to making a difference in the healthcare sector is vital. Software Development Expertise: Extensive experience in software development, with proficiency in Python. Your technical expertise will be foundational to our engineering efforts. Cloud and Containerization Proficiency: Familiarity with cloud platforms (AWS, Google Cloud) and containerization technologies (Docker) is essential for developing scalable and resilient applications in today\u2019s cloud-centric world. Engineering Principles: A strong understanding of software engineering principles and practices, including Agile methodologies, test-driven development (TDD), and continuous integration/continuous deployment (CI/CD). Your adherence to these practices will ensure high-quality, sustainable code. Large-Scale System Development: Experience in building and maintaining large-scale systems, demonstrating your ability to handle projects of significant complexity and scale. Problem-Solving Skills: Excellent problem-solving abilities, with a knack for understanding and simplifying complex systems. Your analytical skills will be crucial in navigating technical challenges. Remote Work Compatibility: Comfort with remote work and a track record of effectiveness in a collaborative, distributed team environment. Your ability to work independently and collaboratively will be key to our success. Commitment to Learning: A continuous learner, open to questioning assumptions and dedicated to innovation. Your growth mindset will contribute significantly to our evolving platform. To be a strong fit, you also need: Bias Toward Action: Demonstrated ability to take initiative, make decisions under uncertainty, and move projects forward even in the face of ambiguity. We value individuals who are self-starters and ready to act on opportunities and challenges alike. Entrepreneurial Spirit: Strong adaptability to changing business needs with a knack for building and optimizing processes. Your entrepreneurial mindset will be crucial in navigating the dynamic landscape of our industry, ensuring our platform remains competitive and responsive to user needs. Communication: Excellent communication skills, capable of explaining complex technical concepts to non-technical stakeholders. Effective communication is vital for cross-functional collaboration and ensuring alignment across our organization. Remote Work Adaptability: Comfort with remote work environments, demonstrating the ability to stay productive and connected with the team irrespective of physical location. Continuous Improvement: A willingness to question assumptions and a commitment to continuous improvement. Your openness to feedback and dedication to personal and professional growth will contribute significantly to our collective success. Your dedication to these responsibilities will directly contribute to the success of our platform and the satisfaction of our users. We are looking for a proactive, skilled, and forward-thinking individual to join our team and help shape the future of our services. Nice-to-Have Skills and Experiences: While the core competencies are essential, the following qualifications will distinguish exceptional candidates: Data Engineering Background: A solid background in Data Engineering, demonstrating your expertise in managing, processing, and analyzing large data sets to drive decisions and innovations. Your ability to extract valuable insights from complex data will enhance our product offerings and operational efficiency. Technical Proficiency: Advanced skills in a range of technologies, including Python for backend development, React and React Native for frontend and mobile app development, GCP for cloud services, and Postgres for database management. Your proficiency in these technologies will be critical in developing robust, scalable, and user-friendly solutions. Machine Learning Deployment: Experience in building and deploying machine learning services, showcasing your ability to leverage AI and machine learning to solve complex problems and enhance our platform's intelligence and user personalization. Start-Up Experience: We highly value individuals with start-up experience, especially former founders or early engineering hires. This experience indicates a versatile skill set and an ability to thrive in fast-paced, evolving environments. Familiarity with Health Technologies: Knowledge of or experience with popular health technologies, such as Oura, Whoop, Apple Watch, and CGMs (Continuous Glucose Monitors). An interest in or experience with health and wellness technologies suggests a passion for leveraging technology to improve personal and community health outcomes. Key Projects and Initiatives: As a vital member of our team, you will have the opportunity to engage with or lead a variety of groundbreaking projects. These initiatives are designed not only to challenge your skills but also to make a significant impact on the field of health technology. Among these: AI-Powered Health Analysis Tools: Take the helm or contribute to the development of cutting-edge AI-powered tools designed to analyze health data. These projects aim to unlock new insights into health and wellness, offering personalized recommendations and predictions to our users. Your work will involve optimizing algorithms, refining data models, and ensuring these tools are both accurate and scalable. Enhancing Data Integration: You will play a crucial role in enhancing the integration of diverse data sources with our platform. This initiative is critical to providing a holistic view of our users' health, incorporating data from wearable technologies, medical records, and other relevant sources. Your expertise will be essential in ensuring seamless, secure, and efficient data flow across systems, enriching our platform's capability to deliver comprehensive health insights. These projects represent just a glimpse of the exciting, impactful work you'll be involved in at our company. Your contributions will directly influence the evolution of our platform, empowering individuals to take control of their health in innovative ways. We're looking for a candidate who is eager to dive into these challenges and push the boundaries of what's possible in health technology. Why You'll Love Working With Us: Empowerment in Your Role: Revel in the autonomy to handpick projects that resonate with your passion and expertise. Thrive in a supportive atmosphere where your independence is cherished, free from the constraints of micromanagement. Collaborative and Innovative Culture: Become part of a vibrant community that not only values but thrives on collaboration and innovation. Here, swift execution and the celebration of fresh ideas are the bedrock of our success. We value our team at Function and offer a competitive salary and benefits package, flexible working hours, and a dynamic work environment where creativity and innovation are encouraged. If you are a highly motivated and experienced individual who is passionate about using technology to improve people\u2019s lives, we would love to hear from you. Join the Function Health team and become a part of our mission to revolutionize healthcare. Work with us to make a difference in the lives of thousands, ensuring a healthier future for all. Discover more about us and how we're changing the face of healthcare at Function Health . At Function, we celebrate diversity and are committed to building a diverse and inclusive workforce. As an equal opportunity employer, we do not discriminate on the basis of race, color, gender identity, ancestry, religion, age, sexual orientation, national origin, disability, marital status, Veteran status, or any other occupationally irrelevant criteria. Important Notice: Legitimate communication from the Function Health team will always come from an email address ending in @functionhealth.com. Function Health will never request personal information such as banking details or payment during the hiring process. Please be cautious of communications or job offers that come from other email domains, instant messaging platforms, or unsolicited calls. If you ever have doubts about the legitimacy of a communication, please reach out to us directly at talent@functionhealth.com .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-12T16:44:51+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "b761841c335a55ed"
+      }
+    },
+    {
+      "score": 45.5,
+      "signals": {
+        "similarity": 1.1,
+        "skills": 11.9,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 4.3
+      },
+      "matched_skills": [
+        "aws",
+        "kubernetes",
+        "saas"
+      ],
+      "missing_skills": [
+        "communication",
+        "cybersecurity",
+        "llm"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 3 skills (aws, kubernetes, saas); gaps: communication, cybersecurity, llm; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Staff Software Engineer, App Platform",
+        "company": "Fieldguide",
+        "location": "USA",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/144040-staff-software-engineer-app-platform",
+        "description": "About Us Fieldguide is establishing a new state of trust for global commerce and capital markets by automating and streamlining the work of assurance and audit practitioners\u2014specifically in cybersecurity, privacy, and financial audits. We build software for the people who enable trust between businesses. We're based in San Francisco, CA, and built remote-first. We're backed by Goldman Sachs Alternatives, Bessemer Venture Partners, 8VC, Floodgate, Y Combinator, and more. Over 50 of the top 100 accounting and consulting firms trust Fieldguide to power mission-critical work. About the Role As a Staff Platform Engineer at Fieldguide, you will design and build the foundational platform that powers Fieldguide, including core platform services and tooling that make it fast, safe, and consistent to deliver new capabilities to customers. This is the platform on which every product surface and AI agent at Fieldguide is built. You will operate as a technical leader across teams, defining standards and reducing complexity for product, AI, and infrastructure engineers. Your work will directly shape how Fieldguide can ship quickly for our largest enterprise customers while keeping our systems reliable and scalable. What You\u2019ll Own Lead the design and evolution of Fieldguide's core platform services, including the foundational systems, APIs, and shared primitives that every product surface and agent depends on Build platform capabilities that compound the leverage of product and AI engineers, turning hard problems into reusable building blocks Define the architecture for how new product capabilities get delivered across our SaaS, enterprise single-tenant, and government-cloud environments Partner directly with product, design, and AI engineering leaders to understand customer needs and translate them into platform investments Drive cross-team initiatives that improve product velocity, system reliability, and consistency across the application Own the standards for service design, data modeling, and platform integration patterns used across Fieldguide Maintain and evolve the internal developer platform that supports the team, including deployment tooling, and agentic engineering capabilities Mentor senior and mid-level engineers across the org and raise the bar for platform engineering at Fieldguide Who You Are 10+ years of experience in software engineering, with significant time spent building product-facing platforms or foundational application services Strong product instincts and a track record of shipping platform capabilities that unlocked meaningful customer outcomes Deep experience designing APIs, services, and shared systems that other engineers build on top of Strong fluency with modern cloud platforms (AWS preferred), Kubernetes, and distributed systems Track record of operating as a technical leader across multiple teams without owning them directly Excellent judgment on what to build into the platform, what to leave to product teams, and what to buy Strong software engineering fundamentals and the ability to contribute to and review complex codebases Excellent written and verbal communication, with the ability to drive alignment across engineering, product, and design High agency and a bias toward owning problems end-to-end Bonus Points Experience building platforms that power AI-native products, including agent frameworks, model orchestration, or LLM-powered application surfaces Experience designing platforms that support both multi-tenant SaaS and single-tenant enterprise deployments Experience as a founding or early platform engineer at a vertical SaaS or enterprise AI company Benefits Competitive compensation with equity Comprehensive health and wellness benefits Flexible time off and work schedules Technology reimbursements 401(k) plan Twice-yearly in-person offsites across the U.S. Wellness benefits starting on your first day Our Values Fearless \u2014 Inspire and break down seemingly impossible walls Fast \u2014 Launch fast with excellence; iterate to perfection Lovable \u2014 Deliver happiness and 11-star experiences Owners \u2014 Execute and run the business with ownership Win-win \u2014 Create mutual value and earn trust for life Inclusive \u2014 Scale the best ideas with inclusive teams",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-18T06:46:55+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "650f3c4657763547"
+      }
+    },
+    {
+      "score": 44.7,
+      "signals": {
+        "similarity": 1.0,
+        "skills": 10.6,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 4.8
+      },
+      "matched_skills": [
+        "aws",
+        "go",
+        "kubernetes",
+        "saas"
+      ],
+      "missing_skills": [
+        "azure",
+        "communication",
+        "gcp",
+        "operations",
+        "requirements",
+        "serverless"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (aws, go, kubernetes, saas); gaps: azure, communication, gcp, operations; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Staff Software Engineer, Agentic Data Plane (Poland)",
+        "company": "Redpanda Data",
+        "location": "Poland",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/144510-staff-software-engineer-agentic-data-plane-poland",
+        "description": "Redpanda is pioneering the Agentic Data Plane (ADP) - a new category in AI infrastructure that makes it simple and secure to connect AI agents with enterprise data and systems. Built on a multi-modal data streaming engine, Redpanda empowers agentic applications that reason and act in real-time with speed, autonomy, and precision. Global leaders including Activision Blizzard, Cisco, Moody's, Texas Instruments, Vodafone and 2 of the top 5 banks in the U.S. rely on Redpanda to process hundreds of terabytes of data a day. Backed by premier venture investors Lightspeed, GV and Haystack VC, Redpanda is a diverse, people-first organization with teams distributed around the globe. About the Role: We\u2019re looking for an experienced Staff Software Engineer to help architect and build the systems that power Redpanda\u2019s vision for the Agentic Data Plane (ADP), while also shaping the technical culture behind them. In this role, you will design and develop our ADP product, building on our Bring Your Own Cloud, Serverless, and Redpanda Connect offerings. You will lead system architecture, develop new features, and operate ADP and Redpanda Cloud, helping us meet our 99.99% SLA. You will raise the engineering bar across the Cloud team and collaborate closely with Cloud, Core, and Platform engineering, as well as pre- and post-sales teams, to build robust, scalable systems with a strong emphasis on stability and zero-downtime upgrades. This is a hybrid role based in our Warsaw office. You Will: Design, build and operate ADP and cloud services across AWS, GCP, and Azure, including control plane and data plane components Convert ambiguous product requirements into clear technical designs and executable workstreams Lead the technical direction of large projects within ADP, and contribute to architecture discussions that span ADP and adjacent Cloud teams Anticipate technical risks and proactively mitigate them to ensure timely, high quality delivery Set and uphold high standards for reliability, scalability, performance, and security Identify and champion new features, process improvements, and strategic initiatives that enhance engineering culture and operational excellence Participate in the on-call escalation chain; helping reduce escalations and improve operational health Build tools and services for automated infrastructure provisioning, deployment, and self-healing Make resilience and observability integral to the systems you own, enabling us to run enterprise-grade agentic systems and service in the cloud You Have: Significant experience designing and operating large-scale, reliable systems in public cloud environments A track record of leading large technical projects end-to-end, from design and planning, to execution and production operations Strong proficiency in Go (or comparable systems language with willingness to ramp) Experience with AI-assisted software development workflows including tools like Claude Code Production experience with Kubernetes, including running and operating workloads Working knowledge of at least one of AWS / Azure / GCP, including IaC for system and network infrastructure Familiarity with stream processing concepts Excellent written and verbal communication skills; comfortable working in a globally distributed, async environment (e.g., GitHub) Ability to collaborate effectively with engineering, product, and customer-facing stakeholders Nice to Have: Experience building Kubernetes operators for stateful / storage workloads Experience building or operating SaaS platforms Experience with streaming platforms as a user or provider Exposure to production agentic systems and building agentic workflows Join Redpanda if you\u2019d enjoy being part of a fast-moving, diverse, people-first organization with team members around the globe and a culture based on trust, transparency, communication, and kindness. #LI-Remote",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-23T07:36:43+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "78b4d91ee7580098"
+      }
+    },
+    {
+      "score": 44.2,
+      "signals": {
+        "similarity": 0.7,
+        "skills": 14.4,
+        "title": 10.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 4.1
+      },
+      "matched_skills": [
+        "go",
+        "machine learning"
+      ],
+      "missing_skills": [
+        "llm"
+      ],
+      "rationale": "strongest fit on skills, title, location; matches 2 skills (go, machine learning); gaps: llm; remote",
+      "flags": [],
+      "job": {
+        "source": "remotive",
+        "title": "Senior Independent AI Engineer / Architect",
+        "company": "A.Team",
+        "location": "Americas, Europe, Israel",
+        "remote": true,
+        "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+        "description": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startups, enterprises, and global companies. Since 2020, builders in the network have earned more than $200M working with companies including Lyft, Google X, HCA, Unilever, Sightful, D-ID, and others. The Work You'll join small teams solving real problems. Not demos. Not proof-of-concepts that never ship. Not another thin wrapper around an API. Recent work has included: AI-native products built from 0\u21921 Agent architectures and orchestration systems Enterprise AI deployments Retrieval, evaluation, and reliability infrastructure LLM-powered workflows and products Machine learning platforms operating at scale You'll work directly with founders, CTOs, and product leaders, helping shape both technical direction and execution. Why Builders Join The best opportunities rarely make it to the open market. A.Team exists to solve that. No bidding. No prospecting. No race to the bottom. Just ambitious companies, difficult problems, and experienced peers. Who Thrives Here People who have already shipped. Engineers who have deployed AI systems into production, understand the tradeoffs behind the hype, and know how to turn technical complexity into business value. What matters is a track record of building and shipping. The Details Typical rates: $120-$170/hr Remote You keep 100% of your rate Not a Fit Early-career engineers People without production AI experience Small gig seekers Developers focused primarily on simple AI wrappers or templated implementations Apply Tell us what you've built. \ud83d\udc49 build.a.team/apply-ai . We'll take it from there.",
+        "salary": "$120 - $170 /hour",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-16T10:16:11",
+        "tags": [
+          "go",
+          "UI/UX",
+          "wordpress",
+          "chat",
+          "apple",
+          "testing",
+          "catalyst"
+        ],
+        "fingerprint": "502e8a4a82f8c989"
+      }
+    },
+    {
+      "score": 43.7,
+      "signals": {
+        "similarity": 1.3,
+        "skills": 10.5,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 3.6
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "kubernetes",
+        "python",
+        "terraform"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "cross-functional",
+        "hiring",
+        "leadership",
+        "requirements",
+        "rust",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 5 skills (go, grafana, kubernetes, python, terraform); gaps: c, c++, communication, cross-functional; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Staff Software Engineer \u2013 Platform, SysEng | Canada | Remote",
+        "company": "Grafana Labs",
+        "location": "Canada",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/146089-staff-software-engineer-platform-syseng-canada-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. This is a remote opportunity and we would be interested in applicants located in Canadian time zones (EST + CST highly preferred at this time). Staff Backend Engineer - Platform SysEng The Opportunity: Grafana Cloud moves millions of metrics, log lines, and traces per second from our customers' environments into a highly available, low-latency stack that processes and stores this data, and serves them to dashboards and alerting tools. We aim to grow this to hundreds of millions per second, and it's critical that as we grow, we improve our performance, increase our reliability, and, of course, do it efficiently and effectively. The Internal Engineering Platform (IEP) delivered by the Platform department provides application engineers with the tools, systems and Kubernetes clusters they need to build, deploy and run their workloads. Platform roles at Grafana Labs have an eye for engineers with a passion for performance and reliability, and who enjoy taking projects from conception to production. We organize ourselves into squads to allow focus on: cloud infrastructure and capacity management; security; engineering productivity; monitoring and sustainability; and US Federal compliance. Because we deploy production services, we have on-call rotations to ensure the health of the system. Everyone at Grafana Labs tries to incorporate and use our product line up into their day-to-day, so being on call is an important way to understand our system and how people use our products. What You\u2019ll Be Doing: We are hiring for the Platform SysEng squad. This is an accelerated, cross-cutting squad that is focused on the maturity and scalability of the platform. Currently, SysEng is working across engineering with a goal of reducing new region build timelines to meet customer demands. We\u2019re part of a Platform Engineering group that manages infrastructure for the teams that are building some of the most cherished tools - Grafana, Mimir, Loki, Tempo, Pyroscope to name a few. What Makes You a Great Fit: You enjoy working with engineers, as well as with the management structures that are there to support you and enable you and your team to do your very best. You are comfortable working in a remote-first company ; communication is key. For us, working together means being collaborative, friendly, kind, and respectful. We operate by consensus, you can contribute to a discussion but then commit to the team decision. As such, being such a highly distributed company, means we would love someone who is keen on working with distributed systems , too. You are eager to learn and grow . There is a lot of room for growth and development, and the team has quite a lot of knowledge to share for those who are wanting to learn. You approach development holistically . The team owns the full life cycle of our code; from writing design docs, to looking at developer feedback, and integration testing. We appreciate engineers who enjoy looking at the big picture, and also notice the details of the brush strokes. The Platform team mainly works with Go, Python, and Shell. You have experience with operating your code . Since a lot of operators and developers use our software, having some grounding in both of these spaces really helps us with building better platforms for our users. We invest heavily in developer productivity. You can use modern AI coding assistants as part of your daily workflow (your choice of tools, within security guidelines), backed by a company-funded usage budget so you can iterate quickly without unnecessary friction. We encourage pragmatic AI-assisted development: faster prototyping, test generation, refactors, documentation, and incident follow-ups\u2014always paired with strong code review and quality standards. You\u2019ll also have access to frontier models (e.g., GPT-Codex 5/3, Claude Opus 4.6, Gemini 3 Pro). Requirements: Proven delivery of large distributed systems. Experience shipping and operating complex systems that span multiple teams, with clear evidence of technical leadership and impact. Demonstrable experience in system design. Deep understanding of tradeoffs around latency, consistency, availability, scaling and cost. Hands-on cloud and platform experience. Solid experience with cloud-native architectures (microservices, containers/Kubernetes, IaC) and the operational practices that keep them healthy. Reliability and performance ownership. Comfortable defining SLOs/SLIs, doing capacity planning, tuning performance, and driving reliability work end-to-end. Excellent coding and design skills. You write clear, maintainable, well-tested code and can lead technical designs \u2014 we use Go, but Python/C/C++/Rust or similar translate well. Comfort with AI-assisted development. We embrace AI and agentic development so we expect you to be curious and comfortable using AI-powered developer tools and ideally have practical experience folding them into a team\u2019s workflow. Influence without authority. Ability to align cross-functional stakeholders, set priorities and drive outcomes in a remote-first environment. Strong communicator. Clear written and verbal communication that works across engineers and non-technical stakeholders. Bonus Points For: You\u2019ve worked in or on open source, or other community-based projects previously. At Grafana Labs, \u201cOSS is in our DNA\u201d. Familiarity with Kubernetes scheduling and projects like Karpenter . Terraform and/or Crossplane experience. We have mixed usage - each has its strengths. Experience with Tanka and/or Jsonnet . Compensation & Rewards: In Canada, the Base compensation range for this role is CAD 186,368 - CAD 223,642. Actual compensation may vary based on level, experience, and skillset as assessed in the interview process. Benefits include equity, bonus (if applicable) and other benefits listed here . All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-10T18:06:49+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "b2e290590b928a49"
+      }
+    },
+    {
+      "score": 42.9,
+      "signals": {
+        "similarity": 1.9,
+        "skills": 12.5,
+        "title": 15.0,
+        "location": 1.6,
+        "seniority": 7.0,
+        "recency": 4.9
+      },
+      "matched_skills": [
+        "aws",
+        "go",
+        "incident response",
+        "kubernetes",
+        "machine learning",
+        "python",
+        "terraform"
+      ],
+      "missing_skills": [
+        "aerospace",
+        "ansible",
+        "azure",
+        "bash",
+        "communication",
+        "defense",
+        "gcp",
+        "helm",
+        "mlops",
+        "operations",
+        "robotics"
+      ],
+      "rationale": "strongest fit on title, skills, seniority; matches 7 skills (aws, go, incident response, kubernetes, machine learning, python); gaps: aerospace, ansible, azure, bash",
+      "flags": [],
+      "job": {
+        "source": "arbeitnow",
+        "title": "Senior Platform Engineer \u2013 Cloud & ML Platform (m/f/d)",
+        "company": "Quantum- Systems GmbH",
+        "location": "Gilching",
+        "remote": false,
+        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-platform-engineer-cloud-ml-platform-gilching-100040",
+        "description": "As a Platform Engineer \u2013 Cloud & ML Platform (m/f/d), you will be a key contributor to the cloud-native infrastructure that powers our AI and autonomy development at global scale. You will design, deploy, operate, and continuously improve Kubernetes-based platforms that enable our teams to train, evaluate, deploy, and monitor machine learning workloads reliably across regions, clouds, and compute environments. At Quantum Systems, we build intelligent unmanned systems that operate under real-world constraints. Our AI teams depend on scalable, secure, and high-performance infrastructure to turn data, models, and experiments into field-ready capabilities. In this role, you will help build the cloud and ML platform backbone that makes this possible. You will work closely with AI engineers, data engineers, software teams, security, IT, and product stakeholders to provide robust, automated, and developer-friendly infrastructure for large-scale ML workloads. Your work will directly support our mission to push the boundaries of autonomous systems through cutting-edge software, edge computing, and real-time AI-powered data processing. What is your Day to Day Mission: Design, deploy, operate, and continuously improve Kubernetes-based platforms for machine learning and data-intensive workloads. Build and maintain globally distributed Kubernetes clusters with a strong focus on reliability, scalability, security, and observability. Own the lifecycle management of ML platform components, including Kubeflow , Metaflow , workflow orchestration, experiment tracking, and related MLOps tooling. Enable AI and data teams to run scalable training, inference, evaluation, and data processing pipelines across heterogeneous compute environments. Develop infrastructure-as-code, automation, and GitOps workflows to ensure reproducible, auditable, and efficient platform operations. Manage GPU-enabled workloads, scheduling, storage, networking, secrets, access control, and cost-aware resource utilization. Improve platform resilience through monitoring, alerting, incident response, backup strategies, disaster recovery, and capacity planning. Collaborate with AI, software, DevOps, security, and IT teams to define platform standards, best practices, and deployment patterns. Support hybrid and multi-cloud infrastructure scenarios, including on-premise, private cloud, and public cloud environments. Evaluate and integrate cloud providers and infrastructure technologies, including Azure, AWS, Telekom Cloud, or comparable platforms. Continuously improve developer experience for ML engineers through self-service tooling, documentation, templates, and platform abstractions. Help bring AI capabilities from prototype to production by providing a reliable, scalable, and secure ML infrastructure foundation. What you bring to the team: Strong hands-on expertise with Kubernetes in production environments, including cluster operations, networking, storage, security, scaling, upgrades, and troubleshooting. Proven experience deploying and maintaining globally distributed, large-scale clusters for production or mission-critical workloads. Strong experience with Kubeflow and Metaflow in production or production-like ML platform environments. Solid understanding of MLOps workflows, including training pipelines, model lifecycle management, artifact handling, experiment tracking, reproducibility, and deployment automation. Experience operating GPU-enabled Kubernetes environments and supporting high-performance machine learning workloads. Strong infrastructure-as-code experience using tools such as Terraform, Helm, Kustomize, Argo CD, Flux, Crossplane, Ansible, or comparable technologies. Good understanding of cloud-native observability, including metrics, logs, traces, alerting, dashboards, and SLO-driven operations. Experience with containerization, CI/CD, GitOps, secrets management, identity and access control, and secure platform operations. Familiarity with cloud platforms such as Azure , AWS , Telekom Cloud , GCP, OpenStack, or comparable private/hybrid cloud environments. Strong scripting or programming skills in Python, Go, Bash, or a comparable language. Ability to analyze complex infrastructure issues, drive root-cause analysis, and implement robust long-term solutions. Structured, analytical mindset with a hands-on attitude and a strong sense of ownership. Strong communication skills and the ability to work with globally distributed engineering teams. Communication in English is a matter of course for you. Additional plus Experience building internal developer platforms or ML platform products. Experience with distributed storage systems, object storage, data lake architectures, or high-throughput data pipelines. Experience with service mesh technologies, policy engines, cluster federation, or multi-cluster management. Experience with security-sensitive, regulated, defense, robotics, aerospace, or autonomous systems environments. Knowledge of edge/cloud integration patterns for AI workloads. Experience optimizing cloud costs and GPU utilization at scale. Why Quantum-Systems: We believe in the power of combined efforts: straightforward tech expertise paired with a customer-centric focus. We are industry pioneers who are ambitious, bold, and visionary. We push limits, think outside-the-box and strive for technological excellence to shape the future of aerial data. We promise to be your runway for individual and professional growth. Our benefits: Company pension scheme: We support you so that you can already make provisions for later. Flexible working hours: With trust-based working hours, you are not only responsible for your working hours, but also for your work-life balance. Mobile Work: If things get a little busy in the office, you have the option to work remotely one flexible day per week to create the right balance. Stay active: With EGYM Wellpass, you get access to thousands of fitness and sports facilities \u2014 and of course, we subsidize the membership. Bike-Leasing: We support you in staying environmentally mobile and healthy. Corporate Benefits: Your opportunity for attractive offers and discounts from well-known suppliers and brands, e.g. Adidas, Apple, Expedia. Employee events: We not only want to grow together, but also celebrate our successes together. Lunch-Card: Be powerful with delicious energy, daily lunch budget is sponsored. Company Shuttle: Enjoy our convenient shuttle service that picks you up from Pasing in Munich and brings you to our location, with return trips at the end of the workday. About us: Quantum Systems specialises in the development, design, and production of small Unmanned Aerial Systems (sUAS). The company\u2019s range of electric vertical take-off and landing (eVTOL) sUAS are built to maximize range and versatility and to provide operators with a seamless user experience. By integrating cutting-edge software capabilities, like edge computing and real-time AI-powered data processing, Quantum Systems is building next-generation UAS for clients in defence, security, public sectors. Our commitment: We are an open-minded company that not only values diversity, but actively promotes it. Regardless of gender, age, ethnic origin, religion, sexual orientation or disability, we firmly believe that the diversity of our employees is an essential part of our success. At our company, every voice is heard and every perspective is valued. We believe that our differences enrich us and help us to find creative solutions and generate innovative ideas. We pride ourselves on creating an inclusive work environment where all employees can reach their full potential. Find Jobs in Germany on Arbeitnow",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "1782300016",
+        "tags": [
+          "Internet and software",
+          "professional",
+          "Full-time permanent",
+          "mid"
+        ],
+        "fingerprint": "6747c695ea7605fb"
+      }
+    },
+    {
+      "score": 42.2,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 7.4,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 3.6
+      },
+      "matched_skills": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ],
+      "missing_skills": [
+        "azure",
+        "communication",
+        "gcp",
+        "hiring",
+        "leadership",
+        "llm",
+        "requirements",
+        "rest"
+      ],
+      "rationale": "strongest fit on title, location, skills; matches 3 skills (aws, docker, kubernetes); gaps: azure, communication, gcp, hiring; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Software Engineer, Backend \u2013 Platform Team",
+        "company": "Cresta",
+        "location": "Canada",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/146081-senior-software-engineer-backend-platform-team",
+        "description": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta\u2019s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world\u2019s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world\u2019s leading investors, including a16z, Greylock, and Sequoia. Cresta\u2019s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu , founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta. About the role: Cresta\u2019s Core Platform underpins the company\u2019s entire product portfolio. Our long term vision is to build a robust, reliable, secure, and extensible foundation that supports continued innovation, satisfies enterprise customer requirements, and keeps operational costs in check. Two critical components for that are agent assist backend services and scalable authentication systems, tools, processes and frameworks based on industry standards and security best practices. This role is focused on building various backend systems needed to enable successful customer integrations: Enable agent assist integration for chat and email. This involves working with the frontend platform team, ML teams, infra team and other backend services. Expand our backend agent assist services to meet customer requirements and feature requests. Address any customer issues that block integrations, affect user experience or system performance. Work with the auth and security team to meet Cresta\u2019s diverse authentication and security needs for internal workflows and external customer facing integrations. We are looking for strong versatile backend engineers who want to work at the intersection of distributed systems, real-time communication, enterprise integrations, and IAM systems. Why This Role Is Unique: Enterprise-Grade Integrations : Design robust integrations with major CCaaS platforms and customer systems. Specialized Auth Experience : Join the Cresta auth team and help build specialized authentication systems to authenticate users, service accounts, virtual agents, server workloads, cloud based authentication for external integrations, etc. Agent Assist Integrations : Work directly with the frontend platform team to build solutions for agent assist integrations for various channels such as chat and email and help rollout these integrations in customer environments. If you\u2019re a strong backend engineer who wants to apply your expertise to real-world AI systems operating inside complex enterprise ecosystems, and expand your expertise in auth, this role offers that opportunity. Responsibilities : Contribute to building the best-in-class company in addition to building the best-in-class product. Architect systems that manage real-time conversation state, context propagation, and session lifecycle. Play a substantial role in the agent assist integration process (chat and email) and authentication engineering team. Work with Cresta product and engineering teams, build and continuously improve the Cresta platform and new product requirements. Stay closely with customers and their requirements, analyze the technical tradeoffs, own the customer facing deliverables. Demonstrate the engineering best practices in deliverables and daily work. Uphold others to the same high standards. Technical ownership in a substantial part of the Cresta authentication stack. Ensure high availability, low latency, and strong observability for real-time conversation systems. Implement authentication, authorization, compliance, and enterprise security best practices across integrations. Drive improvements in reliability, performance, and scalability in production environments handling high interaction volumes Qualifications We Value: Bachelor\u2019s degree in Computer Science or related field. 5+ years of experience building scalable backend systems in production environments. Strong experience designing and maintaining robust APIs (REST, gRPC). Solid understanding of distributed systems and real-time communication architectures. Experience integrating with third-party enterprise platforms and APIs. Experience working with CCaaS platforms or contact center systems is a strong plus. Familiarity with AI Agents, Virtual Agents, or LLM-based systems is a plus. Experience with containerized environments (Kubernetes, Docker). Experience with cloud platforms such as AWS, GCP, or Azure. Strong understanding of system reliability, observability, and security in enterprise environments. Experience in building authentication systems is a plus. Perks & Benefits: We offer Cresta employees a variety of medical, dental, and vision plans, designed to fit you and your family\u2019s needs Paid parental leave to support you and your family Monthly Health & Wellness allowance Work from home office stipend to help you succeed in a remote environment Lunch reimbursement for in-office employees PTO: 3 weeks in Canada Compensation for this position includes a base salary, equity, and a variety of benefits. Actual base salaries will be based on candidate-specific factors, including experience, skillset, and location, and local minimum pay requirements as applicable. We are actively hiring for this role in the US and Canada. Your recruiter can provide further details. This posting will be used to fill a newly-created role. We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates' personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the @cresta.ai domain. Any outreach claiming to be from Cresta via other sources should be ignored. If you are uncertain whether you have been contacted by an official Cresta employee, reach out to recruiting@cresta.ai",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-10T18:06:35+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "3b5d17bca1f30898"
+      }
+    },
+    {
+      "score": 42.2,
+      "signals": {
+        "similarity": 1.0,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 5.2,
+        "recency": 5.0
+      },
+      "matched_skills": [
+        "aws",
+        "kubernetes",
+        "machine learning"
+      ],
+      "missing_skills": [
+        "hiring",
+        "kotlin",
+        "leadership",
+        "requirements",
+        "space",
+        "team building",
+        "typescript"
+      ],
+      "rationale": "strongest fit on title, location, skills; matches 3 skills (aws, kubernetes, machine learning); gaps: hiring, kotlin, leadership, requirements; remote",
+      "flags": [],
+      "job": {
+        "source": "themuse",
+        "title": "Staff Software Engineer, Backend",
+        "company": "GlossGenius",
+        "location": "Flexible / Remote, New York, NY",
+        "remote": true,
+        "url": "https://www.themuse.com/jobs/glossgenius/staff-software-engineer-backend-7d1ec3",
+        "description": "About GlossGenius GlossGenius is the AI-powered system behind the world\u2019s most meaningful appointments, helping 100,000+ service businesses earn more revenue and free up time for the work they love. Our agentic workforce gets more clients in the door, grows profit per appointment, and keeps clients coming back \u2014 doing the jobs owners never had time for and couldn\u2019t justify hiring to fill. Businesses on GlossGenius process billions in annual payment volume, and see 65% more revenue using GlossGenius Payments by growing ticket size, rebooking clients at checkout, and saving on processing fees. About the Role GlossGenius is building 0-to-1 AI products we expect to be a massive revenue driver, and this role sits at the center of that build. As a Staff Backend Engineer, you'll be the technical anchor for our highest-innovation teams: setting architectural direction, validating options through proof-of-concepts, and turning ambitious initiatives into clear, buildable roadmaps. This is an IC role with real leadership weight, roughly 60% architecture, planning, and technical direction, 40% hands-on building. The person in this role will be a force multiplier: unblocking engineers before they know they're stuck, making the hardest technical calls so the team doesn't lose momentum, and setting a new standard for what great backend engineering looks like at GlossGenius. You won't be maintaining systems someone else designed, you'll be raising the ceiling on what this team can build, and doing it in a way that makes everyone around you better in the process. You must be commutable to our NYC headquarters and will operate in a hybrid environment. We default to being in-office 3\u20134 days per week with required attendance on Tuesdays and Thursdays. What You'll Do Architect and own the technical direction of AI-powered products and 0-to-1 builds, weighing long-term trade-offs with precision and keeping a healthy backlog of forward-looking, build-ready work Integrate AI models and LLMs into customer-facing products, not as experiments, but as production systems with real reliability and performance requirements Shape how GlossGenius builds with AI, your architectural decisions will define what's possible across the product for years Write high-quality code and rapidly ship proof-of-concepts to validate architectural options and tackle the team's hardest technical challenges before they become blockers Partner with Product, Design, and Engineering leadership to translate ambiguous business goals into well-architected initiatives with clear sequencing and minimal rework Proactively identify and resolve systemic technical debt before it slows the team down, unblock engineers, raise the quality bar, and make the people around you disproportionately more effective What We're Looking For 7+ years of professional engineering experience with a strong backend focus, and a track record of owning system design and architectural choices for high-scale or high-growth products Already building with AI as a structural part of how you work, you've integrated LLMs into production systems, used AI tooling to accelerate your development workflow, and have a sharp point of view on where AI changes what's architecturally possible Ship fast and course-correct, you're comfortable making architectural calls with incomplete information, iterating rapidly in production, and treating ambiguity as a feature of early-stage work, not a reason to slow down Deep Kotlin expertise with strong intuitions about backend architecture, service design, and performance at scale (TypeScript experience is a plus) Solid command of modern cloud infrastructure: AWS and Kubernetes, at the level of someone who can navigate it confidently without being a pure infra specialist Natural collaborator who can align PMs, designers, and engineering teams around a shared technical vision and keep execution moving without friction Exceptional communicator who can make complex architectural trade-offs legible to both engineers and non-technical stakeholders Benefits & Perks Flexible PTO Competitive health & dental insurance options, with premiums partially or fully covered by GG In-person opportunities that are designed to help team members foster collaboration and build community (ie; working out of a co-working space, team dinners, and other team building activities) Fertility and adoption benefits via Carrot Generous, fully-paid parental leave policy 401k benefit - employees are eligible to contribute starting day 1 of employment Professional Development - employees receive a yearly stipend for approved learning and educational-related expenses Pre-tax commuter benefits Dependent Care FSA Home office support At GlossGenius, we celebrate our differences and are committed to creating a workplace where all employees feel supported and empowered to do their best work. We believe this benefits not only our employees but our product, customers, and community as well. GlossGenius is proud to be an Equal Opportunity and Affirmative Action Employer. Personal Information: Notice at Collection for Employees and Applicants Agency Submissions If a resume or applicant is submitted to GlossGenius by a third party without a signed search agreement in place, it will become the property of GlossGenius and no fee will be paid, irrespective of whether the candidate is hired. GlossGenius may use automated tools, including artificial intelligence and machine learning systems (AI Tools), to assist in evaluating applicants\u2019 qualifications and fitness for the position. These AI Tools may be used alongside human review during one or more stages of the recruiting process, including application screening, skills assessments, and interviewing. No final hiring decision will be made solely by AI Tools without human oversight. Personal Information: Notice at Collection for Employees and Applicants Agency Submissions If a resume or applicant is submitted to GlossGenius by a third party without a signed search agreement in place, it will become the property of GlossGenius and no fee will be paid, irrespective of whether the candidate is hired. GlossGenius may use automated tools, including artificial intelligence and machine learning systems (AI Tools), to assist in evaluating applicants\u2019 qualifications and fitness for the position. These AI Tools may be used alongside human review during one or more stages of the recruiting process, including application screening, skills assessments, and interviewing. No final hiring decision will be made solely by AI Tools without human oversight.",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-06-24T18:34:01Z",
+        "tags": [
+          "Senior Level",
+          "Software Engineering"
+        ],
+        "fingerprint": "9e8cee42267e4ac2"
+      }
+    },
+    {
+      "score": 42.0,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 2.8
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "prometheus",
+        "python"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "java",
+        "leadership",
+        "operations",
+        "requirements",
+        "roadmap",
+        "rust",
+        "systems engineering",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, prometheus, python); gaps: c, c++, communication, java; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Alerting | Germany | Remote",
+        "company": "Grafana Labs",
+        "location": "Germany",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145115-senior-backend-engineer-alerting-germany-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. Senior Backend Engineer, Alerting This is a remote opportunity and we would be interested in applications from Germany. The Opportunity: The Grafana Alerting squad operates at the core of the Grafana open-source project (link) , and our mission is to provide the most in-depth way to let users manage their alerts. The backend-focused team works closely with customers and the Grafana Cloud teams to make Alerting work on-prem and at infinite scale in Cloud. Our domain is quite large, so to get an idea of the kind of work we do, here are some projects we recently worked on: Build distributed systems to scale alert ingestion and delivery of Prometheus-based alerts Unify Alerting setup and delivery to work the same for Grafana and Prometheus-based alerts Build distributed systems to scale alert evaluation of Grafana-managed alerts, reaching over 500 evaluations per second in production. Grafana Alerting is trusted by major organizations worldwide, monitoring essential medical devices and critical infrastructure. We thrive on collective creativity and diverse perspectives, every team member is encouraged to contribute ideas that shape our product into a dependable tool. What You\u2019ll Be Doing: Take an active role in influencing our roadmap and your own career objectives Work with your team to deliver new features, then use the results to iterate and improve. Drive projects from initial ideation all the way to operations once it is in the hands of customers Embrace our open-source culture and contribute to other projects that may not directly fall within your team\u2019s scope Design, build, operate, and maintain critical systems, owning the reliability, performance, and availability Be a part of your team\u2019s on-call rotations and take ownership of the services you\u2019re running Mentor and support other team members, participate in design discussions and collaborate with the team Learn new skills by gaining a deeper understanding of our cloud product and our customers and getting to know the codebase of a large distributed system As we are remote-first and our engineering organization is largely remote, we provide guidance and meet regularly using video calls, so an independent attitude and good communication skills are a must. What Makes You a Great Fit: You are a motivated self starter with a bias towards action You are customer focused We build everything with our users in mind. You have a passion for creating intuitive products that fit customers\u2019 needs Pragmatism: You are able to take on complex challenges and break them down to achieve short feedback loops: to analyze, design, and build modular solutions, deliver MVPs, gather data and feedback and then progress iteratively Collaboration and communication: The smallest unit we have is a team. You\u2019ll be working with your teammates in a fully remote setup. Good communication skills are a must Solid experience with at least one programming language. We use Go, but if you have familiarity with Python, Java, C++, Rust or similar then that translates well Some experience with delivering projects from gathering requirements, brainstorming ideas all the way to shipping a product to the customer\u2019s hands in a self-driven way Some experience with developing software that runs in the Cloud or some experience with systems engineering Experience writing clean, robust, and performant software that is easily maintained by others Compensation & Rewards: In Germany, the compensation range for this role is EUR 97,034 - EUR 116,441. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-05-30T15:48:42+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "65728085f6eea1b8"
+      }
+    },
+    {
+      "score": 42.0,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 2.8
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "prometheus",
+        "python"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "java",
+        "leadership",
+        "operations",
+        "requirements",
+        "roadmap",
+        "rust",
+        "systems engineering",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, prometheus, python); gaps: c, c++, communication, java; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Alerting | UK | Remote",
+        "company": "Grafana Labs",
+        "location": "UK",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145112-senior-backend-engineer-alerting-uk-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. Senior Backend Engineer, Alerting This is a remote opportunity and we would be interested in applications from the UK. The Opportunity: The Grafana Alerting squad operates at the core of the Grafana open-source project (link) , and our mission is to provide the most in-depth way to let users manage their alerts. The backend-focused team works closely with customers and the Grafana Cloud teams to make Alerting work on-prem and at infinite scale in Cloud. Our domain is quite large, so to get an idea of the kind of work we do, here are some projects we recently worked on: Build distributed systems to scale alert ingestion and delivery of Prometheus-based alerts Unify Alerting setup and delivery to work the same for Grafana and Prometheus-based alerts Build distributed systems to scale alert evaluation of Grafana-managed alerts, reaching over 500 evaluations per second in production. Grafana Alerting is trusted by major organizations worldwide, monitoring essential medical devices and critical infrastructure. We thrive on collective creativity and diverse perspectives, every team member is encouraged to contribute ideas that shape our product into a dependable tool. What You\u2019ll Be Doing: Take an active role in influencing our roadmap and your own career objectives Work with your team to deliver new features, then use the results to iterate and improve. Drive projects from initial ideation all the way to operations once it is in the hands of customers Embrace our open-source culture and contribute to other projects that may not directly fall within your team\u2019s scope Design, build, operate, and maintain critical systems, owning the reliability, performance, and availability Be a part of your team\u2019s on-call rotations and take ownership of the services you\u2019re running Mentor and support other team members, participate in design discussions and collaborate with the team Learn new skills by gaining a deeper understanding of our cloud product and our customers and getting to know the codebase of a large distributed system As we are remote-first and our engineering organization is largely remote, we provide guidance and meet regularly using video calls, so an independent attitude and good communication skills are a must. What Makes You a Great Fit: You are a motivated self starter with a bias towards action You are customer focused We build everything with our users in mind. You have a passion for creating intuitive products that fit customers\u2019 needs Pragmatism: You are able to take on complex challenges and break them down to achieve short feedback loops: to analyze, design, and build modular solutions, deliver MVPs, gather data and feedback and then progress iteratively Collaboration and communication: The smallest unit we have is a team. You\u2019ll be working with your teammates in a fully remote setup. Good communication skills are a must Solid experience with at least one programming language. We use Go, but if you have familiarity with Python, Java, C++, Rust or similar then that translates well Some experience with delivering projects from gathering requirements, brainstorming ideas all the way to shipping a product to the customer\u2019s hands in a self-driven way Some experience with developing software that runs in the Cloud or some experience with systems engineering Experience writing clean, robust, and performant software that is easily maintained by others Compensation & Rewards: In the UK, the compensation range for this role is GBP 91,755 - GBP 110,106. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-05-30T15:48:38+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "b4f0d60b6de7d333"
+      }
+    },
+    {
+      "score": 42.0,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 2.8
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "prometheus",
+        "python"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "java",
+        "leadership",
+        "operations",
+        "requirements",
+        "roadmap",
+        "rust",
+        "systems engineering",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, prometheus, python); gaps: c, c++, communication, java; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Alerting | Ireland | Remote",
+        "company": "Grafana Labs",
+        "location": "Ireland",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145114-senior-backend-engineer-alerting-ireland-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. Senior Backend Engineer, Alerting This is a remote opportunity and we would be interested in applications from Ireland. The Opportunity: The Grafana Alerting squad operates at the core of the Grafana open-source project (link) , and our mission is to provide the most in-depth way to let users manage their alerts. The backend-focused team works closely with customers and the Grafana Cloud teams to make Alerting work on-prem and at infinite scale in Cloud. Our domain is quite large, so to get an idea of the kind of work we do, here are some projects we recently worked on: Build distributed systems to scale alert ingestion and delivery of Prometheus-based alerts Unify Alerting setup and delivery to work the same for Grafana and Prometheus-based alerts Build distributed systems to scale alert evaluation of Grafana-managed alerts, reaching over 500 evaluations per second in production. Grafana Alerting is trusted by major organizations worldwide, monitoring essential medical devices and critical infrastructure. We thrive on collective creativity and diverse perspectives, every team member is encouraged to contribute ideas that shape our product into a dependable tool. What You\u2019ll Be Doing: Take an active role in influencing our roadmap and your own career objectives Work with your team to deliver new features, then use the results to iterate and improve. Drive projects from initial ideation all the way to operations once it is in the hands of customers Embrace our open-source culture and contribute to other projects that may not directly fall within your team\u2019s scope Design, build, operate, and maintain critical systems, owning the reliability, performance, and availability Be a part of your team\u2019s on-call rotations and take ownership of the services you\u2019re running Mentor and support other team members, participate in design discussions and collaborate with the team Learn new skills by gaining a deeper understanding of our cloud product and our customers and getting to know the codebase of a large distributed system As we are remote-first and our engineering organization is largely remote, we provide guidance and meet regularly using video calls, so an independent attitude and good communication skills are a must. What Makes You a Great Fit: You are a motivated self starter with a bias towards action You are customer focused We build everything with our users in mind. You have a passion for creating intuitive products that fit customers\u2019 needs Pragmatism: You are able to take on complex challenges and break them down to achieve short feedback loops: to analyze, design, and build modular solutions, deliver MVPs, gather data and feedback and then progress iteratively Collaboration and communication: The smallest unit we have is a team. You\u2019ll be working with your teammates in a fully remote setup. Good communication skills are a must Solid experience with at least one programming language. We use Go, but if you have familiarity with Python, Java, C++, Rust or similar then that translates well Some experience with delivering projects from gathering requirements, brainstorming ideas all the way to shipping a product to the customer\u2019s hands in a self-driven way Some experience with developing software that runs in the Cloud or some experience with systems engineering Experience writing clean, robust, and performant software that is easily maintained by others Compensation & Rewards: In Ireland, the compensation range for this role is EUR 104,000 - EUR 124,800. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-05-30T15:48:41+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "62e21b0ad5a2cb92"
+      }
+    },
+    {
+      "score": 42.0,
+      "signals": {
+        "similarity": 1.2,
+        "skills": 8.0,
+        "title": 15.0,
+        "location": 8.0,
+        "seniority": 7.0,
+        "recency": 2.8
+      },
+      "matched_skills": [
+        "go",
+        "grafana",
+        "prometheus",
+        "python"
+      ],
+      "missing_skills": [
+        "c",
+        "c++",
+        "communication",
+        "java",
+        "leadership",
+        "operations",
+        "requirements",
+        "roadmap",
+        "rust",
+        "systems engineering",
+        "telemetry"
+      ],
+      "rationale": "strongest fit on title, skills, location; matches 4 skills (go, grafana, prometheus, python); gaps: c, c++, communication, java; remote",
+      "flags": [],
+      "job": {
+        "source": "jobicy",
+        "title": "Senior Backend Engineer \u2013 Alerting | Spain | Remote",
+        "company": "Grafana Labs",
+        "location": "Spain",
+        "remote": true,
+        "url": "https://jobicy.com/jobs/145113-senior-backend-engineer-alerting-spain-remote",
+        "description": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers \u2013 including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce \u2013 trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we\u2019re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity. Senior Backend Engineer, Alerting This is a remote opportunity and we would be interested in applications from Spain. The Opportunity: The Grafana Alerting squad operates at the core of the Grafana open-source project (link) , and our mission is to provide the most in-depth way to let users manage their alerts. The backend-focused team works closely with customers and the Grafana Cloud teams to make Alerting work on-prem and at infinite scale in Cloud. Our domain is quite large, so to get an idea of the kind of work we do, here are some projects we recently worked on: Build distributed systems to scale alert ingestion and delivery of Prometheus-based alerts Unify Alerting setup and delivery to work the same for Grafana and Prometheus-based alerts Build distributed systems to scale alert evaluation of Grafana-managed alerts, reaching over 500 evaluations per second in production. Grafana Alerting is trusted by major organizations worldwide, monitoring essential medical devices and critical infrastructure. We thrive on collective creativity and diverse perspectives, every team member is encouraged to contribute ideas that shape our product into a dependable tool. What You\u2019ll Be Doing: Take an active role in influencing our roadmap and your own career objectives Work with your team to deliver new features, then use the results to iterate and improve. Drive projects from initial ideation all the way to operations once it is in the hands of customers Embrace our open-source culture and contribute to other projects that may not directly fall within your team\u2019s scope Design, build, operate, and maintain critical systems, owning the reliability, performance, and availability Be a part of your team\u2019s on-call rotations and take ownership of the services you\u2019re running Mentor and support other team members, participate in design discussions and collaborate with the team Learn new skills by gaining a deeper understanding of our cloud product and our customers and getting to know the codebase of a large distributed system As we are remote-first and our engineering organization is largely remote, we provide guidance and meet regularly using video calls, so an independent attitude and good communication skills are a must. What Makes You a Great Fit: You are a motivated self starter with a bias towards action You are customer focused We build everything with our users in mind. You have a passion for creating intuitive products that fit customers\u2019 needs Pragmatism: You are able to take on complex challenges and break them down to achieve short feedback loops: to analyze, design, and build modular solutions, deliver MVPs, gather data and feedback and then progress iteratively Collaboration and communication: The smallest unit we have is a team. You\u2019ll be working with your teammates in a fully remote setup. Good communication skills are a must Solid experience with at least one programming language. We use Go, but if you have familiarity with Python, Java, C++, Rust or similar then that translates well Some experience with delivering projects from gathering requirements, brainstorming ideas all the way to shipping a product to the customer\u2019s hands in a self-driven way Some experience with developing software that runs in the Cloud or some experience with systems engineering Experience writing clean, robust, and performant software that is easily maintained by others Compensation & Rewards: In Spain, the compensation range for this role is EUR 82,988 - EUR 99,586. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes\u2014RSUs help us stay aligned and invested as we scale globally. *Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market\u2019s defined pay range & benefits at the beginning of the process. Why You\u2019ll Thrive at Grafana Labs: 100% Remote, Global Culture - As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose. Scaling Organization \u2013 Tackle meaningful work in a high-growth, ever-evolving environment. Transparent Communication \u2013 Expect open decision-making and regular company-wide updates. Innovation-Driven \u2013 Autonomy and support to ship great work and try new things. Open Source Roots \u2013 Built on community-driven values that shape how we work. Empowered Teams \u2013 High trust, low ego culture that values outcomes over optics. Career Growth Pathways \u2013 Defined opportunities to grow and develop your career. Approachable Leadership \u2013 Transparent execs who are involved, visible, and human. Passionate People \u2013 Join a team of smart, supportive folks who care deeply about what they do. In-Person onboarding - We want you to thrive from day 1 with your fellow new \u2018Grafanistas\u2019 to learn all about what we do and how we do it. Balance is Key - We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect. *We will comply with local legislation where applicable. Equal Opportunity Employer: We will recruit, train, compensate and promote regardless of race, religion, color, national origin, gender, disability, age, veteran status, and all the other fascinating characteristics that make us different and unique. We believe that equality and diversity builds a strong organization and we\u2019re working hard to make sure that\u2019s the foundation of our organization as we grow. Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings. #LI-Remote For information about how your personal data is used once you\u2019ve applied to a job, check out our privacy policy .",
+        "salary": "",
+        "salary_min": null,
+        "salary_max": null,
+        "posted_at": "2026-05-30T15:48:40+00:00",
+        "tags": [
+          "Software Engineering",
+          "Full-Time"
+        ],
+        "fingerprint": "bb421042e6e7c177"
+      }
+    }
+  ]
+}

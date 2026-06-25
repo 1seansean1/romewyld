@@ -30,7 +30,7 @@ def load_metadata(path: str | Path | None) -> dict[str, Any]:
 _GH_USER_RE = re.compile(r"github\.com/([A-Za-z0-9\-]+)")
 
 
-def enrich_from_github(metadata: dict[str, Any], *, user_agent: str = "job-leads/1.0") -> dict[str, Any]:
+def enrich_from_github(metadata: dict[str, Any], *, user_agent: str = "romewyld/1.0") -> dict[str, Any]:
     """Pull public language signal from a GitHub username (no auth, rate-limited)."""
     url = metadata.get("github_url") or ""
     user = metadata.get("github")

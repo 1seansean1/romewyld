@@ -1,5 +1,5 @@
-from jobleads.models import CandidateProfile, JobPosting
-from jobleads import match
+from romewyld.models import CandidateProfile, JobPosting
+from romewyld import match
 
 
 def _profile():
